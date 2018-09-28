@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/layoutGridImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="horizontal">
+
+            <com.androidplot.xy.XYPlot
+                android:id="@+id/mySimpleXYPlot"
+                title="Log for 01/01/1970 - portrait"
+                android:layout_width="800dip"
+                android:layout_height="425dip"
+                android:layout_marginLeft="0dip"
+                android:layout_marginRight="0dip"
+                android:layout_marginTop="0dip" />
+
+            <LinearLayout
+                android:layout_width="800dip"
+                android:layout_height="425dip"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="400dip"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="5dip"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="12sp"></TextView>
+
+                    <TextView
+                        android:id="@+id/lblOffDuty"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="@string/lblgridimageoffduty"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"></TextView>
+
+                    <TextView
+                        android:id="@+id/lblSleeper"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="@string/lblgridimagesleeper"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"></TextView>
+
+                    <TextView
+                        android:id="@+id/lblDriving"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="@string/lblgridimagedriving"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"></TextView>
+
+                    <TextView
+                        android:id="@+id/lblOnDuty"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="@string/lblgridimageonduty"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"></TextView>
+
+                    <TextView
+                        android:id="@+id/lblOffDutyWellsite"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical"
+                        android:text="@string/lblgridimagewellsite"
+                        android:textSize="12sp"
+                        android:visibility="gone"
+                        android:textColor="@android:color/white"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:layout_marginLeft="5dip"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textSize="12sp"></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="400dip"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:layout_marginRight="5dip"
+                        android:gravity="center_vertical|right"
+                        android:text=""
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lblOffDutyHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|right"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:id="@+id/lblSleeperHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|right"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:id="@+id/lblDrivingHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|right"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:id="@+id/lblOnDutyHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|right"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:id="@+id/lblOffDutyWellsiteHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dip"
+                        android:layout_marginRight="5dip"
+                        android:layout_weight="0.2"
+                        android:gravity="center_vertical|right"
+                        android:textSize="12sp"
+                        android:visibility="gone"
+                        android:textColor="@android:color/white"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dip"
+                        android:layout_marginRight="5dip"
+                        android:gravity="center_vertical|right"
+                        android:text=""
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/layoutgridlegend"
+            android:layout_width="800dip"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/red" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginStart="5dip"
+                        android:text="@string/legenddutystatus"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginStart="5dip"
+                        android:text="@string/legendediteditems"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/yellow" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginStart="5dip"
+                        android:text="@string/legendpersonalconveyance"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:background="@color/blue" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dip"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginStart="5dip"
+                        android:text="@string/legendyardmove"
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvOdo"
+            style="@style/Theme.TextViewBlack.Small"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</HorizontalScrollView>

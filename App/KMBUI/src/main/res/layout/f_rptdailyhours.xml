@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:id="@+id/rptdailyhours"
+  style="@style/FragmentStyle">
+	<TextView android:id="@+id/rdh_reportlabel" 
+	    style="@style/Theme.TextViewBlack"
+		android:layout_alignParentTop="true" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:textStyle="bold" 
+		android:text="@string/lbldailyhoursreporttitle">
+	</TextView>
+    	
+	<GridView android:id="@+id/rdh_griddailyhours"
+		android:numColumns="1" 
+		android:layout_height="fill_parent"
+		android:layout_width="wrap_content" 
+		android:layout_below="@id/rdh_reportlabel" 
+		android:layout_marginTop="20dip"
+		android:scrollbarStyle="outsideInset">
+	</GridView>
+</RelativeLayout>

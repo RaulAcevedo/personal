@@ -1,0 +1,10 @@
+<resources>
+    <integer name="dialog_relative_percentage_width">90</integer>
+    <integer name="dialog_relative_percentage_height">60</integer>
+
+    <item name="dot_authority_report_beginning_time_column_weight" type="integer" format="float">1.9</item>
+    <item name="dot_authority_report_ending_time_column_weight" type="integer" format="float">1.9</item>
+    <item name="dot_authority_report_number_column_weight" type="integer" format="float">2</item>
+    <item name="dot_authority_report_name_column_weight" type="integer" format="float">2.1</item>
+    <item name="dot_authority_report_address_column_weight" type="integer" format="float">2.1</item>
+</resources>

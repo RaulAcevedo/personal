@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    #150 Air-Mile Non-CDL Exception
+    #100 Air-Mile Exception
+    <TextView
+        android:id="@+id/lblexempttype_title"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/login_exemptlogtype150"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+    
+    #Will you meet all of the following requirements?
+    <TextView
+        android:id="@+id/lblexemptquestion"
+        style="@style/Theme.TextViewBlack"
+        android:layout_below="@+id/lblexempttype_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/exempt_exceptionquestion"
+        android:textSize="15sp" />
+    
+    <TextView 
+	    android:id="@+id/exemptexception_bulletlist1"
+	    style="@style/Theme.TextViewBlack"
+	    android:layout_below="@+id/lblexemptquestion"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@+string/exemptexception150_bulletlist"
+	    android:textSize="15sp" />
+	<TextView 
+	    android:id="@+id/exemptexception_bulletlist2"
+	    style="@style/Theme.TextViewBlack"
+	    android:layout_below="@+id/exemptexception_bulletlist1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@+string/exemptexception150_bulletlist"
+	    android:textSize="15sp" />
+	<TextView 
+	    android:id="@+id/exemptexception_bulletlist3"
+	    style="@style/Theme.TextViewBlack"
+	    android:layout_below="@+id/exemptexception_bulletlist2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="@+string/exemptexception150_bulletlist"
+	    android:textSize="15sp" />
+    
+    #Yes
+    <Button
+        android:id="@+id/btnyes"
+        style="@style/KMBButton"
+        android:layout_below="@+id/exemptexception_bulletlist3"
+        android:layout_marginTop="25dp"
+        android:height="55dp"
+        android:text="@string/btnyes"
+        android:width="275dp"
+        android:textSize="15sp" />
+    #No
+    <Button
+        android:id="@+id/btnno"
+        style="@style/KMBButton"
+        android:layout_below="@+id/btnyes"
+        android:layout_marginTop="25dp"
+        android:height="55dp"
+        android:text="@string/btnno"
+        android:width="275dp"
+        android:textSize="15sp" />
+    
+</RelativeLayout>

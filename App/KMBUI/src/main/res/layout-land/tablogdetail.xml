@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        style="@style/FragmentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rlLogDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignWithParentIfMissing="true">
+
+            <TextView
+                android:id="@+id/lblLogDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbllogdate" />
+
+            <TextView
+                android:id="@+id/tvLogDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblLogDate"
+                android:layout_toRightOf="@+id/lblLogDate"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTractorNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlLogDate">
+
+            <TextView
+                android:id="@+id/lblTractor"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbltractor" />
+
+            <TextView
+                android:id="@+id/tvTractor"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblTractor"
+                android:layout_toRightOf="@+id/lblTractor"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTrailerNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlTractorNumber">
+
+            <TextView
+                android:id="@+id/lblTrailer"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbltrailer" />
+
+            <TextView
+                android:id="@+id/tvTrailer"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblTrailer"
+                android:layout_toRightOf="@+id/lblTrailer"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTimeZone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlDriverType">
+
+            <TextView
+                android:id="@+id/lblTimeZone"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:text="@string/lbltimezone" />
+
+            <TextView
+                android:id="@+id/tvTimeZone"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblTimeZone"
+                android:layout_toRightOf="@+id/lblTimeZone"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/rlRuleset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlTimeZone">
+
+            <TextView
+                android:id="@+id/lblRuleSet"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblruleset" />
+
+            <TextView
+                android:id="@+id/tvRuleset"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblRuleSet"
+                android:layout_toRightOf="@+id/lblRuleSet"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDistance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@+id/rlOdo">
+
+            <TextView
+                android:id="@+id/lblDistance"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbldistance" />
+
+            <TextView
+                android:id="@+id/tvDistance"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lblDistance"
+                android:layout_alignTop="@+id/lblDistance"
+                android:layout_toRightOf="@+id/lblDistance"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlOdo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlRuleset">
+
+            <TextView
+                android:id="@+id/tvOdo"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlReturned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlDistance">
+
+            <TextView
+                android:id="@+id/lblReturned"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblreturned" />
+
+            <TextView
+                android:id="@+id/tvReturned"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblReturned"
+                android:layout_toRightOf="@+id/lblReturned"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDeferral"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlReturned">
+
+            <TextView
+                android:id="@+id/lblDeferral"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbldeferral2" />
+
+            <TextView
+                android:id="@+id/tvDeferral"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblDeferral"
+                android:layout_toRightOf="@+id/lblDeferral"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlTrailerPlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/rlTrailerNumber">
+
+            <TextView
+                android:id="@+id/lblTrailerPlate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbltrailerplate" />
+
+            <TextView
+                android:id="@+id/tvTrailerPlate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblTrailerPlate"
+                android:layout_toRightOf="@+id/lblTrailerPlate"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlShipment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlTrailerPlate">
+
+            <TextView
+                android:id="@+id/lblShipment"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblshipment" />
+
+            <TextView
+                android:id="@+id/tvShipment"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblShipment"
+                android:layout_toRightOf="@+id/lblShipment"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlVehiclePlate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlShipment">
+
+            <TextView
+                android:id="@+id/lblVehiclePlate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblvehicleplate" />
+
+            <TextView
+                android:id="@+id/tvVehiclePlate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblVehiclePlate"
+                android:layout_toRightOf="@+id/lblVehiclePlate"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDriverLicenseNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlVehiclePlate">
+
+            <TextView
+                android:id="@+id/lblDriverLicenseNumber"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbldriverlicensenumber" />
+
+            <TextView
+                android:id="@+id/tvDriverLicenseNumber"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblDriverLicenseNumber"
+                android:layout_toRightOf="@+id/lblDriverLicenseNumber"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlDriverLicenseNumber">
+
+            <TextView
+                android:id="@+id/lblState"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblstate" />
+
+            <TextView
+                android:id="@+id/tvState"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblState"
+                android:layout_toRightOf="@+id/lblState"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlDriverType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlState">
+
+            <TextView
+                android:id="@+id/lblDriverType"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lbldrivertype" />
+
+            <TextView
+                android:id="@+id/tvDriverType"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblDriverType"
+                android:layout_toRightOf="@+id/lblDriverType"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlWeeklyResetInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlDeferral">
+
+            <TextView
+                android:id="@+id/lblWeeklyResetStartDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblWeeklyResetDate" />
+
+            <TextView
+                android:id="@+id/tvWeeklyResetDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblWeeklyResetStartDate"
+                android:layout_toRightOf="@+id/lblWeeklyResetStartDate"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+
+            <TextView
+                android:id="@+id/lblWeeklyResetTime"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblWeeklyResetStartDate"
+                android:layout_below="@+id/tvWeeklyResetDate"
+                android:text="@string/lblWeeklyResetTime" />
+
+            <TextView
+                android:id="@+id/tvWeeklyResetTime"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblWeeklyResetTime"
+                android:layout_toRightOf="@+id/lblWeeklyResetTime"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+
+            <TextView
+                android:id="@+id/lblWeeklyResetUsed"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblWeeklyResetTime"
+                android:layout_below="@+id/lblWeeklyResetTime"
+                android:text="@string/lblWeeklyResetUsed" />
+
+            <TextView
+                android:id="@+id/tvWeeklyResetUsed"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblWeeklyResetUsed"
+                android:layout_toRightOf="@+id/lblWeeklyResetUsed"
+                android:paddingLeft="5dip"
+                android:text="@string/space" />
+
+            <TextView
+                android:id="@+id/txtExemptLog"
+                style="@style/Theme.TextViewRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblWeeklyResetUsed"
+                android:layout_below="@+id/lblWeeklyResetUsed"
+                android:gravity="center_horizontal"
+                android:text="@string/lblexempt_log_Yes"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlBooleanValueToggles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/rlWeeklyResetInfo">
+
+            <TextView
+                android:id="@+id/lblHaulingExplosives"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="@string/lblExplosives"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvHaulingExplosives"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblHaulingExplosives"
+                android:layout_toRightOf="@+id/lblHaulingExplosives"
+                android:paddingLeft="5dip"
+                android:text="@string/space"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/lblOperateSpecificVehicleOilField"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblHaulingExplosives"
+                android:layout_below="@+id/lblHaulingExplosives"
+                android:text="@string/lblSpecificVehicleForOilField"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/tvOperateSpecificVehicleOilField"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lblOperateSpecificVehicleOilField"
+                android:layout_alignTop="@+id/lblOperateSpecificVehicleOilField"
+                android:layout_toRightOf="@+id/lblOperateSpecificVehicleOilField"
+                android:paddingLeft="5dip"
+                android:text="@string/space"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

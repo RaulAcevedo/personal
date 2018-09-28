@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	style="@style/LayoutTheme">
+	<TextView 
+  		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:text="@string/lbldownloadlogstitle" 
+  		android:id="@+id/tvTitle" 
+		android:gravity="center_horizontal" 
+		android:textStyle="bold"
+		style="@style/Theme.TextViewBlack">
+  	</TextView>
+  	<GridView  
+   		android:layout_width="wrap_content" 
+		android:layout_height="0dip" 
+		android:layout_weight="1.0"
+  		android:id="@+id/grdMissingLogDates">
+	</GridView>
+    <TextView  
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:text="@string/lblcreateoffdutylog" 
+   		android:id="@+id/tvMessage" 
+		android:paddingLeft="10dp"
+		android:lines="2"
+		style="@style/Theme.TextViewBlack">
+   	</TextView>
+   	<LinearLayout
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:orientation="horizontal"
+   		android:baselineAligned="true">
+		<Button
+      		android:id="@+id/btnDLDownload"
+      		style="@style/KMBButton"        
+   	    	android:layout_height="wrap_content"
+   	    	android:text="@string/btndownload" android:layout_width="wrap_content"/>    
+   		<Button
+			android:id="@+id/btnDLDone"
+      		style="@style/KMBButton"        
+  			android:layout_height="wrap_content" 
+  			android:text="@string/btndone" />
+  	</LinearLayout>
+</LinearLayout>
+	

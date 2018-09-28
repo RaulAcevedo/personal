@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">Er is een fout opgetreden bij het aanmaken van de bedrijfssleutel</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">Er is een fout opgetreden bij het starten van CoPilot</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">Er is een fout opgetreden bij het installeren van de voor CoPilot vereiste bestanden.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">Kan de CoPilot-bestanden niet vinden. Weet u zeker dat u de juiste SD-kaart in de aansluiting hebt gestoken?</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">Wijzigingen doorgevoerd</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">CoPilot werkt niet terwijl uw apparaat zich in de modus voor massa-opslag via USB bevindt. Koppel uw apparaat los van uw computer en probeer het opnieuw.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">CoPilot is geminimaliseerd</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">Fout bij het kopiëren</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">De volgende acties zijn uitgevoerd:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">Er is een onvolledige Uri gebruikt: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">De CoPilot-code kan niet door het systeem worden geladen</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">Sleutel bestaat reeds</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">De licentiegegevens staan reeds op uw apparaat</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">Geen actie ondernomen</string> <!-- No match. This is if we get a Uri but don't do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">Geen uit te voeren acties opgegeven voor Uri %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">De CoPilot Uri Handler is opgestart zonder data-Uri om te parsen!</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">Er staat reeds een productsleutel op uw apparaat</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">De ingevoerde productsleutel (%s) lijkt ongeldig te zijn.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">Geen productsleutel ingesteld</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">Uw CF-/SD-kaart met CoPilot is momenteel niet beschikbaar. Steek de kaart opnieuw in de aansluiting en probeer het opnieuw</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">SD-kaart niet beschikbaar</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">CoPilot heeft geen toestemming gekregen om de vereiste bestanden op uw apparaat te installeren.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">Sorry, Uri %s wordt nog niet ondersteund</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">Tik hier om CoPilot te maximaliseren</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">Kan de volgende vereiste directory niet op uw opslagmedia aanmaken: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">Kan het tijdelijke bestand niet verwijderen. Installeer CoPilot opnieuw!</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">Kan het bestand met uw nieuwe productsleutel niet naar uw opslagmedia schrijven</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">Bezig met uitpakken van nieuwe gegevens</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">Wilt u de GPS inschakelen?</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">Er is een fout opgetreden.</string> <!-- ALK String -->
+<string name="ALK_Cancel">Annuleren</string> <!-- ALK String -->
+<string name="ALK_Error">Fout</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">Geen GPS gevonden</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">Verkeerde productsleutel</string> <!-- ALK String -->
+<string name="ALK_OK">OK</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">Uw mobiele apparaat bevat geen CF-/SD-kaart.</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">Laden ...</string> <!-- ALK String -->
+<string name="ALK_Quit">Afsluiten</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">Start CoPilot</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">CoPilot wordt gestart</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">Een of meer bestanden konden niet worden uitgepakt. Controleer de beschikbare opslagruimte</string> <!-- ALK String -->
+</resources>

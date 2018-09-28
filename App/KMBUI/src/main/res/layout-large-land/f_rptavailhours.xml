@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        style="@style/FragmentStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/lblrptavailhourstitle"
+            android:textStyle="bold" >
+        </TextView>
+
+        <!-- Weekly Hours -->
+
+        <TextView
+            android:id="@+id/lblWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView1"
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="10dip"
+            android:text="@string/lblWeekly" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblDuty"
+            style="@style/RptAvailHoursDutyMargin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lblWeekly"
+            android:layout_toRightOf="@+id/lblWeekly"
+            android:text="@string/lblDuty" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblHoursWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblWeekly"
+            android:layout_below="@+id/lblWeekly"
+            android:layout_marginLeft="20dip"
+            android:text="@string/lblHours" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblHoursWeekly"
+            android:layout_alignTop="@+id/lblHoursWeekly"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblHoursWeekly" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblUsedWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblHoursWeekly"
+            android:layout_below="@+id/lblHoursWeekly"
+            android:paddingLeft="24dp"
+            android:text="@string/lblUsed" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursUsedWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblUsedWeekly"
+            android:layout_alignTop="@+id/lblUsedWeekly"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblUsedWeekly" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblAvailWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblUsedWeekly"
+            android:layout_below="@+id/lblUsedWeekly"
+            android:paddingLeft="24dp"
+            android:text="@string/lblAvail" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursAvailWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblAvailWeekly"
+            android:layout_alignTop="@+id/lblAvailWeekly"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblAvailWeekly" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblRegWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblAvailWeekly"
+            android:layout_below="@+id/lblAvailWeekly"
+            android:text="@string/lblReg" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvRegWeekly"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblRegWeekly"
+            android:layout_alignTop="@+id/lblRegWeekly"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblRegWeekly" >
+        </TextView>
+
+        <!-- <View -->
+        <!-- android:id="@+id/divider" -->
+        <!-- style="@style/Theme.TextViewBlack" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="2dp" -->
+        <!-- android:layout_alignLeft="@+id/lblRegWeekly" -->
+        <!-- android:layout_below="@+id/lblRegWeekly" -->
+        <!-- android:layout_marginTop="5dip" -->
+        <!-- android:background="@drawable/black_white_gradient" -->
+        <!-- android:paddingTop="2dp" > -->
+        <!-- </View> -->
+
+
+        <!-- Duty Hours -->
+
+        <TextView
+            android:id="@+id/lblHoursDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblDuty"
+            android:layout_below="@+id/lblDuty"
+            android:layout_marginLeft="20dip"
+            android:text="@string/lblHours" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblHoursDuty"
+            android:layout_alignTop="@+id/lblHoursDuty"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblHoursDuty" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblUsedDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblHoursDuty"
+            android:layout_below="@+id/lblHoursDuty"
+            android:paddingLeft="24dp"
+            android:text="@string/lblUsed" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursUsedDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblUsedDuty"
+            android:layout_alignTop="@+id/lblUsedDuty"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblUsedDuty" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblAvailDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblUsedDuty"
+            android:layout_below="@+id/lblUsedDuty"
+            android:paddingLeft="24dp"
+            android:text="@string/lblAvail" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursAvailDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblAvailDuty"
+            android:layout_alignTop="@+id/lblAvailDuty"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblAvailDuty" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblRegDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblAvailDuty"
+            android:layout_below="@+id/lblAvailDuty"
+            android:text="@string/lblReg" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvRegDuty"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblRegDuty"
+            android:layout_alignTop="@+id/lblRegDuty"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblRegDuty" >
+        </TextView>
+
+        <View
+            android:id="@+id/dividerDuty"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/lblRegWeekly"
+            android:layout_below="@+id/lblRegWeekly"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/white_black_gradient"
+            android:paddingTop="2dp" >
+        </View>
+
+        <!-- Driving Hours -->
+
+        <TextView
+            android:id="@+id/lblDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dividerDuty"
+            android:layout_marginTop="5dip"
+            android:text="@string/lblDrive" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblHoursDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblDrive"
+            android:layout_below="@+id/lblDrive"
+            android:layout_marginLeft="20dip"
+            android:text="@string/lblHours" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblHoursDrive"
+            android:layout_alignTop="@+id/lblHoursDrive"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblHoursDrive" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblUsedDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblHoursDrive"
+            android:layout_below="@+id/lblHoursDrive"
+            android:paddingLeft="24dp"
+            android:text="@string/lblUsed" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursUsedDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblUsedDrive"
+            android:layout_alignTop="@+id/lblUsedDrive"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblUsedDrive" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblAvailDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblUsedDrive"
+            android:layout_below="@+id/lblUsedDrive"
+            android:paddingLeft="24dp"
+            android:text="@string/lblAvail" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursAvailDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblAvailDrive"
+            android:layout_alignTop="@+id/lblAvailDrive"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblAvailDrive" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblRegDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblAvailDrive"
+            android:layout_below="@+id/lblAvailDrive"
+            android:text="@string/lblReg" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvRegDrive"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblRegDrive"
+            android:layout_alignTop="@+id/lblRegDrive"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblRegDrive" >
+        </TextView>
+        
+        
+       <!-- Rest Break -->
+        
+        <TextView
+            android:id="@+id/lblRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dividerDuty"
+            android:layout_alignLeft="@+id/lblDuty"
+            android:layout_marginTop="5dip"
+            android:text="@string/lblRestBreak" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblHoursRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblRestBreak"
+            android:layout_below="@+id/lblRestBreak"
+            android:layout_marginLeft="20dip"
+            android:text="@string/lblHours" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblHoursRestBreak"
+            android:layout_alignTop="@+id/lblHoursRestBreak"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblHoursRestBreak"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblUsedRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblHoursRestBreak"
+            android:layout_below="@+id/lblHoursRestBreak"
+            android:paddingLeft="24dp"
+            android:text="@string/lblUsed" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursUsedRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblUsedRestBreak"
+            android:layout_alignTop="@+id/lblUsedRestBreak"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblUsedRestBreak"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblAvailRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblUsedRestBreak"
+            android:layout_below="@+id/lblUsedRestBreak"
+            android:paddingLeft="24dp"
+            android:text="@string/lblAvail" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvHoursAvailRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblAvailRestBreak"
+            android:layout_alignTop="@+id/lblAvailRestBreak"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblAvailRestBreak"
+            android:text="" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblRegRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblAvailRestBreak"
+            android:layout_below="@+id/lblAvailRestBreak"
+            android:text="@string/lblReg" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvRegRestBreak"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblRegRestBreak"
+            android:layout_alignTop="@+id/lblRegRestBreak"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblRegRestBreak"
+            android:text="" >
+        </TextView>
+
+        <View
+            android:id="@+id/dividerDrive"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/lblRegDrive"
+            android:layout_below="@+id/lblRegDrive"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/white_black_gradient"
+            android:paddingTop="2dp" >
+        </View>
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+#Profiles with QA1 are for running on QA Mac Mini #1
+#Profiles with QAMichelle are for running on Michelle's Mac
+#Profiles with QAJacob are for running on Jacob's Mac
+system_smoke_CI_QA1: --tags @system_smoke DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="CI" ACTIVATION_CODE="KMBSmokeCI" UNIT_ID="smoke" 
+functional_smoke_DEV_QA1: --tags @functional_smoke DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="smoke" 
+functional_smoke_QAS_QA1: --tags @functional_smoke DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQAS" UNIT_ID="smoke"
+nonmandate_DEV_QA1: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNM" UNIT_ID="smoke"
+nonmandate_QAS_QA1: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNM" UNIT_ID="smoke"
+nonmandate_PROD_QA1: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="PROD" ACTIVATION_CODE="KMBSmokeProdNM" UNIT_ID="smoke"
+nonregdriv_DEV_QA1: --tags @nonregdriv DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNRD" UNIT_ID="smoke"
+nonregdriv_QAS_QA1: --tags @nonregdriv DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNRD" UNIT_ID="smoke"
+pc_DEV_QA1: --tags @pc DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevPC" UNIT_ID="smoke"
+pc_QAS_QA1: --tags @pc DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASPC" UNIT_ID="smoke"
+hyrail_DEV_QA1: --tags @hyrail DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevH" UNIT_ID="smoke"
+hyrail_QAS_QA1: --tags @hyrail DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASH" UNIT_ID="smoke"
+team_DEV_QA1: --tags @team DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevTeam" UNIT_ID="smoke"
+team_QAS_QA1: --tags @team DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASTeam" UNIT_ID="smoke"
+complianceTablet_DEV_QA1: --tags @ComplianceTablet DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="smoke"
+complianceTablet_QAS_QA1: --tags @ComplianceTablet DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="smoke"
+reset_historical_QA1: --tags @reset_historical DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="smoke"
+editevents_DEV_QA1: --tags @EditEvents DB_FILE_PATH="/Users/tsttest/Projects/JJKeller/KMBPlatform/Android/app/libraries/CalabashProject/dbFiles/" DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="smoke"
+editevents_QAS_QA1: --tags @EditEvents DB_FILE_PATH="/Users/tsttest/Projects/JJKeller/KMBPlatform/Android/app/libraries/CalabashProject/dbFiles/" DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="smoke"
+rsi_DEV_QA1: --tags @RSI DB_FILE_PATH="/Users/tsttest/Projects/JJKeller/KMBPlatform/Android/app/libraries/CalabashProject/dbFiles/" DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="smoke"
+rsi_QAS_QA1: --tags @RSI DB_FILE_PATH="/Users/tsttest/Projects/JJKeller/KMBPlatform/Android/app/libraries/CalabashProject/dbFiles/" DEVICE="/dev/tty.usbserial-FTFO82XF" ELD_COMMANDER_PATH="/Users/tsttest/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="smoke"
+
+system_smoke_CI_QAMichelle: --tags @system_smoke DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="CI" ACTIVATION_CODE="KMBSmokeCI" UNIT_ID="smoke"
+functional_smoke_DEV_QAMichelle: --tags @functional_smoke DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="smoke"
+functional_smoke_QAS_QAMichelle: --tags @functional_smoke DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQAS" UNIT_ID="smoke"
+nonmandate_DEV_QAMichelle: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNM" UNIT_ID="smoke"
+nonmandate_QAS_QAMichelle: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNM" UNIT_ID="smoke"
+nonmandate_PROD_QAMichelle: --tags @nonmandate DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="PROD" ACTIVATION_CODE="KMBSmokeProdNM" UNIT_ID="smoke"
+nonregdriv_DEV_QAMichelle: --tags @nonregdriv DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNRD" UNIT_ID="smoke"
+nonregdriv_QAS_QAMichelle: --tags @nonregdriv DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNRD" UNIT_ID="smoke"
+pc_DEV_QAMichelle: --tags @pc DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevPC" UNIT_ID="smoke"
+pc_QAS_QAMichelle: --tags @pc DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASPC" UNIT_ID="smoke"
+hyrail_DEV_QAMichelle: --tags @hyrail DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevH" UNIT_ID="smoke"
+hyrail_QAS_QAMichelle: --tags @hyrail DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASH" UNIT_ID="smoke"
+team_DEV_QAMichelle: --tags @team DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevTeam" UNIT_ID="smoke"
+team_QAS_QAMichelle: --tags @team DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASTeam" UNIT_ID="smoke"
+reset_historical_QAMichelle: --tags @reset_historical DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="smoke"
+complianceTablet_DEV_QAMichelle: --tags @ComplianceTablet DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="smoke"
+complianceTablet_QAS_QAMichelle: --tags @ComplianceTablet DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="QAS" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="smoke"
+debug_QAMichelle: --tags @debug DEVICE="/dev/tty.usbserial-FTGSEMW3" ELD_COMMANDER_PATH="/Users/mam1996/eld_commander/eld_commander" ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="smoke"
+
+
+#Define Jake's Variables
+<% 
+jacob_device = "/dev/tty.usbserial-FTFO8ALJ" 
+jacob_eld_commander_path = "/Users/jms5366/eld_commander/eld_commander" 
+jacob_db_save_path = "/Users/jms5366/Projects/Android/app/libraries/CalabashProject/dbFiles/"
+%>
+
+system_smoke_CI_QAJacob: --tags @system_smoke DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="CI" ACTIVATION_CODE="KMBSmokeCI" UNIT_ID="JMSsmoke"
+functional_smoke_DEV_QAJacob: --tags @functional_smoke DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="JMSsmoke"
+functional_smoke_QAS_QAJacob: --tags @functional_smoke DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQAS" UNIT_ID="JMSsmoke"
+nonmandate_DEV_QAJacob: --tags @nonmandate DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNM" UNIT_ID="JMSsmoke"
+nonmandate_QAS_QAJacob: --tags @nonmandate DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNM" UNIT_ID="JMSsmoke"
+nonmandate_PROD_QAJacob: --tags @nonmandate DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="PROD" ACTIVATION_CODE="KMBSmokeProdNM" UNIT_ID="JMSsmoke"
+nonregdriv_DEV_QAJacob: --tags @nonregdriv DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevNRD" UNIT_ID="JMSsmoke"
+nonregdriv_QAS_QAJacob: --tags @nonregdriv DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASNRD" UNIT_ID="JMSsmoke"
+pc_DEV_QAJacob: --tags @pc DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevPC" UNIT_ID="JMSsmoke"
+pc_QAS_QAJacob: --tags @pc DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASPC" UNIT_ID="JMSsmoke"
+hyrail_DEV_QAJacob: --tags @hyrail DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevH" UNIT_ID="JMSsmoke"
+hyrail_QAS_QAJacob: --tags @hyrail DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASH" UNIT_ID="JMSsmoke"
+team_DEV_QAJacob: --tags @team DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDevTeam" UNIT_ID="JMSsmoke"
+team_QAS_QAJacob: --tags @team DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="KMBSmokeQASTeam" UNIT_ID="JMSsmoke"
+reset_historical_QAJacob: --tags @reset_historical DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="KMBSmokeDev" UNIT_ID="JMSsmoke"
+complianceTablet_DEV_QAJacob: --tags @ComplianceTablet DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="JMSsmoke"
+complianceTablet_QAS_QAJacob: --tags @ComplianceTablet DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="kmbcompliancetablettest" UNIT_ID="JMSsmoke"
+editevents_DEV_QAJacob: --tags @EditEvents DB_FILE_PATH=<%= "#{jacob_db_save_path}" %> DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="JMSsmoke"
+editevents_QAS_QAJacob: --tags @EditEvents DB_FILE_PATH=<%= "#{jacob_db_save_path}" %> DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="QAS" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="JMSsmoke"
+rsi_DEV_QAJacob: --tags @RSI DB_FILE_PATH=<%= "#{jacob_db_save_path}" %> DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="JMSsmoke"
+rsi_QAS_QAJacob: --tags @RSI DB_FILE_PATH=<%= "#{jacob_db_save_path}" %> DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="kmbmandateautomation" UNIT_ID="JMSsmoke"
+debug_QAJacob: --tags @RSI DB_FILE_PATH=<%= "#{jacob_db_save_path}" %> DEVICE=<%= "#{jacob_device}" %> ELD_COMMANDER_PATH=<%= "#{jacob_eld_commander_path}" %> ENVIRONMENT="DEV" ACTIVATION_CODE="jmstest" UNIT_ID="JMSsmoke"
+
+<%
+date = Time.now.strftime('%m_%d-%H:%M:%S')
+default_report = "./output_#{date}.html"
+%>
+
+html_report:  -f html -o <%= default_report %>
+
+run:  -p html_report

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutThemeWhite"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="@color/menugray" >
+
+            <FrameLayout
+                android:id="@+id/leftnav_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="65" >
+        <FrameLayout
+            android:id="@+id/offduty_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="80" >
+
+            <TableRow
+                android:id="@+id/tableRowSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            
+                <Button 
+				    android:id="@+id/btnPreviousDay" 
+				    android:text="@string/previousDay" 
+				    style="@style/KMBButton" 
+				    android:layout_width="120dip"
+                    android:layout_marginLeft="2dp"/>
+                
+                <TextView
+                    android:id="@+id/tvLogDate"
+                    style="@style/KMBLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbllogdate" />
+                <TextView
+                    android:id="@+id/txtLogDate"
+                    style="@style/KMBLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/tvLogDate"
+                    android:layout_alignBottom="@+id/tvLogDate"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold"/>
+                <Spinner
+                    android:id="@+id/cboLogDate"
+                    style="@style/Theme.SpinnerLight"
+                    android:layout_width="150dip"
+                    android:layout_marginTop="2dip"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content" />
+
+  				<Button 
+  				    android:id="@+id/btnNextDay" 
+  				    android:text="@string/nextDay" 
+  				    style="@style/KMBButton" 
+  				    android:layout_width="120dip"/>
+
+            </TableRow>
+            <TableRow>
+				<TextView
+			        android:id="@+id/txtExemptLog"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_horizontal"
+			        android:visibility="gone"
+			        android:layout_marginLeft="2dp"
+			        style="@style/RptDailyHoursLabelRed"
+			        android:text="@string/lblexempt_log" />                
+            </TableRow> 
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/content_fragment"
+                    style="@style/ActivityLayoutStyle"
+                    android:layout_width="0dip"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dip"
+                    android:layout_weight="80" >
+                </FrameLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    </LinearLayout>        

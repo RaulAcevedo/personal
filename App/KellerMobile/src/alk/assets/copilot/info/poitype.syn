@@ -1,0 +1,102 @@
+7,auto dealership,dealership
+9,bank,banks,atm,checks,deposit,invest,loan,savings,mortgage,mortgages,checking,withdrawal,funds
+10,bus station,stations
+16,medical,hospital,hospitals
+17,entertainment
+20,ferry terminal, ferry, ferries
+22,gas station,gas stations,diesel,fuel,oil,kerosene,petrol,gas pumps,filling station,filling stations,petrol station, petrol stations,petrol pumps,gasoline
+24,grocery, grocery store, grocery stores, groceries, supermarket, supermarkets
+25,hotel,hotels,motels,motel,accommodation,accommodations,lodging
+26,worship,church,churches,temples,temple,synogogue,synogogues
+38,railway station,train,rail
+39,car rental, rent a car
+40,rest area
+41,restaurant,restaurants,menu,menus,resturant,cafeteria, cafeterias, bistro,bistros,cafe,cafes,dining
+46,sports,recreation
+49,vehicle repair,car repair,mechanic,tune up,tune-up,maintenance,garage
+51,motorcycle,motorcycle dealership,motorcycles
+101,airport,international airport
+102,regional airport,regional airports
+109,bus,taxi,limo,busses,buses,taxis,limos,limousine,limousines,cab,cabs
+111,city hall
+127,fire
+134,police,police station,police stations
+140,rv,rvs
+141,school,schools
+147,post office,post offices,postal service,postal services
+149,book store,books
+152,museum,museums
+153,amusement park,amusement parks
+154,historical monument,historical monuments, monument,monuments
+155,winery,wineries
+156,bowling
+157,casino,casinos
+158,cinema,movie theater,movie theaters,cinemas
+159,nightlife,night life
+160,bar,pub,tavern
+161,arcade
+163,courthouse,court house, courthouses,court houses
+165,library,libraries
+169,universities,university,college,colleges
+171,golf course, golf courses,driving range
+173,theater,theatre
+174,park,parks
+175,camp grounds, campgrounds, camping
+176,aquarium,aquariums
+177,botanical garden,botanical gardens
+178,planetarium,planetarium
+180,zoo,zoos
+181,comedy club,comedy clubs,comedy
+183,karaoke
+185,race track,race tracks
+186,dentist,dentists
+190,clothing,clothes
+193,hardware,tools
+195,office supply,office supplies
+197,sporting goods
+198,beach,beaches
+199,racquetball
+200,skating,skate,rink
+201, bridge,bridges
+202,tunnel,tunnels
+203,ski resort
+204,swimming pool,swimming pools
+205,tennis court,tennis courts
+250,convenience store,convenience stores
+252,parking
+402,american
+406,barbecue,southern,bbq
+408,bistro
+410,brewpub,pub,bar,tavern,beer
+412,cajun,caribbean
+415,chinese,chinese restaurant,chinese restaurants,chinese foods
+416,coffee shop,coffee
+419,deli
+425,french
+426,german
+427,greek
+429,hawaiian,polynesian
+431,indian
+434,irish
+435,italian,italian restaurant,italian restaurants,italian foods
+436,jamaican
+437,japanese,sushi,hibachi,japanese restaurant,japanese restaurants,japanese food,japanese foods
+438,jewish,kosher
+439,korean,korean food,korean foods,korean restaurant,korean restaurants
+442,mexican,taco,tacos,burrito,burritos,mexican food,mexican foods,mexican restaurant,mexican restaurants
+443,middle eastern
+444,oriental
+447,pizza,pizzeria,pizzerias,trattoria,trattorias
+451,sandwich,sandwiches
+453,seafood
+455,soul food
+459,spanish
+460,steak
+462,swiss
+463,thai
+465,vegetarian
+466,vietnamese
+2002,favorites
+2003,home
+2004,work
+2005,recent destinations,recent,recent destination

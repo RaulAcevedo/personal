@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+   			style="@style/Theme.TextViewBlack"
+   	        android:id="@+id/lblteamdriverfirstdriver_header"        
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:gravity="center"
+   	        android:textStyle="bold"
+   	        android:text="@string/lblteamdriverfirstdriverheader"/>
+    
+    <TextView
+        android:id="@+id/lblteamdriverfirstdriverselection"
+        style="@style/Theme.TextViewBlack"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblteamdriverfirstdriver_header"
+        android:text="@string/lblteamdriverfirstdriverselection" />
+
+    <Button
+        android:id="@+id/btnDriverOne"
+        style="@style/KMBButton"
+        android:layout_alignLeft="@+id/lblteamdriverfirstdriverselection"
+        android:layout_below="@+id/lblteamdriverfirstdriverselection"
+        android:layout_marginTop="30dp"
+        android:height="55dp"
+        android:text="@string/lbldriverone"
+        android:width="300dp" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnDriverTwo"
+        style="@style/KMBButton"
+        android:layout_below="@+id/btnDriverOne"
+        android:layout_marginTop="15dp"
+        android:height="55dp"
+        android:text="@string/lbldrivertwo"
+        android:width="300dp" >
+    </Button>
+    
+    <TextView
+        android:id="@+id/lblteamdriverfirstdriverinfo"
+        style="@style/Theme.TextViewBlack"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDriverTwo"
+        android:text="@string/lblteamdriverfirstdriverinfo" />
+    
+</RelativeLayout>

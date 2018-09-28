@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dp"
+    >
+
+    <TextView android:id="@+id/lblDateSelectorTitle"
+              android:gravity="center_horizontal"
+              android:textStyle="bold"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              style="@style/Theme.TextViewBlack" />
+    <TextView
+        android:id="@+id/lblDateSelectorMsg"
+        android:gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/Theme.TextViewBlack"
+        android:layout_below="@id/lblDateSelectorTitle"
+        android:text="@string/DateSelectorMessage"/>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@+id/lblDateSelectorMsg">
+
+            <Button
+                android:id="@+id/btnPreviousDay"
+                android:text="@string/editLogPreviousDay"
+                style="@style/KMBButton"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"/>
+
+            <Spinner
+                android:id="@+id/spnLogDate"
+                style="@style/Theme.SpinnerLight"
+                android:layout_width="wrap_content"
+                android:minWidth="160dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnPreviousDay"
+                android:layout_toRightOf="@+id/btnPreviousDay"
+
+                />
+            <Button
+                android:id="@+id/btnNextDay"
+                android:text="@string/editLogNextDay"
+                style="@style/KMBButton"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btnPreviousDay"
+                android:layout_marginLeft="4dp"
+                android:layout_toRightOf="@+id/spnLogDate"
+                />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:text="@string/editLog"
+            style="@style/KMBButton"
+            android:layout_width="130dip"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnPreviousDay"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/btnNextDay"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

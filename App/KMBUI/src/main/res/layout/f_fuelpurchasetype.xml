@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lblfuelpurchasetypetitle"
+        android:textStyle="bold" >
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Spinner
+                android:id="@+id/cboPurchaseType"
+                style="@style/wideSpinner"
+                android:layout_height="wrap_content"
+                android:gravity="left" >
+            </Spinner>
+
+            <TextView
+                android:id="@+id/lblDateOfPurchase"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbldateofpurchase" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnDateOfPurchase"
+                    style="@style/KMBMediumButton"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbldate" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btnTimeOfPurcahse"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblTime" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="15dp" >
+
+                <Button
+                    android:id="@+id/btnOK"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:text="@string/oklabel" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancellabel" >
+                </Button>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

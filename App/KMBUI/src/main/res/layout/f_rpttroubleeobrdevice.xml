@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView android:layout_width="fill_parent" android:id="@+id/lblTitle" android:gravity="center_horizontal" android:layout_height="wrap_content" android:textStyle="bold" android:lines="2" android:text="@string/lbleldconfiguration" style="@style/Theme.TextViewBlack"></TextView>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/scrollView1">
+        <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="vertical">
+		    <TextView android:layout_height="wrap_content" android:id="@+id/lblTractorNumberLabel" android:layout_width="fill_parent" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbltractornumber2"></TextView>
+		    <TextView android:id="@+id/lblTractorNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblSerialNumberLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblserialnumber"></TextView>
+		    <TextView android:id="@+id/lblSerialNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblDiscoveryPasskeyLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbldiscoverypasskey"></TextView>
+		    <TextView android:id="@+id/lblDiscoveryPasskey" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblDataCollectionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbldatacollection"></TextView>
+		    <TextView android:id="@+id/lblDataCollection" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblSleepModeTimeoutLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblsleepmodetimeout"></TextView>
+		    <TextView android:id="@+id/lblSleepModeTimeout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblEngineDataBusLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblenginedatabus2"></TextView>
+		    <TextView android:id="@+id/lblEngineDataBus" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblEobrVersionNbrLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbleldversionnbr"></TextView>
+		    <TextView android:id="@+id/lblEobrVersionNbr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblBootloaderVersionLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblbootloaderversion"></TextView>
+		    <TextView android:id="@+id/lblBootloaderVersion" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblUsbVersionNbrLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblusbversionnbr"></TextView>
+		    <TextView android:id="@+id/lblUsbVersionNbr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblRecordVersionNbrLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblrecordversionnbr"></TextView>
+		    <TextView android:id="@+id/lblRecordVersionNbr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblDllVersionNbrLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbldllversionnbr"></TextView>
+		    <TextView android:id="@+id/lblDllVersionNbr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblEobrClockLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbleldclock"></TextView>
+		    <TextView android:id="@+id/lblEobrClock" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblDeviceClockLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbldeviceclock"></TextView>
+		    <TextView android:id="@+id/lblDeviceClock" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblReferenceLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblreference"></TextView>
+		    <TextView android:id="@+id/lblReference" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblOdometerOffsetLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblodometeroffset"></TextView>
+		    <TextView android:id="@+id/lblOdometerOffset" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblOdometerMultiplierLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblodometermultiplier"></TextView>
+		    <TextView android:id="@+id/lblOdometerMultiplier" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+	    	<TextView android:id="@+id/lblTachometerThresholdLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lbltachometerthreshold"></TextView>
+		    <TextView android:id="@+id/lblTachometerThreshold" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblSpeedometerThresholdLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblspeedometerthreshold"></TextView>
+		    <TextView android:id="@+id/lblSpeedometerThreshold" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+		    <TextView android:id="@+id/lblHardBrakeThresholdLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack" android:textStyle="bold" android:text="@string/lblhardbrakethreshold"></TextView>
+		    <TextView android:id="@+id/lblHardBrakeThreshold" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/Theme.TextViewBlack"></TextView>
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        style="@style/GrdLocationCodeLabel"
+        android:layout_height="wrap_content"
+        android:text="@string/lcrpt_lblcode" />
+
+    <TextView
+        android:id="@+id/tvLocationCode"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/TextView01"
+        android:layout_toRightOf="@+id/TextView01" />
+
+    <TextView
+        android:id="@+id/lblLocation"
+        style="@style/GrdLocationCodeLabel"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvLocationCode"
+        android:layout_alignLeft="@id/TextView01"
+        android:text="@string/lcrpt_lbllocation" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lblLocation"
+        android:layout_toRightOf="@+id/lblLocation" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvLocation"
+        android:background="@drawable/white_black_gradient"
+        android:paddingTop="2dp" />
+
+</RelativeLayout>

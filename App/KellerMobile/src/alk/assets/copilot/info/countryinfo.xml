@@ -1,0 +1,1899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Countries>
+<CountryInfo>3
+<Name>Algeria</Name>
+<DriveSide>R</DriveSide>
+<Currency>Algerian Dinar (DZD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>6
+<Name>Angola</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kwanza (AOA)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>22
+<Name>Benin</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>27
+<Name>Botswana     </Name>
+<DriveSide>R</DriveSide>
+<Currency>Pula (P)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>32
+<Name>Burkina Faso</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>34
+<Name>Burundi</Name>
+<DriveSide>R</DriveSide>
+<Currency>Burundi Franc (FBu)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Rundi; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>36
+<Name>Cameroon</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>38
+<Name>Cape Verde</Name>
+<DriveSide>R</DriveSide>
+<Currency>Escudo (C.V.Esc.)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>40
+<Name>Central African Republic</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French; Sango</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>41
+<Name>Chad</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>46
+<Name>Comoros</Name>
+<DriveSide>R</DriveSide>
+<Currency>Comorian Franc (CF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Comorian (Shikomor); Arabic; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>47
+<Name>Congo</Name>
+<DriveSide>R</DriveSide>
+<Currency>Congo Franc (FC)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>56
+<Name>Djibouti</Name>
+<DriveSide>R</DriveSide>
+<Currency>Djibouti Franc (FDJ)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>61
+<Name>Egypt</Name>
+<DriveSide>R</DriveSide>
+<Currency>Egyptian Pound (LE)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>63
+<Name>Equatorial Guinea</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>64
+<Name>Eritrea</Name>
+<DriveSide>R</DriveSide>
+<Currency>Nakfa (Nfa)</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>66
+<Name>Ethiopia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Birr (Br)</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>75
+<Name>Gabon</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>76
+<Name>Gambia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dalasi (D)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>79
+<Name>Ghana</Name>
+<DriveSide>R</DriveSide>
+<Currency>Ghana Cedi (GH)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>87
+<Name>Guinea</Name>
+<DriveSide>R</DriveSide>
+<Currency>Guinean Franc (FG)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>88
+<Name>Guinea-Bissau</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>103
+<Name>Ivory Coast</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>108
+<Name>Kenya</Name>
+<DriveSide>L</DriveSide>
+<Currency>Kenyan Shilling (K Sh)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Swahili; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>118
+<Name>Lesotho</Name>
+<DriveSide>L</DriveSide>
+<Currency>Loti (Plural Maloti)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Sotho; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>119
+<Name>Liberia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Liberian Dollar</Currency>
+<DistUnits>0</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>120
+<Name>Libya</Name>
+<DriveSide>R</DriveSide>
+<Currency>Libyan Dinar (LD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>126
+<Name>Madagascar</Name>
+<DriveSide>R</DriveSide>
+<Currency>Ariary (MGA)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>127
+<Name>Malawi</Name>
+<DriveSide>L</DriveSide>
+<Currency>Malawian Kwacha (MK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>130
+<Name>Mali</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>134
+<Name>Mauritania</Name>
+<DriveSide>R</DriveSide>
+<Currency>Ouguiya (UM)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>135
+<Name>Mauritius</Name>
+<DriveSide>L</DriveSide>
+<Currency>Mauritian Rupee (Mau Re/Mau Rs)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>136
+<Name>Mayotte</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>145
+<Name>Morocco</Name>
+<DriveSide>R</DriveSide>
+<Currency>Moroccan Dirham (DH)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>146
+<Name>Mozambique</Name>
+<DriveSide>L</DriveSide>
+<Currency>Metical (Mtn; plural meticais)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>148
+<Name>Namibia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Namibian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>156
+<Name>Niger</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>157
+<Name>Nigeria</Name>
+<DriveSide>R</DriveSide>
+<Currency>Nigerian Naira</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>176
+<Name>Republic of Congo</Name>
+<DriveSide>R</DriveSide>
+<Currency>Congo Franc (FC)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>177
+<Name>Runion</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>180
+<Name>Rwanda</Name>
+<DriveSide>R</DriveSide>
+<Currency>Rwandan Franc (RF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Rwanda; French; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>181
+<Name>Saint Helena</Name>
+<DriveSide>L</DriveSide>
+<Currency>Saint Helenian Pound (SHP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>187
+<Name>Sao Tome and Principe</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dobra (Db)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>189
+<Name>Senegal</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>190
+<Name>Seychelles</Name>
+<DriveSide>L</DriveSide>
+<Currency>Seychelles Rupee (roupi; SR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>191
+<Name>Sierra Leone</Name>
+<DriveSide>R</DriveSide>
+<Currency>Leone (Le)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>196
+<Name>Somalia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Somali Shilling (Shilin Soomaali; So.Sh.)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Somali; Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>197
+<Name>South Africa</Name>
+<DriveSide>L</DriveSide>
+<Currency>Rand (R)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>200
+<Name>Sudan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Sudanese Pound (SDG)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>203
+<Name>Swaziland</Name>
+<DriveSide>L</DriveSide>
+<Currency>Lilangeni (plural emalangeni)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Swati (Swazi); English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>209
+<Name>Tanzania</Name>
+<DriveSide>L</DriveSide>
+<Currency>Tanzanian Shilling (TZS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Swahili; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>211
+<Name>Togo</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFA Franc (CFAF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>215
+<Name>Tunisia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Tunisian Dinar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>220
+<Name>Uganda</Name>
+<DriveSide>L</DriveSide>
+<Currency>Uganda Shilling</Currency>
+<DistUnits>1</DistUnits>
+<Language>English </Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>234
+<Name>Western Sahara</Name>
+<DriveSide>R</DriveSide>
+<Currency>Moroccan Dirham (MAD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>238
+<Name>Zambia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Kwacha</Currency>
+<DistUnits>1</DistUnits>
+<Language>English </Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>239
+<Name>Zimbabwe</Name>
+<DriveSide>L</DriveSide>
+<Currency>Zimbabwe Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English </Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>1
+<Name>Afghanistan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Afghani (Af)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dari; Pashto</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>10
+<Name>Armenia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dram (AMD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Armenian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>14
+<Name>Azerbaijan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Manat (AZN)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Azerbaijanian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>16
+<Name>Bahrain</Name>
+<DriveSide>R</DriveSide>
+<Currency>Bahraini Dinar (BD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>17
+<Name>Bangladesh</Name>
+<DriveSide>L</DriveSide>
+<Currency>Bangladesh Taka (Tk)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Bengali (Bangla)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>24
+<Name>Bhutan</Name>
+<DriveSide>L</DriveSide>
+<Currency>Ngultrum (Nu)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dzongkha (a Tibetan dialect)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>30
+<Name>Brunei Darussalam</Name>
+<DriveSide>L</DriveSide>
+<Currency>Brunei Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Malay</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>33
+<Name>Burma (Myanmar)</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kyat </Currency>
+<DistUnits>0</DistUnits>
+<Language>Burmese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>35
+<Name>Cambodia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Riel (KHR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Khmer</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>44
+<Name>China</Name>
+<DriveSide>R</DriveSide>
+<Currency>Renminbi (yuan) (Y)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Mandarin Chinese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>53
+<Name>Cyprus</Name>
+<DriveSide>L</DriveSide>
+<Currency>Euro, Turkish Lira (YTL)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Greek, Turkish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>77
+<Name>Georgia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Georgian Lari (GEL)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Georgian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>92
+<Name>Hong Kong</Name>
+<DriveSide>L</DriveSide>
+<Currency>Hong Kong Dollar (HK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Chinese; English </Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>95
+<Name>India</Name>
+<DriveSide>L</DriveSide>
+<Currency>Indian Rupee </Currency>
+<DistUnits>1</DistUnits>
+<Language>Hindi; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>96
+<Name>Indonesia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Rupiah (Rp)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Indonesian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>97
+<Name>Iran</Name>
+<DriveSide>R</DriveSide>
+<Currency>Rial (Rls)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Farsi (Persian)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>98
+<Name>Iraq</Name>
+<DriveSide>R</DriveSide>
+<Currency>Iraqi Dinar (ID)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic; Kurdish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>101
+<Name>Israel</Name>
+<DriveSide>R</DriveSide>
+<Currency>new (Israeli) sheqel (NIS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Hebrew; Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>105
+<Name>Japan</Name>
+<DriveSide>L</DriveSide>
+<Currency>Yen</Currency>
+<DistUnits>1</DistUnits>
+<Language>Japanese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>106
+<Name>Jordan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Jordanian Dinar (JD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>111
+<Name>Korea, North</Name>
+<DriveSide>R</DriveSide>
+<Currency>Won (W)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Korean</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>112
+<Name>Korea, South</Name>
+<DriveSide>R</DriveSide>
+<Currency>Won (W)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Korean</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>113
+<Name>Kuwait</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kuwaiti Dinar (KD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>114
+<Name>Kyrgyzstan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kyrgyzstan Som (KGS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Kyrgyz; Russian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>115
+<Name>Laos</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kip (KN)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Lao</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>117
+<Name>Lebanon</Name>
+<DriveSide>R</DriveSide>
+<Currency>Lebanese Pound (LBP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>124
+<Name>Macao</Name>
+<DriveSide>R</DriveSide>
+<Currency>Pataca (MOP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Chinese; Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>128
+<Name>Malaysia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Ringgit (RM)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Malay</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>129
+<Name>Maldives</Name>
+<DriveSide>L</DriveSide>
+<Currency>Rufiyaa (Rf)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Divehi</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>142
+<Name>Mongolia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Tugrik (Tug)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Khalkha Mongolian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>150
+<Name>Nepal</Name>
+<DriveSide>L</DriveSide>
+<Currency>Nepalese Rupee (NRs)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Nepali</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>162
+<Name>Oman</Name>
+<DriveSide>R</DriveSide>
+<Currency>Rial Omani (RO)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>163
+<Name>Pakistan</Name>
+<DriveSide>L</DriveSide>
+<Currency>Pakistani Rupee (PKR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Urdu</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>165
+<Name>Palestinian Territory</Name>
+<DriveSide>R</DriveSide>
+<Currency>Egyptian Pound; Israeli new sheqel (ILS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>167
+<Name>Papua New Guinea</Name>
+<DriveSide>L</DriveSide>
+<Currency>Kina (K)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>170
+<Name>Philippines</Name>
+<DriveSide>R</DriveSide>
+<Currency>Piso</Currency>
+<DistUnits>1</DistUnits>
+<Language>Filipino; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>175
+<Name>Qatar</Name>
+<DriveSide>R</DriveSide>
+<Currency>Qatari Riyal (QR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>188
+<Name>Saudi Arabia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Saudi Riyal (SR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>192
+<Name>Singapore</Name>
+<DriveSide>L</DriveSide>
+<Currency>Singapore Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Chinese; Malay; Tamil; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>199
+<Name>Sri Lanka</Name>
+<DriveSide>L</DriveSide>
+<Currency>Sri Lankan Rupee (LKR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Sinhala; Tamil</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>206
+<Name>Syrian Arab Republic</Name>
+<DriveSide>R</DriveSide>
+<Currency>Syrian Pound (S.P)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>207
+<Name>Taiwan</Name>
+<DriveSide>R</DriveSide>
+<Currency>New Taiwan Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Mandarin Chinese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>210
+<Name>Thailand</Name>
+<DriveSide>L</DriveSide>
+<Currency>Baht (THB)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Thai</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>217
+<Name>Turkmenistan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Manat (m)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Turkmen</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>222
+<Name>United Arab Emirates</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dirham (AED)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>231
+<Name>Vietnam</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dong (VND)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Vietnamese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>236
+<Name>Yemen</Name>
+<DriveSide>R</DriveSide>
+<Currency>Yemeni Rial (YR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Arabic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>2
+<Name>Albania</Name>
+<DriveSide>R</DriveSide>
+<Currency>Lek (L)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Albanian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>5
+<Name>Andorra</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Catalan</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>13
+<Name>Austria</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>German</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>21
+<Name>Belarus</Name>
+<DriveSide>R</DriveSide>
+<Currency>Belarusian Ruble (Br)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Belarusian; Russian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>19
+<Name>Belgium</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dutch; French; German</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>26
+<Name>Bosnia and Herzegovina</Name>
+<DriveSide>R</DriveSide>
+<Currency>Convertible Marka (KM)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Bosnian; Croatian; Serbian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>31
+<Name>Bulgaria</Name>
+<DriveSide>R</DriveSide>
+<Currency>Lev (Lv; plural leva)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Bulgarian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>51
+<Name>Croatia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kuna </Currency>
+<DistUnits>1</DistUnits>
+<Language>Croatian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>54
+<Name>Czech Republic</Name>
+<DriveSide>R</DriveSide>
+<Currency>koruna</Currency>
+<DistUnits>1</DistUnits>
+<Language>Czech</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>55
+<Name>Denmark</Name>
+<DriveSide>R</DriveSide>
+<Currency>Danish Krone (DKK; plural kroner)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Danish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>65
+<Name>Estonia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kroon (KR)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Estonian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>67
+<Name>Faroe Islands</Name>
+<DriveSide>R</DriveSide>
+<Currency>Danish Krone (DKK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Faroese; Danish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>70
+<Name>Finland</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>71
+<Name>France</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>78
+<Name>Germany</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>German</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>80
+<Name>Gibraltar</Name>
+<DriveSide>R</DriveSide>
+<Currency>Gibraltar Pound (GIP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>81
+<Name>Greece</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Greek</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>93
+<Name>Hungary</Name>
+<DriveSide>R</DriveSide>
+<Currency>Forint (Ft)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Hungarian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>94
+<Name>Iceland</Name>
+<DriveSide>R</DriveSide>
+<Currency>kr�na (ISK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Icelandic</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>99
+<Name>Ireland</Name>
+<DriveSide>L</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Irish; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>100
+<Name>Isle of Man</Name>
+<DriveSide>L</DriveSide>
+<Currency>Pound Sterling (GBP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English, Manx</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>102
+<Name>Italy</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Italian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>107
+<Name>Kazakhstan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Tenge (T)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Kazakh</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>109
+<Name>Kirghizia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Kyrgyzstan Som (KGS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Kyrgyz; Russian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>116
+<Name>Latvia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Lats (Ls; plural lati)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Latvian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>121
+<Name>Liechtenstein</Name>
+<DriveSide>R</DriveSide>
+<Currency>Swiss Franc (CHF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>German</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>122
+<Name>Lithuania</Name>
+<DriveSide>R</DriveSide>
+<Currency>Litas (LTL)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Lithuanian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>123
+<Name>Luxembourg </Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>125
+<Name>Macedonia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Denar (MKD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Macedonian; Albanian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>131
+<Name>Malta</Name>
+<DriveSide>L</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Maltese; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>140
+<Name>Moldavia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Moldovan leu (plural lei)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Moldovan (Romanian)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>141
+<Name>Monaco</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>143
+<Name>Montenegro</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Montenegrin</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>151
+<Name>Netherlands</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dutch</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>161
+<Name>Norway</Name>
+<DriveSide>R</DriveSide>
+<Currency>Norwegian Krone (pl. Kroner; NOK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Norwegian; Sami (locally)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>172
+<Name>Poland</Name>
+<DriveSide>R</DriveSide>
+<Currency>Zloty</Currency>
+<DistUnits>1</DistUnits>
+<Language>Polish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>173
+<Name>Portugal</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>178
+<Name>Romania</Name>
+<DriveSide>R</DriveSide>
+<Currency>(new) leu (RON; plural [new] lei)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Romanian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>179
+<Name>Russian Federation</Name>
+<DriveSide>R</DriveSide>
+<Currency>Ruble (RUB)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Russian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>186
+<Name>San Marino</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Italian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>193
+<Name>Slovakia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Slovak Koruna (Sk)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Slovak</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>194
+<Name>Slovenia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Slovene</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>198
+<Name>Spain</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Castilian Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>202
+<Name>Svalbard and Jan Mayen</Name>
+<DriveSide>R</DriveSide>
+<Currency>Norwegian Krone (NOK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Norwegian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>204
+<Name>Sweden</Name>
+<DriveSide>R</DriveSide>
+<Currency>Swedish Krona (SEK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Swedish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>205
+<Name>Switzerland</Name>
+<DriveSide>R</DriveSide>
+<Currency>Swiss Franc (CHF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French; German; Italian; Romansh</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>208
+<Name>Tajikistan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Somoni (TJS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Tajik (Tojik)</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>216
+<Name>Turkey</Name>
+<DriveSide>R</DriveSide>
+<Currency>New Turkish Lira (YTL)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Turkish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>221
+<Name>Ukraine</Name>
+<DriveSide>R</DriveSide>
+<Currency>Hryvnya (UAH)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Ukrainian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>223
+<Name>United Kingdom</Name>
+<DriveSide>L</DriveSide>
+<Currency>Pound Sterling</Currency>
+<DistUnits>0</DistUnits>
+<Language>English; English and Welsh in Wales</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>227
+<Name>Uzbekistan</Name>
+<DriveSide>R</DriveSide>
+<Currency>Sum (UZS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Uzbek</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>229
+<Name>Vatican City</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>Italian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>237
+<Name>Serbia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Serbian Dinar (CSD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Serbian</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>23
+<Name>Bermuda</Name>
+<DriveSide>L</DriveSide>
+<Currency>Bermuda Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>37
+<Name>Canada</Name>
+<DriveSide>R</DriveSide>
+<Currency>Canadian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English; French</Language>
+<SpeedInfo>NA</SpeedInfo>
+</CountryInfo>
+<CountryInfo>82
+<Name>Greenland</Name>
+<DriveSide>R</DriveSide>
+<Currency>Danish Krone (DKK)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Greenlandic; Danish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>137
+<Name>Mexico</Name>
+<DriveSide>R</DriveSide>
+<Currency>Mexican Peso</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>NA</SpeedInfo>
+</CountryInfo>
+<CountryInfo>174
+<Name>Puerto Rico</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>184
+<Name>Saint Pierre and Miquelon</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>224
+<Name>United States</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>0</DistUnits>
+<Language>none</Language>
+<SpeedInfo>NA</SpeedInfo>
+</CountryInfo>
+<CountryInfo>4
+<Name>American Samoa</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English; Samoan</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>12
+<Name>Australia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Australian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>48
+<Name>Cook Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>New Zealand Dollar (NZD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English; Cook Islands Maori</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>69
+<Name>Fiji</Name>
+<DriveSide>L</DriveSide>
+<Currency>Fiji Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English, Bau Fijian, and Hindustani</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>73
+<Name>French Polynesia</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFP Franc (CFPF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>74
+<Name>French Southern and Antarctic Lands</Name>
+<DriveSide>R</DriveSide>
+<Currency>none</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>85
+<Name>Guam</Name>
+<DriveSide>R</DriveSide>
+<Currency>United States Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Chamorro; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>110
+<Name>Kiribati</Name>
+<DriveSide>L</DriveSide>
+<Currency>Australian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>132
+<Name>Marshall Islands</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Marshallese (Kajin-Majol); English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>138
+<Name>Micronesia, Federated States of</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>139
+<Name>Midway Island</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>149
+<Name>Nauru</Name>
+<DriveSide>L</DriveSide>
+<Currency>Australian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>153
+<Name>New Caledonia</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFP Franc (CFPF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>154
+<Name>New Zealand</Name>
+<DriveSide>L</DriveSide>
+<Currency>New Zealand Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English; Maori</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>158
+<Name>Niue</Name>
+<DriveSide>L</DriveSide>
+<Currency>New Zealand Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Niuean, English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>159
+<Name>Norfolk Island</Name>
+<DriveSide>L</DriveSide>
+<Currency>Australian Dollar (AUD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>160
+<Name>Northern Mariana Islands</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Chamorro; Carolinian; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>164
+<Name>Palau</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Palauan; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>171
+<Name>Pitcairn</Name>
+<DriveSide>L</DriveSide>
+<Currency>New Zealand Dollar (NZD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>195
+<Name>Solomon Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>Solomon Islands Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>212
+<Name>Tokelau</Name>
+<DriveSide>L</DriveSide>
+<Currency>New Zealand Dollar (NZD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>213
+<Name>Tonga</Name>
+<DriveSide>L</DriveSide>
+<Currency>Paanga</Currency>
+<DistUnits>1</DistUnits>
+<Language>Tongan; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>219
+<Name>Tuvalu</Name>
+<DriveSide>L</DriveSide>
+<Currency>Tuvaluan Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>228
+<Name>Vanuatu</Name>
+<DriveSide>R</DriveSide>
+<Currency>Vatu (Vt)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Bislama; French; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>232
+<Name>Wake Island</Name>
+<DriveSide>R</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>233
+<Name>Wallis and Futuna Islands</Name>
+<DriveSide>R</DriveSide>
+<Currency>CFP Franc (XPF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>235
+<Name>Western Samoa</Name>
+<DriveSide>R</DriveSide>
+<Currency>Tala (SAT)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Samoan; English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>7
+<Name>Anguilla</Name>
+<DriveSide>L</DriveSide>
+<Currency>East Caribbean Dollar (XCD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>8
+<Name>Antigua and Barbuda</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>9
+<Name>Argentina</Name>
+<DriveSide>R</DriveSide>
+<Currency>Peso (ARS)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>11
+<Name>Aruba</Name>
+<DriveSide>R</DriveSide>
+<Currency>Aruban Florin (Af.)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dutch</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>15
+<Name>Bahamas</Name>
+<DriveSide>L</DriveSide>
+<Currency>Bahamian Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>18
+<Name>Barbados</Name>
+<DriveSide>L</DriveSide>
+<Currency>Barbados Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>20
+<Name>Belize</Name>
+<DriveSide>R</DriveSide>
+<Currency>Belize Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>25
+<Name>Bolivia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Boliviano (Bs)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish; Aymara; Quechua</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>28
+<Name>Brazil</Name>
+<DriveSide>R</DriveSide>
+<Currency>Real (plural reais)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>29
+<Name>British Virgin Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>U.S. Dollar (USD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>39
+<Name>Cayman Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>Cayman Islands Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>none</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>43
+<Name>Chile</Name>
+<DriveSide>R</DriveSide>
+<Currency>Peso</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>45
+<Name>Colombia</Name>
+<DriveSide>R</DriveSide>
+<Currency>Peso</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>49
+<Name>Costa Rica</Name>
+<DriveSide>R</DriveSide>
+<Currency>Costa Rican col�n</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>52
+<Name>Cuba</Name>
+<DriveSide>R</DriveSide>
+<Currency>Cuban Peso (CUP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>57
+<Name>Dominica</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>58
+<Name>Dominican Republic</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dominican Peso</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>60
+<Name>Ecuador</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>62
+<Name>El Salvador</Name>
+<DriveSide>R</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>68
+<Name>Falkland Islands (Malvinas)</Name>
+<DriveSide>L</DriveSide>
+<Currency>Falkland Islands Pound (FKP)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>72
+<Name>French Guiana</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>83
+<Name>Grenada</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>84
+<Name>Guadeloupe</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>86
+<Name>Guatemala</Name>
+<DriveSide>R</DriveSide>
+<Currency>Quetzal (Q)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>89
+<Name>Guyana</Name>
+<DriveSide>L</DriveSide>
+<Currency>Guyanese Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>90
+<Name>Haiti</Name>
+<DriveSide>R</DriveSide>
+<Currency>Gourde (G)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Haitian Creole; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>91
+<Name>Honduras</Name>
+<DriveSide>R</DriveSide>
+<Currency>Lempira (L)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>104
+<Name>Jamaica</Name>
+<DriveSide>L</DriveSide>
+<Currency>Jamaican Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>133
+<Name>Martinique</Name>
+<DriveSide>R</DriveSide>
+<Currency>Euro</Currency>
+<DistUnits>1</DistUnits>
+<Language>French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>144
+<Name>Montserrat</Name>
+<DriveSide>L</DriveSide>
+<Currency>East Caribbean Dollar (XCD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>152
+<Name>Netherlands Antilles</Name>
+<DriveSide>R</DriveSide>
+<Currency>Netherlands Antillean Guilder (NAf.)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dutch</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>155
+<Name>Nicaragua</Name>
+<DriveSide>R</DriveSide>
+<Currency>c�rdoba</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>166
+<Name>Panama</Name>
+<DriveSide>R</DriveSide>
+<Currency>Balboa</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>168
+<Name>Paraguay</Name>
+<DriveSide>R</DriveSide>
+<Currency>Guaran� (plural guaranies)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish; Guaran�</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>169
+<Name>Peru</Name>
+<DriveSide>R</DriveSide>
+<Currency>Nuevo sol (S/.)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish; Quechua; Aymara</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>182
+<Name>Saint Kitts and Nevis Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>183
+<Name>Saint Lucia</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>185
+<Name>Saint Vincent and the Grenadines</Name>
+<DriveSide>L</DriveSide>
+<Currency>Eastern Caribbean Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>201
+<Name>Suriname</Name>
+<DriveSide>L</DriveSide>
+<Currency>Suriname Dollar (SRD)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Dutch</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>
+<Name>Trinidad and Tobago</Name>
+<DriveSide>L</DriveSide>
+<Currency>Trinidad and Tobago Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>218
+<Name>Turks and Caicos Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>225
+<Name>United States Virgin Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>U.S. Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>English</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>226
+<Name>Uruguay</Name>
+<DriveSide>R</DriveSide>
+<Currency>Peso Uruguayo (UYU)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>230
+<Name>Venezuela</Name>
+<DriveSide>R</DriveSide>
+<Currency>bol�var (plural bol�vares; VEF)</Currency>
+<DistUnits>1</DistUnits>
+<Language>Spanish</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>42
+<Name>Channel Islands</Name>
+<DriveSide>L</DriveSide>
+<Currency>none</Currency>
+<DistUnits>1</DistUnits>
+<Language>English; French</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+<CountryInfo>59
+<Name>East Timor</Name>
+<DriveSide>L</DriveSide>
+<Currency>Dollar</Currency>
+<DistUnits>1</DistUnits>
+<Language>Tetum; Portuguese</Language>
+<SpeedInfo>EU</SpeedInfo>
+</CountryInfo>
+</Countries>

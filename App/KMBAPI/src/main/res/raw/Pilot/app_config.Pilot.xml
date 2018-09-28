@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+	<localSettings>
+		<ShowDebugFunctions>false</ShowDebugFunctions>
+		<KmbActivationUrl_REST>https://www.drivermanagement.com/PilotKMBRESTServices/ActivationService.svc</KmbActivationUrl_REST>
+        <KmbWebServiceUrl_REST>https://www.drivermanagement.com/PilotKMBRESTServices/LogCheckerService.svc</KmbWebServiceUrl_REST>
+	</localSettings>
+    <malfunctionTime>
+        <PositionMalfunctionMinutes>60</PositionMalfunctionMinutes>
+        <EngineSyncMalfunctionMinutes>30</EngineSyncMalfunctionMinutes>
+        <TimingMalfunctionClearMinutes>30</TimingMalfunctionClearMinutes>
+    </malfunctionTime>
+	<featureToggles>
+      <SelectiveFeatureTogglesEnabled>true</SelectiveFeatureTogglesEnabled>
+      <EldMandate>false</EldMandate>
+      <IgnoreServerTime>false</IgnoreServerTime>
+      <UseCloudServices>true</UseCloudServices>
+      <DefaultTripInformation>true</DefaultTripInformation>
+      <AlkCopilotEnabled>true</AlkCopilotEnabled>
+      <PersonalConveyanceEnabled>true</PersonalConveyanceEnabled>
+      <NewTeamDriverWorkflowEnabled>true</NewTeamDriverWorkflowEnabled>
+      <IgnoreFirmwareUpdate>false</IgnoreFirmwareUpdate>
+      <HyrailEnabled>true</HyrailEnabled>
+      <NonRegDrivingEnabled>true</NonRegDrivingEnabled>
+      <GeotabInjectDataStallsEnabled>false</GeotabInjectDataStallsEnabled>
+    </featureToggles>
+    <DataTransferMechanismSettings>
+        <DataTransferMechanismTimerValue>900000</DataTransferMechanismTimerValue>  <!--milliseconds 1000 = 1 second -->
+    </DataTransferMechanismSettings>
+</appSettings>

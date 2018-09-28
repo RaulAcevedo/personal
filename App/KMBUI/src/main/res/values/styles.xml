@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+<style name="TextViewTheme" parent="style/KMBAppTheme">
+    <item name="android:layout_width">fill_parent</item>
+</style>
+
+<style name="KMBAppTheme" parent="@style/Theme.Sherlock">
+	<item name="android:layout_width">fill_parent</item>
+    <item name="actionBarStyle">@style/Theme.ActionBarWidget</item>
+    <item name="android:actionBarStyle">@style/Theme.ActionBarWidget</item>
+</style>
+
+<style name="EditTextTheme" parent="@style/KMBAppTheme">
+    <item name="android:textColor">@color/black</item>
+	<item name="android:layout_width">fill_parent</item>
+</style>
+
+<style name="LayoutTheme">
+	<item name="android:padding">10dp</item>
+</style>
+
+<style name="KMBLabel">
+    <item name="android:paddingRight">10dp</item>
+    <item name="android:textColor">@color/black</item>
+</style>
+
+<style name="KMBButton" parent="@style/Theme.Button">
+	<item name="android:minWidth">100dp</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:paddingLeft">15dp</item>
+	<item name="android:paddingRight">15dp</item>
+</style>
+
+    <style name="KMBSlimButton" parent="@style/Theme.Button">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+
+<style name="KMBButtonOrange" parent="@style/KMBButton">
+    <item name="android:background">@drawable/button_orange</item>
+</style>
+
+<style name="KMBMediumButton" parent="@style/Theme.Button">
+	<item name="android:minWidth">150dp</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:paddingLeft">15dp</item>
+	<item name="android:paddingRight">15dp</item>
+</style>
+
+<style name="KMBLargeButton" parent="@style/Theme.Button">
+	<item name="android:minWidth">200dp</item>
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:paddingLeft">15dp</item>
+	<item name="android:paddingRight">15dp</item>
+</style>
+
+<style name="EmpRulesLabel" parent="style/KMBLabel">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:minWidth">125dp</item>
+</style>
+
+<style name="EditLogRequestTitle" parent="@style/Theme.TextViewBlack">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+<style name="EditLogRequestSubtitle" parent="@style/EditLogRequestTitle">
+    <item name="android:textColor">@color/subtitleGray</item>
+    <item name="android:textStyle">italic</item>
+</style>
+
+<style name="EditLogRequestText" parent="@style/Theme.TextViewBlack">
+    <item name="android:layout_width">0dp</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:maxLines">1</item>
+</style>
+
+<style name="EditLogRequestDetailLabel">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginRight">5dp</item>
+    <item name="android:textColor">@color/headerblue</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+<style name="EditLogRequestDetailText">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">@color/subtitleGray</item>
+</style>
+
+<style name="EditLogRequestDetailLineView">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">1dp</item>
+    <item name="android:background">@android:color/darker_gray</item>
+</style>
+
+<style name="RodsBorderLabel" parent="style/KMBLabel">
+    <item name="android:minWidth">60dp</item>
+</style>
+
+<style name="GrdLocationCodeLabel" parent="style/KMBLabel">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:minWidth">75dp</item>
+</style>
+
+<style name="GrdTeamDriversLabel" parent="style/KMBLabel">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:minWidth">60dp</item>
+</style>
+
+<style name="RptAvailHoursDutyMargin" parent="@style/Theme.TextViewBlack">
+    <item name="android:layout_marginLeft">160dp</item>
+</style>
+
+<style name="RptDailyHoursLabel" parent="@style/Theme.TextViewBlack">
+</style>
+
+<style name="RptDailyHoursLabelRed" parent="@style/Theme.TextViewRed">
+</style>
+
+<style name="wideSpinner" parent="@style/Theme.SpinnerLight">
+	<item name="android:minWidth">150dp</item>
+	<item name="android:layout_width">wrap_content</item>
+</style>
+
+<style name="TractorNumberText" parent="@style/Theme.EditTextLight">
+    <item name="android:layout_width">fill_parent</item>
+</style>
+
+<!-- 6/8/12 JHM Revised Tablet UI styles  -->
+<style name="LayoutThemeWhite">
+	<item name="android:background">@color/white</item>
+</style>
+<style name="FragmentStyle">
+    <item name="android:paddingTop">5dip</item>
+    <item name="android:paddingLeft">5dip</item>
+    <item name="android:paddingRight">5dip</item>
+</style>
+
+<style name="SplashScreenTheme" parent="@style/Theme.Sherlock.NoActionBar" />
+<style name="SplashScreenContent">
+	<item name="android:background">@color/white</item>
+</style>
+<style name="ActivityLayoutStyle">
+    <item name="android:background">@color/white</item>
+</style>
+
+<style name="Theme.EditTextLight" parent="android:Widget.EditText">
+    <item name="android:background">@android:drawable/editbox_background</item>
+    <item name="android:textColor">@android:color/black</item>
+</style>
+<style name="Theme.SpinnerLight" parent="android:Widget.Spinner">
+    <item name="android:textColor">@color/black</item>
+	<item name="android:background">@android:drawable/btn_dropdown</item>
+</style>
+<style name="Theme.TextViewBlack" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/black</item>
+</style>
+<style name="Theme.TextViewGray" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/menugray</item>
+</style>
+<style name="Theme.TextViewWhite" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/white</item>
+</style>
+<style name="Theme.TextViewBlue" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/headerblue</item>
+</style>
+<style name="Theme.TextViewRed" parent="android:Widget.TextView">
+    <item name="android:textColor">@color/red</item>
+</style>
+<style name="Theme.TextViewBlack.Small" parent="Theme.TextViewBlack">
+    <item name="android:textSize">14sp</item>
+</style>
+<style name="Theme.TextViewGray.Small" parent="Theme.TextViewGray">
+    <item name="android:textSize">14sp</item>
+</style>
+<style name="Theme.TextViewBlack.Medium" parent="Theme.TextViewBlack">
+    <item name="android:textSize">17sp</item>
+</style>
+<style name="Theme.TextViewBlack.Title" parent="Theme.TextViewBlack">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center</item>
+    <item name="android:textStyle">bold</item>
+</style>
+
+<style name="Theme.CheckBoxBlack" parent="android:Widget.CompoundButton.CheckBox">
+    <item name="android:textColor">@color/black</item>
+    <item name="android:button">@drawable/checkbox_copy</item>
+</style>
+<style name="Theme.Button" parent="android:Widget.Button">
+    <item name="android:textColor">@color/white</item>
+    <item name="android:background">@drawable/button_blue</item>
+</style>
+<style name="Theme.ActionBarWidget" parent="Widget.Sherlock.ActionBar">
+    <item name="android:background">@color/headerblue14789</item>
+    <item name="background">@color/headerblue14789</item>
+</style>
+<style name="LeftNavItem">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_margin">5dip</item>
+    <item name="android:padding">10dip</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:background">@drawable/leftnav_item_background</item>
+    <item name="android:checkMark">@android:color/transparent</item>
+</style>
+<style name="LeftNavItem.Small" parent="LeftNavItem">
+    <item name="android:padding">8dip</item>
+</style>
+<style name="LeftNavImageItem">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">fill_parent</item>
+    <item name="android:layout_margin">5dip</item>
+    <item name="android:padding">10dip</item>
+    <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    <item name="android:textColor">@color/headerblue_disabled</item>
+    <item name="android:background">@drawable/leftnav_item_background</item>
+    <item name="android:checkMark">@android:color/transparent</item>
+</style>
+<style name="LeftNavImageItem.Small" parent="LeftNavImageItem">
+    <item name="android:padding">4dip</item>
+</style>
+<style name="LeftNavImageItem.SmallDisabled" parent="LeftNavImageItem">
+    <item name="android:padding">4dip</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:textSize">20sp</item>
+</style>
+<style name="DutyStatusText">
+	<item name="android:layout_width">wrap_content</item>
+	<item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:gravity">center_vertical</item>
+	<item name="android:clickable">true</item>
+	<item name="android:textSize">13sp</item>
+	<item name="android:maxLines">1</item>
+	<item name="android:ellipsize">end</item>
+</style>
+<style name="DutyStutusHeader">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">0dip</item>
+    <item name="android:background">@color/headergreen14789</item>
+    <item name="android:baselineAligned">false</item>
+	<item name="android:paddingLeft">15dip</item>
+</style>
+<style name="DutyStutusHeader_Multiline">
+    <item name="android:paddingTop">3dip</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">0dip</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:orientation">horizontal</item>
+</style>
+<style name="DutyStatusHeader_Element">
+    <item name="android:layout_width">0dip</item>
+	<item name="android:layout_weight">1</item>
+	<item name="android:layout_height">wrap_content</item>
+	<item name="android:orientation">horizontal</item> 
+    <item name="android:layout_gravity">center_vertical</item>
+    <item name="android:gravity">center_vertical</item>
+</style>
+<style name="MainContent">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">0dip</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:baselineAligned">false</item>
+</style>
+<style name="HomeImageButton">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">0dip</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:paddingLeft">10dip</item>
+    <item name="android:paddingTop">0dip</item>
+    <item name="android:paddingRight">10dip</item>
+    <item name="android:paddingBottom">0dip</item>
+    <item name="android:layout_weight">1</item>
+    <item name="android:background">@color/white</item>
+    <item name="android:scaleType">fitCenter</item>    
+</style>
+<style name="HomeButtonText" parent="Theme.TextViewBlack">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_gravity">center_horizontal</item>
+    <item name="android:gravity">center_horizontal</item>
+</style>
+    <style name="NextPrevButton" parent="Theme.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="OffDutyHeader">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0dip</item>
+        <item name="android:background">@color/headerblueOffDuty</item>
+        <item name="android:baselineAligned">false</item>
+        <item name="android:paddingLeft">15dip</item>
+    </style>
+    <style name="OffDutyText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    <style name="HourRecapText" parent="Theme.TextViewBlack">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="HourRecapTextMobil" parent="Theme.TextViewBlack">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="Theme.TextViewBlack.RoadsideInspectionSectionTitle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.TextViewBlack.RoadsideInspectionRowLabel">
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <style name="TimeWithSecondsNumberPicker">
+        <item name="android:layout_width">70dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">3dip</item>
+    </style>
+
+    <style name="TimeWithSecondsColonTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">:</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">3dip</item>
+        <item name="android:layout_marginRight">3dip</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="TableRow_LogDetail">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="TableRow_LogDetail_Header">
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+    </style>
+    <style name="TransparentButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="KMBScrollbar">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:scrollbarStyle">insideInset</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scroll_thumb</item>
+        <item name="android:scrollbarTrackVertical">@drawable/scroll_track</item>
+        <item name="android:scrollbarSize">5dp</item>
+    </style>
+
+    <style name="DOTReportHeader" parent="DOTReportRow">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:textColor">@color/headerblue</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginRight">7dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="DOTReportRow">
+        <item name="android:textSize">@dimen/dot_authority_header_text_size</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+    </style>
+
+    <style name="EulaText" parent="Theme.TextViewBlack">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ClickableEulaText">
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/blue</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+</resources>
+

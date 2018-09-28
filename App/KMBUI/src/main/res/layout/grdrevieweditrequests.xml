@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center">
+
+    <TextView
+        style="@style/Theme.TextViewBlack"
+        android:id="@+id/tvLogDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical" />
+
+    <Button
+        style="@style/KMBButton"
+        android:id="@+id/btnReviewLog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tvLogDate"
+        android:layout_alignParentRight="true"
+        android:text="@string/reviewlog" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_alignLeft="@+id/tvLogDate"
+        android:layout_alignParentBottom="true"
+        android:background="@color/subtitleGray" />
+
+</RelativeLayout>

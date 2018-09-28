@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dialog_relative_percentage_width">70</integer>
+    <integer name="dialog_relative_percentage_height">30</integer>
+
+
+    <item name="dot_authority_report_beginning_time_column_weight" type="integer" format="float">1.5</item>
+    <item name="dot_authority_report_ending_time_column_weight" type="integer" format="float">1.5</item>
+    <item name="dot_authority_report_number_column_weight" type="integer" format="float">1.8</item>
+    <item name="dot_authority_report_name_column_weight" type="integer" format="float">2.2</item>
+    <item name="dot_authority_report_address_column_weight" type="integer" format="float">3</item>
+
+</resources>

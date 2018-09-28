@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="headerblue">#4563a8</color>
+    <color name="headerblueOffDuty">#39ACD5</color>
+    <color name="headerblue_disabled">#5B7DB5</color>
+    <color name="headerblue14789">#1F4069</color>
+    <color name="headergreen14789">#556C28</color>
+    <color name="header_orange">#F68026</color>
+    <color name="light_orange">#F79526</color>
+    <color name="subtitleGray">#808080</color>
+    <color name="menugray">#BBBBBB</color>
+    <color name="shortcutgray">#333333</color>
+    <color name="menudivider">#afafaf</color>
+    <color name="red">#FFFF4444</color>
+    <color name="orange">#FF8100</color>
+    <color name="dailyhourstotal">#0080FF</color>
+    <color name="green">#00FF00</color>
+    <color name="yellow">#ffff00</color>
+    <color name="blue">#0000ff</color>
+    <color name="error_red">#b94a48</color>
+</resources>

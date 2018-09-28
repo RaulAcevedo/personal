@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Portrait
+        xhdpi
+            4.65
+            4.7
+        xxhdpi
+            5.0
+    -->
+    <dimen name="dot_authority_header_text_size">11sp</dimen>
+</resources>

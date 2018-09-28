@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:orientation="vertical"
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="80"
+    android:padding="0dp"
+    android:layout_margin="0dp">
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp"/>
+
+    <TextView
+        android:id="@+id/lblLogDate"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnPreviousEvent"
+            style="@style/NextPrevButton"
+            android:visibility="gone"
+            android:text="@string/editLogPreviousDay" />
+
+        <TextView
+            android:id="@+id/lblEventXofX"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+        <Button
+            android:id="@+id/btnNextEvent"
+            style="@style/NextPrevButton"
+            android:visibility="gone"
+            android:text="@string/editLogNextDay" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearHUD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:animateLayoutChanges="true">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="5dp"/>
+
+        <TextView
+            android:id="@+id/txtError"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#b94a48"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/hud_error"/>
+
+        <TextView
+            android:id="@+id/txtSuccess"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#468847"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/hud_success"/>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_fragment"
+        style="@style/ActivityLayoutStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

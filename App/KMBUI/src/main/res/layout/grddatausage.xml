@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dip" >
+    
+	<TextView
+	    android:id="@+id/gdu_tvDateValue"
+	    style="@style/Theme.TextViewBlack"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content" >
+	</TextView>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:paddingLeft="5dip">
+	    
+	    <TextView
+	        android:id="@+id/gdu_tvSentLabel"
+	        style="@style/Theme.TextViewBlack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dip"
+	        android:text="@string/lblSent" >
+	    </TextView>
+	
+	    <TextView
+	        android:id="@+id/gdu_tvSentValue"
+	        style="@style/Theme.TextViewBlack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dip" >
+	    </TextView>
+	
+	    <TextView
+	        android:id="@+id/gdu_tvReceivedLabel"
+	        style="@style/Theme.TextViewBlack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="10dip"
+	        android:text="@string/lblReceived" >
+	    </TextView>
+	
+	    <TextView
+	        android:id="@+id/gdu_tvReceivedValue"
+	        style="@style/Theme.TextViewBlack"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="5dip" >
+	    </TextView>
+	
+	</LinearLayout>
+</LinearLayout>

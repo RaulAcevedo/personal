@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    style="@style/LayoutThemeWhite"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id ="@+id/leftnav_fragment_parent"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="30"
+        android:background="@color/menugray">
+
+        <FrameLayout
+            android:id="@+id/leftnav_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </FrameLayout>
+    <LinearLayout
+        android:id ="@+id/content_fragment_parent"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:orientation="vertical">
+
+        <FrameLayout
+                android:id="@+id/offduty_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                />
+
+        <FrameLayout
+            android:id="@+id/content_fragment"
+            style="@style/ActivityLayoutStyle"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <FrameLayout
+            android:id="@+id/recap_hours_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

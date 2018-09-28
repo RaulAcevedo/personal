@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.jjkeller.kmb">
+    <application>
+        <!-- This custom meta-data is here to allow the team to more easily identify which flavor an apk is from at deploy-time (PlayStore/Encompass/ALK) -->
+        <meta-data android:name="BuildFlavor" android:value="Encompass" />
+    </application>
+</manifest>

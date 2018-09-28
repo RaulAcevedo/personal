@@ -1,0 +1,201 @@
+This J. J. Keller Mobile ® Application End User License Agreement (“Agreement”) for the KellerMobile Application (“Application”) is a legal agreement between J. J. Keller & Associates, Inc. and its successors and assigns (“J. J. Keller”) and user (“You” or “Your”). 
+
+If You are an individual acting on behalf of an entity, You represent and warrant to J. J. Keller that You have all necessary authority to bind such entity to the terms and conditions of this Agreement.  You acknowledge and agree that this Agreement is solely between J. J. Keller and You, and not with any other third party.
+
+THIS IS A BINDING LEGAL AGREEMENT. BY ACCESSING, DOWNLOADING, OR OTHERWISE USING THIS APPLICATION, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.  YOUR CONTINUED USE OF THE APPLICATION IS CONDITIONED UPON YOUR CONTINUED COMPLIANCE WITH THE TERMS AND CONDITIONS OF THIS AGREEMENT.
+
+IF YOU DO NOT WISH TO BE BOUND BY THIS AGREEMENT, DO NOT ACCESS, DOWNLOAD, OR OTHERWISE USE THE APPLICATION AND UNISTALL THE APPLICATION FROM ANY HARDWARE ON WHICH IT IS INSTALLED.
+
+In consideration of the promises and covenants described below, and other good and valuable consideration, You agree as follows.
+
+1.	LICENSE GRANT AND SERVICES
+
+1.1	This Application is licensed to You and not sold to You.  You have no ownership rights in or to the Application.
+
+1.2	Subject to compliance with all of the terms and conditions herein, J. J. Keller grants You a personal, non-exclusive, non-transferable, non-assignable, non-sublicensable, limited license to download and use the Application on any computer equipment or mobile communication device that You own or control (collectively “Hardware”).  J. J. Keller reserves all rights not expressly granted in this Agreement.
+
+1.3	J. J. Keller reserves the right to change, suspend, remove or disable access to the Application at any time without notice.  In no event shall J. J. Keller be liable for the removal of or disabling of access to the Application.  
+
+1.4	J. J. Keller may impose limits on the use of or access to the Application in any case and without notice or liability.
+
+2.	FEES
+
+2.1	J. J. Keller provides this Application free of charge to customers.
+
+3.	PAYMENT TERMS
+
+3.1   N/A
+
+4.	LICENSE RESTRICTIONS
+
+4.1	The Application may be used solely for Your internal business purposes and only for those services for which You pay the applicable fee.  Any other use is expressly forbidden.
+
+4.2	You may not post or transmit any unlawful, threatening, abusive, libelous, defamatory, obscene, vulgar, pornographic, profane, or indecent information or material of any kind, including without limitation any transmissions constituting or encouraging conduct that would constitute a criminal offense, give rise to civil liability or otherwise violate any local, state, national, or international law (collectively, the “Prohibited Postings”).   You further agree that You will immediately notify J. J. Keller of any Prohibited Postings of which You become aware and authorize J. J. Keller to remove any of Your Data that may constitute Prohibited Postings.
+
+4.3	You may not post or transmit any information or other material that violates or infringes the rights of third parties, including material that is an invasion of privacy or publicity rights or that is protected by copyright, trademark, or other proprietary rights, without first obtaining permission from the owner or right holder, as applicable. You may not use the Application in any manner to harass, abuse, stalk, threaten, defame or otherwise infringe or violate the rights of any third party.  You further agree that You will immediately notify J. J. Keller of any such information or other material of which You become aware and authorize J. J. Keller to remove the same to the extent that it is Your Data.
+
+4.4	You may not knowingly post or transmit any information, software or other material that contains a virus or other harmful component.  You further agree that You will immediately notify J. J. Keller of any such virus or other harmful component of which You become aware and authorize J. J. Keller to remove the same to the extent that it is Your Data.
+
+4.5	You may not alter, damage, or delete any content or other communications that are not Your Data or to otherwise interfere with the ability of others to access the Application.
+
+4.6	You may not intentionally or negligently disrupt the normal flow of communication on the Application.
+
+4.7	You may not claim a relationship with or to speak for any business, association, institution, or other organization for which You are not authorized to claim such a relationship.
+
+4.8	You may not violate any operating rule, policy, or guideline of Your Internet access provider or online service. 
+
+4.9	You may not copy, modify, adapt, translate, reverse engineer, make alterations, decompile, dissemble, attempt to reconstruct, identify or discover any source code, underlying ideas, underlying user interface techniques or algorithms or make derivative works based on the Application, except as otherwise permitted by law.
+
+4.10	You may not rent, lease, lend, sell, redistribute or attempt to grant other rights to the Application to third parties.
+
+4.11	You may not use the Application for any purposes prohibited by United States law, including, without limitation, the development design, manufacture or production of nuclear missiles, or chemical or biological weapons.
+
+5.	J. J. KELLER CONTENT AND OWNERSHIP
+
+5.1	Excluding only Your Data and the data, all of the content featured or displayed in or through the Application, including without limitation, software, code, text, images, graphics, photographs, video and audio, and sound (the “J. J. Keller Content”) and all trademarks, trade names and trade dress included in the Application are the intellectual property of and owned by J. J. Keller or its licensors. Your use of J. J. Keller Content is governed by this Agreement and applicable worldwide intellectual property laws and treaties. 
+
+5.2	You acknowledge that all elements of the Application are proprietary to J. J. Keller or its licensors and are protected by trade dress, copyright, moral rights, trademark and other laws relating to intellectual property rights.  
+
+5.3	You may not modify, copy, reproduce, transmit, distribute, publish, create derivative works from, display or otherwise transfer or commercially exploit any of the J. J. Keller Content, or the Application, in whole or in part.  
+
+5.4	You acknowledge that J. J. Keller or its licensors, as applicable, remains the owner of the J. J. Keller Content and that You do not acquire any intellectual property rights by virtue of this Agreement other than the right to use the J. J. Keller Content as explicitly provided herein. 
+
+5.5	FBI ANTI-PIRACY WARNING:  The unauthorized reproduction or distribution of the Application is illegal. Criminal copyright infringement, including infringement without monetary gain, is investigated by the FBI and is punishable by up to five years in federal prison and a fine of $250,000. 
+
+5.6	J. J. Keller and its licensors may make improvements and/or changes to J. J. Keller Content at any time and from time to time.
+
+5.7	You understand that except for J. J. Keller Content, neither J. J. Keller, its licensors, or affiliates, or their respective directors, officers, employees, and agents controls, provides, or are responsible for any content, goods or services available through the Application.  All such content, goods and services are made accessible on the Internet by independent third parties and are not part of the J. J. Keller Content or controlled by J. J. Keller. J. J. Keller neither endorses nor is responsible for the accuracy, completeness, usefulness, quality, or availability of any content, goods, or services available on any site linked to or from the Application, all of which are the sole responsibility of such independent third parties, and Your use thereof is solely at Your own risk. Neither J. J. Keller, nor its licensors, or their respective directors, officers, employees, and agents shall be held responsible or liable, directly or indirectly, for any loss or damage caused or alleged to have been caused by Your use of or reliance on any content, goods or services available on any site linked to or from the Application or Your inability to access the Internet or any site linked to or from the Application.
+
+6.	YOUR DATA
+
+6.1	As between J. J. Keller and You, You will own all data, information or material that You enter into the Application (“Your Data”). Only You can enter, edit and use Your Data. J. J. Keller uses Your Data only as outlined in J. J. Keller’s Privacy Policy, a link to which is in Section 7.0 below.  
+
+6.2	Except as permitted in this Agreement, J. J. Keller will not edit, delete or disclose the contents of Your Data unless authorized by You or unless J. J. Keller is required to do so by law or in the good faith belief that such action is necessary to: (i) conform with applicable laws or comply with legal process served on J. J. Keller; (ii) protect and defend the rights or property of J. J. Keller; or (iii) enforce this Agreement.  
+
+6.3	J. J. Keller has taken reasonable steps to keep Your Data secure. J. J. Keller does not guarantee the security or integrity of Your Data, password or login ID.  
+
+7.	PRIVACY
+
+7.1	J. J. Keller takes reasonable steps to ensure your privacy and protect the privacy of Your Data.  
+
+7.2	J. J. Keller’s Privacy Policy can be found at www.jjkeller.com/privacy and may be amended from time to time.
+
+7.3	You acknowledge that J. J. Keller is a passive conduit for online storage, retrieval and distribution of Your Data.
+
+7.4	You agree that J. J. Keller may collect and use certain information about You, Your Hardware, Your use of the Application and the Application’s performance, in accordance with J. J. Keller’s Privacy Policy, that is gathered to facilitate the provision of Updates, product support and other services to You related to the Application.
+
+8.	YOUR REPRESENTATIONS, WARRANTIES AND RESPONSIBILITIES
+
+8.1	Use of the Application is available only to persons who can form legally binding contracts under applicable law. You represent and warrant to J. J. Keller that You are such a person. 
+
+8.2	Upon accessing and using the Application, You will provide a password and login ID.  You are responsible for maintaining the confidentiality of Your password and login ID.  You are responsible for all activities that occur under Your password and login ID. Your password and login ID may not be transferred or sold to another party. You agree to immediately notify J. J. Keller via email at the customer support email address specified herein of any unauthorized use of Your password or login ID.
+
+8.3	You are responsible for Your Data. 
+
+8.4	You are responsible for providing all Hardware and/or service to connect to the Internet.  You are responsible for all Internet access charges, telephone charges or other fees or charges incurred in connecting to the Internet and accessing the Application. 
+
+8.5	You agree to access and use the Application only for lawful purposes and solely for purposes permitted by this Agreement.
+
+8.6	You are solely responsible for the knowledge of and adherence to any and all laws, statutes, rules and regulations, pertaining to: (i) Your Data; (ii) Your use of the Application, (iii) the use of any networks or other services connected to the Application, and (iv) the communications means by which You connect Your Hardware to the Application.
+
+9.	MAINTENANCE, SUPPORT and UPDATES
+
+9.1	J. J. Keller has no obligation whatsoever to furnish any maintenance, support or updates with respect to this Application.
+
+9.2	The terms and conditions of this Agreement govern any updates, upgrades, patches, fixes or like enhancements to the Application (collectively “Updates”) that replace and/or supplement the original Application unless such Updates are accompanied by a separate license agreement in which case the terms of the separate license will govern.
+
+10.	WARRANTIES AND DISCLAIMER OF WARRANTIES
+
+10.1	YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE J. J. KELLER CONTENT AND THE APPLICATION IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU.  
+
+10.2	TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APPLICATION IS PROVIDED “AS IS” AND “AS PROVIDED” WITH ALL FAULTS. 
+
+10.3	J. J. KELLER HEREBY EXPRESSLY DISCLAIMS ALL WARRANTIES WITH RESPECT TO THE APPLICATION, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, OF SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF ACCURACY, OR QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.
+
+10.4	J. J. KELLER DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE APPLICATION, THAT FUNCTIONS CONTAINED IN OR SERVICES PROVIDED BY THE APPLICATION WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE APPLICATION WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE APPLICATION WILL BE CORRECTED.  
+
+10.5	NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY J. J. KELLER SHALL CREATE A WARRANTY.
+
+10.6	SHOULD THE APPLICATION PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+10.7	J. J. KELLER HEREBY EXPRESSLY DISCLAIMS ALL WARRANTIES THAT THE APPLICATION OR ANY INTERNET SITE LINKED TO OR FROM THE APPLICATION WILL BE UNINTERRUPTED OR ERROR FREE, THAT DEFECTS WILL BE CORRECTED, OR THAT THE APPLICATION OR THE SERVER THAT MAKES SUCH APPLICATION AVAILABLE ARE FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. J. J. KELLER HEREBY EXPRESSLY DISCLAIMS ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE APPLICATION OR ANY INTERNET SITE LINKED TO OR FROM THE APPLICATION AS TO THE TIMELINESS, SEQUENCE, ACCURACY, AUTHORITY, COMPLETENESS, USEFULNESS, NON INFRINGEMENT, RELIABILITY, AVAILABILITY, OR SUBSTANCE OF ANY CONTENT, INFORMATION, SERVICE, OR TRANSACTION PROVIDED THROUGH THE APPLICATION OR ANY SITE LINKED TO OR FROM THE APPLICATION.
+
+11.	INDEMNIFICATION
+
+11.1	You agree to indemnify and hold harmless J. J. Keller, and its directors, officers, employees, and agents from any and all liabilities, claims, and expenses, including reasonable attorneys’ fees and other professionals’ fees, arising from Your breach of this Agreement, or Your access or use of the Application.
+
+12.	LIMITATION OF LIABILITY
+
+12.1	TO THE EXTENT NOT PROHIBITED BY LAW,  UNDER NO CIRCUMSTANCES SHALL J. J. KELLER BE LIABLE FOR ANY PERSONAL INJURY OR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, DAMAGES FOR LOSS OF DATA, DAMAGES FOR BUSINESS INTERRUPTION, DAMAGES CAUSED OR ALLEGEDLY CAUSED BY ANY FAILURE OF PERFORMANCE, ERROR, OMISSION, INTERRUPTION, ELECTRICAL SURGE/DAMAGE/ INTERFERENCE, DELETION, DEFECT, DELAY IN OPERATION OR TRANSMISSION, COMPUTER VIRUS, COMMUNICATIONS LINE FAILURE, BREAKDOWN OF EQUIPMENT, SOFTWARE ERROR, INFRINGEMENT, UNAUTHORIZED ACCESS TO, OR THEFT, DESTRUCTION, ALTERATION, OR USE OF, RECORDS OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APPLICATION, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORTUOUS BEHAVIOR, NEGLIGENCE OR OTHERWISE) AND EVEN IF J. J. KELLER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  
+
+12.2	Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability.  Accordingly, some of the above limitations and disclaimers may not apply to You.  To the extent that J. J. Keller may not, as a matter of applicable law, disclaim any warranty or limit its liabilities, the scope and duration of such warranty and the extent of J. J. Keller’s liability shall be the minimum permitted under such applicable law.  
+
+13.	TERM AND TERMINATION
+
+13.1	This Agreement is effective until terminated by J. J. Keller or You. 
+
+13.2	You may terminate this Agreement at any time by notifying J. J. Keller of such termination via e-mail at the customer support email address specified herein and destroying or uninstalling all copies of the Application. Except as noted herein, no refund will be paid for any termination of this Agreement, regardless of the cause and Your sole and exclusive remedy with respect to dissatisfaction with any policies, practices, fees, or services of J. J. Keller in accessing the Application is for You to discontinue accessing and using the Application. 
+
+13.3	J. J. Keller may terminate or temporarily suspend Your access to all or any part of the Application, without notice to You, for conduct that J. J. Keller believes is a breach of this Agreement or a violation of any policies or guidelines posted by J. J. Keller, or for other conduct that J. J. Keller believes, in its sole discretion, is harmful to J. J. Keller or other users. 
+
+13.4	J. J. Keller may discontinue operating the Application or providing You with access to or use of the Application and terminate this Agreement at any time for any reason in its sole discretion. 
+
+13.5	In the event of termination, You will no longer be authorized to access the Application. You shall cease use of the Application destroy all copies of the Application and/or delete or uninstall the Application from Your Hardware. 
+
+13.6	Upon termination of this Agreement for reasons other than Your breach, J. J. Keller will use reasonable commercial efforts to assist You, at J. J. Keller’s then standard fee for such services, in obtaining any of Your Data as may then be available and transferring the same to a J. J. Keller-approved storage media, provided You have provided J. J. Keller notice prior to the termination date of this Agreement to make such a transfer.
+
+13.7	The obligations under this Agreement that by their nature would continue beyond termination of this Agreement, including but not limited to the restrictions on the use of the J. J. Keller Content, disclaimer of warranties, limitation of liability and indemnification, shall survive any such termination.
+
+14.	EXPORT LAWS
+
+14.1	You acknowledge that the laws and regulations of the United States restrict the export and re-export of commodities and technical data of United States origin. 
+ 
+14.2	You agree that you will not export or re-export the Application in any form in violation of the laws of the United States or any foreign jurisdiction.  
+
+14.3	The Application may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or the U.S. Department of Commerce Denied Peron’s list of Entity List.  
+
+15.	U.S. GOVERNMENT END-USERS   
+ 
+15.1	The Application is "Commercial Items," as that term is defined at 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation," as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable.  
+
+15.2	Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §§227.7202-1 through 227.7202-4, as applicable, the Application is being licensed to U.S. Government end-users (a) only as "Commercial Items," and (b) with only those rights as are granted to all other end-users pursuant to the terms and conditions herein.  Unpublished-rights are reserved under the copyright laws of the United States.
+
+16.	GOVERNING LAW
+
+16.1	The validity, construction, and enforcement of this Agreement and its terms and conditions shall be determined in accordance with the laws of Wisconsin, without reference to conflicts of laws principles.
+
+16.2	All disputes hereunder shall be resolved in the applicable state or federal courts having jurisdiction in Wisconsin. 
+
+16.3	If any action is brought to enforce the Agreement, or any term or condition, the prevailing party shall be awarded reasonable attorneys’ fees together with expenses and costs incurred with such action.
+
+17.	ENTIRE AGREEMENT
+
+17.1	This Agreement comprises the entire agreement between J. J. Keller and You regarding Your use of the Application, and supersedes any prior agreements with respect to the subject matter herein. 
+
+18. SEVERABILITY
+
+18.1	If any provision of this Agreement or any other policy is held invalid or unenforceable, that portion shall be construed in accordance with applicable law as nearly as possible to reflect the original intention of the parties and the remaining portions will continue in full force and effect.
+
+19.	WAIVER
+
+19.1	The failure of J. J. Keller to insist upon or enforce strict performance of any provision of this Agreement shall not be construed as a waiver of any provision or right.
+
+20.	ASSIGNMENT AND TRANSFER
+
+20.1	This Agreement is personal to You and You may not assign, transfer or sell Your rights or obligations hereunder to any third party.  Any attempt to do so is void.
+
+20.2	J. J. Keller may assign, transfer, sell, rent or lend this Agreement, in whole or in part, at any time without notice to You.
+
+21.	AMENDMENTS TO THIS AGREEMENT
+
+21.1	J. J. Keller reserves the right to modify or amend any of the terms and conditions of this Agreement from time to time without notice to You.  Your continued use of the Application following the posting of any changes to the Agreement means You accept those changes.  If any such changes are unacceptable to You, You must discontinue use of the Application.
+
+22.	SUGGESTIONS
+
+22.1	If You elect to provide or make available to J. J. Keller any suggestions, comments, ideas, improvements or other feedback or materials related to the Application (collectively “Suggestions”), J. J. Keller is free to use, disclose, reproduce, modify, license, transfer and otherwise utilize Your Suggestions in any manner.  You will be entitled to no compensation or credit for, nor gain any right, title or interest in or to any product that J. J. Keller incorporates or otherwise is based upon Your Suggestion, including without limitation any Updates to the Application.
+
+23.	ASSISTANCE
+
+23.1	This Application is provided by J. J. Keller & Associates, Inc., 3003 Breezewood Lane, Neenah, WI 54956.
+
+23.2	If You have any questions, complaints or claims with respect to the Application or this Agreement, You may contact J. J. Keller at (800) 327-1342 or send an email to support@jjkeller.com.

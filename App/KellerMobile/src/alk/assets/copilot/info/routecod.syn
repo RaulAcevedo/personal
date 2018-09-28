@@ -1,0 +1,380 @@
+# This is an altnames-encoder config file
+# Lines BEGINNING with '#' are comments!
+# Important warning!
+# There are two sections:
+#	1) DIRECTIONS: lists synonyms for directions.
+#			keyword: string
+#		   where keyword is one of N, S, E, W, NE, NW, SE, SW
+#
+#	2) CLASSIFICATIONS: lists synonym formats for road names
+#		   category [ PRE/POST modifier ]: expression
+#		   e.g., 'LOCAL POST BYPASS: Route %N Bypass'
+#		   e.g., 'STATE PRE ALTERNATE: Alternate S.R. %A-%N'
+#		   where '%N' indicates the placement of the route number
+#		   and '%A' indicates the placement of an alphabetic prefix/suffix
+#			the expressions ARE case-sensitive
+#
+#############################################################
+
+#Canada
+@37
+CAT3: Highway
+CAT3: Hwy
+CAT3: St
+CAT3: State
+CAT3: State Highway
+CAT3: State Hwy
+CAT3: State Rd
+CAT3: State Rt
+CAT3: State Road
+CAT3: State Rte
+CAT3: State Route
+CAT3: ST. RD
+CAT3: S.R.
+CAT3: SR
+
+#Canadian State Abbreviations
+CAT3: NU
+CAT3: YT
+CAT3: NT
+CAT3: BC
+CAT3: AB
+CAT3: SK
+CAT3: MB
+CAT3: ON
+CAT3: QC
+CAT3: NB
+CAT3: PE
+CAT3: NS
+CAT3: NL
+CAT3: Route
+CAT5: Route
+
+#Mexico
+@137
+CAT1: Mexico
+CAT3: AG
+CAT3: BJ
+CAT3: BS
+CAT3: CP
+CAT3: CH
+CAT3: CI
+CAT3: CU
+CAT3: CL
+CAT3: DF
+CAT3: DG
+CAT3: GJ
+CAT3: GR
+CAT3: HG
+CAT3: JA
+CAT3: EM
+CAT3: MH
+CAT3: MR
+CAT3: NA
+CAT3: NX
+CAT3: OA
+CAT3: PU
+CAT3: QA
+CAT3: QR
+CAT3: SL
+CAT3: SI
+CAT3: SO
+CAT3: TA
+CAT3: TM
+CAT3: TL
+CAT3: VZ
+CAT3: YC
+CAT3: ZT
+CAT3: Route
+CAT5: Route
+
+#New Zealand
+@154
+CAT1: SH
+CAT1: S H
+CAT1: State Highway
+CAT1: State Hwy
+CAT1: Highway
+CAT1: Hwy
+CAT1: Route
+
+CAT2: SH
+CAT2: S H
+CAT2: State Highway
+CAT2: State Hwy
+CAT2: Highway
+CAT2: Hwy
+CAT2: Route
+
+CAT3: SH
+CAT3: S H
+CAT3: State Highway
+CAT3: State Hwy
+CAT3: Highway
+CAT3: Hwy
+CAT3: Route
+
+#Puerto Rico
+@174
+CAT1: I 
+CAT1: Interstate
+CAT1: Interstate Hwy
+CAT1: Interstate Highway
+CAT1: Interstate PR
+CAT1: Interstate P.R.
+CAT2: PR
+CAT2: P.R.
+CAT2: Puerto Rico
+CAT2: Puerto Rico Highway
+CAT2: Puerto Rico Hwy
+CAT2: Carr
+CAT2: Carre
+CAT2: Carreterra
+CAT2: Expreso
+CAT2: Autopista
+CAT3: Ruta Rural
+CAT3: RR
+
+#United States
+@224
+CAT1: I 
+CAT1: Interstate
+CAT1: Interstate Hwy
+CAT1: Interstate Highway
+
+CAT2: U.S.
+CAT2: United States Highway
+CAT2: US Hwy
+CAT2: US RT
+CAT2: US Route
+CAT2: U.S. Hwy
+CAT2: US Highway
+CAT2: U.S. Highway
+CAT2: US
+CAT2: US Rte
+
+CAT3: Highway
+CAT3: Hwy
+CAT3: St
+CAT3: State
+CAT3: State Highway
+CAT3: State Hwy
+CAT3: State Rd
+CAT3: State Rt
+CAT3: State Road
+CAT3: State Rte
+CAT3: State Route
+CAT3: ST. RD
+CAT3: S.R.
+CAT3: SR
+
+# State Abbreviations
+CAT3: AL
+CAT3: AK
+CAT3: AZ
+CAT3: AR
+CAT3: CA
+CAT3: CT
+CAT3: DE
+CAT3: DC
+CAT3: FL
+CAT3: GA
+CAT3: HI
+CAT3: ID
+CAT3: IL
+CAT3: IN
+CAT3: IA
+CAT3: KS
+CAT3: KY
+CAT3: LA
+CAT3: ME
+CAT3: MD
+CAT3: MA
+CAT3: MI
+CAT3: MN
+CAT3: MS
+CAT3: MO
+CAT3: MT
+CAT3: NE
+CAT3: NV
+CAT3: NH
+CAT3: NJ
+CAT3: NM
+CAT3: NY
+CAT3: NC
+CAT3: ND
+CAT3: OH
+CAT3: OK
+CAT3: OR
+CAT3: PA
+CAT3: RI
+CAT3: SC
+CAT3: SD
+CAT3: TN
+CAT3: TX
+CAT3: UT
+CAT3: VA
+CAT3: VT
+CAT3: WA
+CAT3: WV
+CAT3: WI
+CAT3: WY
+
+CAT4: C H
+CAT4: C R
+CAT4: C Rd
+CAT4: C.R.
+CAT4: Cnty Rd
+CAT4: Co
+CAT4: Co Hw
+CAT4: Co Hy
+CAT4: Co Hwy
+CAT4: Co Ln
+CAT4: Co Road
+CAT4: Co Route
+CAT4: Co Rt
+CAT4: Co Rte
+CAT4: Co Trunk Hwy
+CAT4: Co Trunk Rd
+CAT4: Co. Hwy
+CAT4: Co. Rd.
+CAT4: Co Rd
+CAT4: County Highway
+CAT4: County Hwy
+CAT4: County Lane
+CAT4: County Rd
+CAT4: County Road
+CAT4: County Rt
+CAT4: County Route
+CAT4: County Rte
+CAT4: County State Aid Hwy
+CAT4: CR
+CAT4: C.R.
+CAT4: Cty Rd
+CAT4: Parish Rd
+CAT4: Par Rd
+CAT4: County
+CAT4: County Hwy
+CAT4: County Road
+CAT4: County Rd
+
+CAT3: CO
+
+CAT5: Local
+CAT5: Co Touring Rte
+CAT5: Route
+CAT5: Rt
+CAT5: Rte
+CAT5: Service Route
+CAT5: Srv Rd
+CAT5: Town Highway
+CAT5: Town Road
+CAT5: Township Highway
+CAT5: Township Hwy
+CAT5: Township Rd
+CAT5: Twp Hwy
+CAT5: Twp Rd
+CAT5: Township Road
+CAT5: FM
+CAT5: F.M.
+CAT5: F M
+CAT5: Farm
+CAT5: Farm To Market
+CAT5: Farm-To-Market
+CAT5: FM Route
+CAT5: F.M. Route
+CAT5: F M Route
+CAT5: Farm Route
+CAT5: Farm To Market Route
+CAT5: Farm-To-Market Route
+
+
+
+#Modifiers
+ACCESS: Acc
+ALTERNATE: A
+ALTERNATE: Alt
+BUSINESS: Bus
+BUSINESS: (Bus)
+BUSINESS: BR
+BUSINESS: BL
+BYPASS: Byp
+CITY : City
+CONNECTOR : Con
+DELTA: Del
+EXTENSION: Ext
+FARM: Frm
+FIRE: Fire
+FOREST: For
+FOREST: Co Forest
+FOREST: Forrest Trail
+FOREST: Forrest Service
+FOREST: For. Road
+FOREST: Forest Rd
+FOREST: Forest Route
+FOREST: Forest Rt
+FOREST: Forest Rte
+FOREST: F S
+FOREST: F R
+FOREST: F.S.R
+FOREST: Forestry
+FRONTAGE: Front
+FRONTAGE: Fr
+INDIAN: Ind
+INDIAN: Indian Rte
+LINK: LNK
+LOGGING: Log
+LOOP: Lp
+OLD: Old
+PARISH: Par
+PARK: Prk
+PRIVATE: Pr
+PUBLIC: Pb
+RAMP: Rp
+RANCH: Rnch
+RANCH: RM
+SCENIC: Sc
+SCENIC: Scn
+SERVICE: Ser
+SERVICE: Serv
+SERVICE: Servc
+SERVICE: Service Road
+SERVICE: Service Rd
+SERVICE: Service Rt
+SERVICE: Service Rte
+SERVICE: Service Route
+SERVICE: SVC
+SERVICE: SVC Rd
+SERVICE: SVC Road
+SERVICE: SVC Rte
+SERVICE: SVC Rt
+SERVICE: SVC Route
+SPUR: Spr
+TRUCK: Trk
+TRUCK: (Truck)
+TRUCK: (Trk)
+FM: Farm to Market
+FM: FM
+FM: F M
+TOLL: Tol
+EXPRESS: Express
+EXPRESS: Express Lane
+EXPRESS: Express Lan
+EXPRESS: Express Ln
+EXPRESSWAY: Expressway
+CALLEPARALELA: Calle Paralela
+NEGOCIOCARRETERA: Negocio Carretera
+FUTURE: Future
+
+#Modifiers - Italy
+@102
+ADD: Add
+BIS: Bis
+DIRAMAZIONE: Dir
+RACCORDO: Racc
+RADDOPPIATO: Radd
+QUATER: Quater
+TERCER: Ter
+TRAVERSA: Trav
+VARIANTE: Var
+DCN: Diramazione Centrale Nuorese

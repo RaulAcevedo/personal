@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/recap_hours_fragment"
+    android:weightSum="1" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/recapHours"
+            android:layout_width="fill_parent"
+            style="@style/Theme.TextViewBlack"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="@string/lblrecapofhoursgained"
+            android:textColor="#FAE3AC"
+            android:background="#F48024" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/lblRecapDayOne"
+            android:layout_width="fill_parent"
+            style="@style/HourRecapText"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#629FE7" />
+        <TextView
+            android:id="@+id/lblRecapDayTwo"
+            android:layout_width="fill_parent"
+            style="@style/HourRecapText"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#4A90E2" />
+        <TextView
+            android:id="@+id/lblRecapDayThree"
+            android:layout_width="fill_parent"
+            style="@style/HourRecapText"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#3A7AC3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/lblRecapTimeDayOne"
+            android:layout_width="fill_parent"
+            style="@style/Theme.TextViewBlack"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#629FE7" />
+        <TextView
+            android:id="@+id/lblRecapTimeDayTwo"
+            android:layout_width="fill_parent"
+            style="@style/Theme.TextViewBlack"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#4A90E2" />
+        <TextView
+            android:id="@+id/lblRecapTimeDayThree"
+            android:layout_width="fill_parent"
+            style="@style/Theme.TextViewBlack"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:background="#3A7AC3" />
+    </LinearLayout>
+
+</LinearLayout>

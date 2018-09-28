@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="150dp"
+    android:paddingTop="5dp">
+
+    <TextView android:id="@+id/lblNavButtonsTitle"
+              android:gravity="center_horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              style="@style/Theme.TextViewBlack" />
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_below="@+id/lblDateSelectorTitle">
+
+        <Button android:id="@+id/btnPrevious"
+            style="@style/NextPrevButton"
+            android:text="@string/editLogPreviousDay" />
+
+        <TextView android:id="@+id/lblEventXofX"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_alignBottom="@+id/btnPrevious"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/btnPrevious"/>
+
+        <Button android:id="@+id/btnNext"
+            style="@style/NextPrevButton"
+            android:text="@string/editLogNextDay"
+            android:layout_alignBottom="@+id/lblEventXofX"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@+id/lblEventXofX"/>
+    </RelativeLayout>
+</RelativeLayout>

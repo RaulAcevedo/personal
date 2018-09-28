@@ -1,0 +1,139 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+def sharedUserId = (sharedUserIdProp && sharedUserIdProp != "empty") ? sharedUserIdProp : ""
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultPublishConfig "standardDebug"
+    publishNonDefault true
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+        resValue "string", "shared_user_id", sharedUserId
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        debug {
+            resValue "string", "shared_user_id", (sharedUserId != "") ? sharedUserId : "com.jjkeller.kmb.shared.debug"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    flavorDimensions "version"
+    productFlavors {
+        playStore {
+            dimension "version"
+        }
+        encompass {
+            dimension "version"
+        }
+    }
+
+    sourceSets {
+        playStore {
+            java.srcDirs = ['src/main/java', 'src/playStore/java']
+            res.srcDirs = ['src/main/res']
+        }
+        encompass {
+            java.srcDirs = ['src/main/java', 'src/encompass/java']
+            res.srcDirs = ['src/main/res']
+        }
+        test {
+            resources.srcDirs += ['src/main', 'src/encompass']
+        }
+    }
+
+    // prevent the "superClassName is empty" error for classes not annotated as tests
+    tasks.withType(Test) {
+        scanForTestClasses = false
+        include "**/*Test.class" // whatever Ant pattern matches your test class files
+        include "**/*Tests.class" // whatever Ant pattern matches your test class files
+    }
+}
+
+
+//todo wired for debug classes only..  add for any variant??
+apply plugin: 'findbugs'
+task findbugs(type: FindBugs) {
+    ignoreFailures = true
+    effort = "default"
+    reportLevel = "medium"
+    excludeFilter = new File("${project.rootDir}/findbugs-filter.xml")
+    classes = fileTree("build/intermediates/classes/encompass/debug/")
+    source = fileTree('src/main/java/')
+    classpath = files()
+    reports {
+        xml.enabled = true
+        html.enabled = false
+        xml {
+            destination "$project.buildDir/findbugs/findbugs-api-output.xml"
+        }
+        html {
+            destination "$project.buildDir/findbugs/findbugs-api-output.html"
+        }
+    }
+}
+
+apply plugin: 'checkstyle'
+
+task checkstyle(type: Checkstyle) {
+    configFile file("${project.rootDir}/checkstyle.xml")
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    ignoreFailures true
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+
+    classpath = files()
+}
+
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+}
+
+configurations {
+    playStoreRelease
+    playStoreDebug
+    encompassRelease
+    encompassDebug
+}
+
+dependencies {
+    // Required -- JUnit 4 framework
+    testImplementation 'junit:junit:4.12'
+    // Optional -- Mockito framework
+    testImplementation 'org.mockito:mockito-core:1.10.19'
+    testImplementation files('libs/JRack.jar')
+    testImplementation 'org.robolectric:robolectric:3.0'
+
+    implementation 'com.google.code.gson:gson:2.8.2'
+    implementation 'com.google.code.ksoap2-android:ksoap2-android-assembly:2.4'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation 'joda-time:joda-time:2.9.4'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}

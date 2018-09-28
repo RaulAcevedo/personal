@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true" >
+
+    <RelativeLayout
+        style="@style/FragmentStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TextView
+            android:id="@+id/lbllogin_title"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/lbllogin_title" />
+
+        <TextView
+            android:id="@+id/lblusername"
+            style="@style/Theme.TextViewBlack"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/lbllogin_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblusername" />
+
+        <EditText
+            android:id="@+id/txtusername"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblusername"
+            android:background="@android:drawable/editbox_background"
+            android:textCursorDrawable="@null"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/lblpassword"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtusername"
+            android:text="@string/lblpassword" />
+
+        <EditText
+            android:id="@+id/txtpassword"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lblpassword"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:id="@+id/lblacknowledge"
+            style="@style/Theme.TextViewBlack.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtpassword"
+            android:layout_marginTop="10dp"
+            android:text="@string/lblacknowledge" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/btneula"
+            style="@style/ClickableEulaText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblacknowledge"
+            android:linksClickable="true"
+            android:layout_marginBottom="10dp"
+            android:text="@string/btneula">
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvTeamDriverStart"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btneula"
+            android:text="@string/lblteamdrivingstart" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnTeamDriverStart"
+            style="@style/KMBButton"
+            android:layout_alignLeft="@+id/tvTeamDriverStart"
+            android:layout_below="@+id/tvTeamDriverStart"
+            android:text="@string/timelabel" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnloginSolo"
+            style="@style/KMBButton"
+            android:layout_alignLeft="@+id/btnTeamDriverStart"
+            android:layout_below="@+id/btnTeamDriverStart"
+            android:layout_marginTop="10dp"
+            android:text="@string/loginSolo"
+            android:width="300dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnloginViewOnly"
+            style="@style/KMBButtonOrange"
+            android:layout_alignTop="@+id/btnloginSolo"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/btnloginSolo"
+            android:text="@string/loginViewOnly"
+            android:width="300dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnloginTeam"
+            style="@style/KMBButton"
+            android:layout_alignLeft="@+id/txtpassword"
+            android:layout_below="@+id/btnloginSolo"
+            android:layout_marginTop="10dp"
+            android:text="@string/loginTeam"
+            android:width="300dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnlogincancel"
+            style="@style/KMBButton"
+            android:layout_alignLeft="@+id/btnloginViewOnly"
+            android:layout_below="@+id/btnloginViewOnly"
+            android:layout_marginTop="10dp"
+            android:minWidth="150dp"
+            android:text="@string/cancellabel"
+            android:width="300dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnFeatureToggle"
+            style="@style/KMBButton"
+            android:layout_alignLeft="@+id/btnloginViewOnly"
+            android:layout_below="@+id/btnlogincancel"
+            android:layout_marginTop="10dp"
+            android:text="@string/featuretoggle"
+            android:width="300dp" >
+        </Button>
+
+        <TextView
+            android:id="@+id/lblAppVersion"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnFeatureToggle"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+</ScrollView>

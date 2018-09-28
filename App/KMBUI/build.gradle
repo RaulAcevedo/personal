@@ -1,0 +1,168 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+def sharedUserId = (sharedUserIdProp && sharedUserIdProp != "empty") ? sharedUserIdProp : ""
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultPublishConfig "standardDebug"
+    publishNonDefault true
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+
+        testApplicationId "com.jjkeller.kmb.test"
+        testInstrumentationRunner "android.test.InstrumentationTestRunner"
+        testHandleProfiling true
+        testFunctionalTest true
+        resValue "string", "shared_user_id", sharedUserId
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+
+        debug {
+            resValue "string", "shared_user_id", (sharedUserId != "") ? sharedUserId : "com.jjkeller.kmb.shared.debug"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+
+    flavorDimensions "version"
+    productFlavors {
+        playStore {
+            dimension "version"
+        }
+        encompass {
+            dimension "version"
+        }
+        alk {
+            dimension "version"
+        }
+    }
+
+    sourceSets {
+        playStore {
+            java.srcDirs = ['src/main/java', 'src/base/java', 'src/playStore/java']
+            res.srcDirs = ['src/main/res']
+        }
+        encompass {
+            java.srcDirs = ['src/main/java', 'src/base/java', 'src/encompass/java']
+            res.srcDirs = ['src/main/res']
+        }
+        alk {
+            java.srcDirs = ['src/main/java', 'src/alk/java', 'src/encompass/java']
+            res.srcDirs = ['src/main/res']
+            manifest.srcFile('src/alk/AndroidManifest.xml')
+        }
+        test {
+            java.srcDirs = ['src/main/java', 'src/test/java']
+            res.srcDirs = ['src/main/res']
+        }
+    }
+
+    // prevent the "superClassName is empty" error for classes not annotated as tests
+    tasks.withType(Test) {
+        scanForTestClasses = false
+        include "**/*Test.class" // whatever Ant pattern matches your test class files
+        include "**/*Tests.class" // whatever Ant pattern matches your test class files
+        exclude "**/*SelfTest.class" // whatever Ant pattern matches your test class files
+    }
+
+}
+
+//todo should this run for all build variants??
+apply plugin: 'findbugs'
+
+task findbugs(type: FindBugs) {
+    ignoreFailures = true
+    effort = "default"
+    reportLevel = "medium"
+    excludeFilter = new File("${project.rootDir}/findbugs-filter.xml")
+    classes = fileTree("build/intermediates/classes/encompass/debug/")
+    source = fileTree('src/main/java/')
+    classpath = files()
+    reports {
+        xml.enabled = true
+        html.enabled = false
+        xml {
+            destination "$project.buildDir/findbugs/findbugs-ui-output1.xml"
+        }
+        html {
+            destination "$project.buildDir/findbugs/findbugs-ui-output1.html"
+        }
+    }
+}
+
+apply plugin: 'checkstyle'
+task checkstyle(type: Checkstyle) {
+    configFile file("${project.rootDir}/checkstyle.xml")
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    ignoreFailures true
+    reports {
+        xml.enabled = true
+        html.enabled = false
+    }
+
+    classpath = files()
+}
+
+repositories {
+    mavenCentral()
+    maven { url 'https://oss.sonatype.org/content/repositories/ksoap2-android-releases' }
+}
+
+configurations {
+    playStoreRelease
+    playStoreDebug
+    encompassRelease
+    encompassDebug
+    alkRelease
+    alkDebug
+}
+
+dependencies {
+    playStoreRelease project(path: ':KMBAPI', configuration: 'playStoreRelease')
+    playStoreDebug project(path: ':KMBAPI', configuration: 'playStoreDebug')
+
+    encompassRelease project(path: ':KMBAPI', configuration: 'encompassRelease')
+    encompassDebug project(path: ':KMBAPI', configuration: 'encompassDebug')
+
+    alkRelease project(path: ':KMBAPI', configuration: 'encompassRelease')
+    alkDebug project(path: ':KMBAPI', configuration: 'encompassDebug')
+
+    alkImplementation project(path: ':libraries:cpik_library', configuration: 'default')
+
+    playStoreImplementation 'com.google.android:support-v4:r7'
+    playStoreImplementation 'com.android.support:support-annotations:28.0.0'
+
+    encompassImplementation 'com.google.android:support-v4:r7'
+    encompassImplementation 'com.android.support:support-annotations:28.0.0'
+
+    implementation 'com.google.code.ksoap2-android:ksoap2-android-assembly:2.4'
+    implementation 'com.actionbarsherlock:actionbarsherlock:4.4.0@aar'
+    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation files('libs/Androidplot-core-0.4.3-release.jar')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+
+
+    testImplementation 'junit:junit:4.12'
+    // Optional -- Mockito framework
+    testImplementation 'org.mockito:mockito-core:1.10.19'
+    testImplementation 'org.robolectric:robolectric:3.0'
+
+}

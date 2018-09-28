@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblTitle"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/lblrodseditlocationtitle"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblStatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitle"
+            android:layout_below="@+id/lblTitle"
+            android:paddingTop="10dp"
+            android:text="@string/lblstatus" >
+        </TextView>
+
+
+
+
+        <TextView
+            android:id="@+id/lblTime"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblStatus"
+            android:layout_below="@+id/lblStatus"
+            android:paddingTop="4dp"
+            android:text="@string/lblTime" />
+
+        <TextView
+            android:id="@+id/lblLocationCode"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblStatus"
+            android:layout_below="@id/lblTime"
+            android:paddingTop="5dip"
+            android:text="@string/lbllocationcode" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/tvLocationCode"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblLocationCode"
+            android:layout_below="@+id/lblLocationCode"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:textCursorDrawable="@null"
+            android:maxLength="100" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblActualLocation"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvLocationCode"
+            android:layout_below="@+id/tvLocationCode"
+            android:text="@string/lblactuallocation" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/tvActualLocation"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblActualLocation"
+            android:layout_below="@+id/lblActualLocation"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:textCursorDrawable="@null"
+            android:maxLength="100" >
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/chkMainDrivingStatus"
+            style="@style/Theme.CheckBoxBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvActualLocation"
+            android:layout_below="@+id/tvActualLocation"
+            android:text="@string/chkmaintaindrivingstatus" >
+        </CheckBox>
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/KMBButton"
+            android:layout_alignBottom="@id/btnSave"
+            android:layout_alignTop="@id/btnSave"
+            android:layout_toRightOf="@id/btnSave"
+            android:text="@string/cancellabel" >
+        </Button>
+
+        <TextView
+            android:id="@+id/tvTime"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/lblTime"
+            android:layout_alignTop="@id/lblTime"
+            android:layout_toRightOf="@id/lblTime"
+            android:minWidth="50dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="5dp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblStatus"
+            android:layout_alignTop="@+id/lblStatus"
+            android:layout_toRightOf="@+id/lblStatus"
+            android:minWidth="50dip"
+            android:paddingLeft="10dip"
+            android:paddingTop="10dp" >
+        </TextView>
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/KMBButton"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/chkMainDrivingStatus"
+            android:text="@string/oklabel" />
+    </RelativeLayout>
+
+</ScrollView>

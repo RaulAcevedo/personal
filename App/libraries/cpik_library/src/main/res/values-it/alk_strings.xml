@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">Si è verificato un errore durante la creazione del codice enterprise</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">Si è verificato un errore durante l\'avvio di CoPilot</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">Si è verificato un errore durante l\'installazione dei file di CoPilot.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">Impossibile trovare i file di CoPilot. È stata inserita la scheda SD corretta?</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">Modifiche eseguite</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">CoPilot non può funzionare mentre il dispositivo è in modalità archiviazione di massa USB. Scollegare il dispositivo dal computer e riprovare.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">CoPilot è stato ridotto a icona</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">Si è verificato un errore durante la copia</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">Sono state eseguite le seguenti operazioni:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">È stato utilizzato un URI incompleto: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">Impossibile caricare il codice di CoPilot</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">Codice già esistente</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">Informazioni sul contratto di licenza già esistenti sul dispositivo</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">Nessuna operazione eseguita</string> <!-- No match. This is if we get a Uri but don\'t do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">Non è stata eseguita alcuna operazione per l\'URI %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">Il gestore di URI di CoPilot è stato avviato senza un URI di dati da analizzare</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">Codice prodotto già esistente sul dispositivo</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">Il codice prodotto, %s, non è valido.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">Codice prodotto impostato</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">La scheda CF/SD contenente CoPilot non è al momento disponibile. Reinserirla e riprovare</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">Scheda SD non disponibile</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">CoPilot non ha potuto installare i file necessari per il dispositivo.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">%s URI non ancora supportato</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">Toccare qui per ingrandire CoPilot</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">Impossibile creare la directory richiesta sul supporto di archiviazione: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">Impossibile eliminare i file intermedi. Reinstallare CoPilot</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">Impossibile scrivere il file del codice prodotto sul supporto di archiviazione</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">Decompressione nuovi dati</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">Abilitare GPS?</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">Si è verificato un errore:</string> <!-- ALK String -->
+<string name="ALK_Cancel">Annulla</string> <!-- ALK String -->
+<string name="ALK_Error">Errore</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">Nessun GPS trovato</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">Codice prodotto errato</string> <!-- ALK String -->
+<string name="ALK_OK">OK</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">Nessuna card CF/SD nel sistema.</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">Caricamento</string> <!-- ALK String -->
+<string name="ALK_Quit">Esci</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">Lancia CoPilot</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">Avvio di CoPilot in corso</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">Uno o più file non possono essere estratti. Controllare lo spazio disponibile</string> <!-- ALK String -->
+<string name="ALK_UsingNMEAData">Utilizzo Dati NMEA</string> <!-- ALK String -->
+<string name="ALK_UsingLocationData">Utilizzo Dati di Posizionamento</string> <!-- ALK String -->
+</resources>

@@ -1,0 +1,45 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
+    defaultPublishConfig "standardRelease"
+    publishNonDefault true
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 28
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    lintOptions{
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation files('libs/android-support-v4.jar')
+    implementation files('libs/billinginterfacelib.jar')
+    implementation files('libs/com.alk.copilot.jar')
+    implementation files('libs/com_android_vending_licensing.jar')
+    implementation files('libs/google play licensing library.jar')
+    implementation files('libs/googleplaybilling.jar')
+    implementation files('libs/huddevelopkit.jar')
+    implementation files('libs/libGoogleAnalyticsV2.jar')
+    implementation files('libs/TTS_library_stub_3.0_market.jar')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+repositories {
+    mavenCentral()
+}

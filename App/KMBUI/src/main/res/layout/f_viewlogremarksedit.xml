@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblTitle"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/lbleditlogremark"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblTime"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitle"
+            android:layout_below="@+id/lblTitle"
+            android:text="@string/lblTime" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvTime"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblTime"
+            android:layout_alignTop="@+id/lblTime"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblTime">
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblStatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTime"
+            android:layout_below="@+id/lblTime"
+            android:text="@string/lblstatus" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblStatus"
+            android:layout_alignTop="@+id/lblStatus"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblStatus" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblDuration"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblStatus"
+            android:layout_below="@+id/lblStatus"
+            android:text="@string/lblduration" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvDuration"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lblDuration"
+            android:layout_marginLeft="5dip"
+            android:layout_toRightOf="@+id/lblDuration" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblLocation"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblDuration"
+            android:layout_below="@+id/lblDuration"
+            android:text="@string/lbllocation" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvLocation"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lblLocation"
+            android:layout_marginLeft="5dip"
+			android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/lblLocation" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lblRuleset"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblLocation"
+            android:layout_below="@+id/lblLocation"
+            android:text="@string/lblruleset" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvRuleset"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/lblRuleset"
+            android:layout_marginLeft="5dip"                       
+            android:ellipsize="end"
+        	android:singleLine="true"
+            android:layout_toRightOf="@+id/lblRuleset" >
+        </TextView>
+
+        <!--Motion Picture Production & DOT Authority labels-->
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvRuleset"
+        android:layout_alignLeft="@+id/lblRuleset"
+        android:orientation="vertical"
+        android:id="@+id/relativeLayoutMultiAuthorityRemarks">
+
+
+            <TextView
+                android:id="@+id/lblProduction"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblProduction">
+            </TextView>
+            <TextView
+                android:id="@+id/tvProduction"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblProduction"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/lblProduction">
+            </TextView>
+
+
+            <TextView
+                android:id="@+id/lblDOTAuthority"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblProduction"
+                android:layout_below="@+id/tvProduction"
+                android:text="@string/lblDotAuthority">
+            </TextView>
+            <TextView
+                android:id="@+id/tvDotAuthority"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblDOTAuthority"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/lblDOTAuthority">
+            </TextView>
+
+
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/gdh_divider"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignLeft="@+id/lblRuleset"
+            android:layout_below="@+id/relativeLayoutMultiAuthorityRemarks"
+            android:background="@drawable/white_black_gradient"
+            android:paddingTop="4dp" >
+        </View>
+        
+        <Spinner
+            android:id="@+id/cboRemark"
+            android:layout_width="fill_parent"
+            android:layout_below="@+id/gdh_divider"
+            android:layout_alignLeft="@+id/gdh_divider"
+            android:layout_height="wrap_content" 
+            style="@style/Theme.SpinnerLight" 
+            android:prompt="@string/selectremark_prompt">
+        </Spinner>
+        
+        <EditText
+            android:id="@+id/tvRemark"
+            style="@style/EditTextTheme"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/cboRemark"
+            android:layout_below="@+id/cboRemark"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:textCursorDrawable="@null"
+            android:maxLength="100" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/lblRemarkNote"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvRemark"
+            android:layout_below="@+id/tvRemark"
+            android:text="@string/selectremark_note">
+        </TextView>
+
+        <Button
+            android:id="@+id/btnSave"
+            style="@style/KMBButton"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lblRemarkNote"
+	    	android:minWidth="80dp"
+            android:text="@string/btnSave" />
+        
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/KMBButton"
+            android:layout_alignBottom="@id/btnSave"
+            android:layout_alignTop="@id/btnSave"
+            android:layout_toRightOf="@id/btnSave"
+	    	android:minWidth="80dp"
+            android:text="@string/cancellabel" />
+    </RelativeLayout>
+
+</ScrollView>

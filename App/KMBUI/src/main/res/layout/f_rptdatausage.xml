@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rptdailyhours"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/rdu_reportlabel"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rptDataUsageTitle"
+        android:textStyle="bold" >
+    </TextView>
+
+    <HorizontalScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rdu_reportlabel"
+        android:layout_marginTop="20dip"
+        android:fillViewport="true" >
+
+        <ListView
+            android:id="@+id/rdu_griddatausage"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:cacheColorHint="#00000000"> <!-- this is a fix for the list turning black when scrolling -->
+        </ListView>
+    </HorizontalScrollView>
+
+</RelativeLayout>

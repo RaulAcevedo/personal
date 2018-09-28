@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lbledittimetitle"
+        android:textStyle="bold"
+        style="@style/Theme.TextViewBlack" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ret_lblStatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/lblstatus" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/ret_lblStatusValue"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ret_lblTime"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="@string/lblTime" >
+    </TextView>
+
+    <Button
+        android:id="@+id/ret_btnTime"
+        style="@style/KMBButton" >
+    </Button>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/ret_lblLocation"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/lbllocation" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/ret_lblLocationValue"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/ret_btnOk"
+            style="@style/KMBButton"
+            android:text="@string/oklabel" />
+
+        <Button
+            android:id="@+id/ret_btnCancel"
+            style="@style/KMBButton"
+            android:text="@string/cancellabel" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    Portrait
+        xhdpi
+            7.0
+        mdpi
+            7.0
+    Landscape
+        xhdpi
+            4.65
+            4.7
+        xxhdpi
+            5.0
+        420dpi
+            5.2
+        560dpi
+            5.7
+            6.0
+    -->
+    <dimen name="dot_authority_header_text_size">14sp</dimen>
+</resources>

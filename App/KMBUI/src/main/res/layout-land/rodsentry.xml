@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutThemeWhite"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layoutDutyStatusHeader"
+        style="@style/DutyStutusHeader"
+        android:layout_weight="10"
+        android:orientation="horizontal" ><LinearLayout style="@style/DutyStatusHeader_Element" >
+
+            <ImageView
+                android:id="@+id/kmbimageadddriver"
+                android:contentDescription="@string/app_name"
+                android:layout_width="36dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="1dip"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/add_driver"
+                android:visibility="gone"
+            />   
+
+            <ImageView
+                android:id="@+id/imgrodsentryseparatedevice"
+                android:layout_width="36dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/separate_device_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/imgrodsentryshareddevice"
+                android:layout_width="36dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/shared_device_white"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/kmbimageteamdriver"
+                android:layout_width="20dip"
+                android:layout_height="20dip"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="3dip"
+                android:layout_marginTop="2dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/steering_wheel"
+                android:visibility="gone" />
+            
+            <TextView
+                android:id="@+id/tvDSHName"
+                style="@style/DutyStatusText" />
+            
+        </LinearLayout>
+
+        <LinearLayout style="@style/DutyStatusHeader_Element" >
+
+            <TextView
+                android:id="@+id/tvDSHLocation"
+                style="@style/DutyStatusText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/DutyStatusHeader_Element" >
+
+            <TextView
+                android:id="@+id/tvDSHDutyStatus"
+                style="@style/DutyStatusText" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/DutyStatusHeader_Element" >
+
+            <TextView
+                android:id="@+id/tvDSHLogEventTimestamp"
+                style="@style/DutyStatusText" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/offduty_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:visibility="gone"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    </FrameLayout>
+    <LinearLayout
+        style="@style/MainContent"
+        android:layout_weight="90" >
+
+        <FrameLayout
+            android:id="@+id/content_fragment"
+            style="@style/ActivityLayoutStyle"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/fuelpurchaselistscreenlabel"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lbleditfuelpurchaselist"
+        android:textStyle="bold" >
+    </TextView>
+
+    <GridView
+        android:id="@+id/grdEditFuelPurchases"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignLeft="@+id/fuelpurchaselistscreenlabel"
+        android:layout_below="@+id/fuelpurchaselistscreenlabel" >
+    </GridView>
+
+</RelativeLayout>

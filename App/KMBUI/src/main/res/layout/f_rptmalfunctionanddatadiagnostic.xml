@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/malf_header_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/malfunctions_top_header"
+                    style="@style/Theme.TextViewBlack"/>
+                <LinearLayout
+                    android:id="@+id/malfunction_badge_list"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/diag_header_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:text="@string/datadiagnostic_top_header"
+                    style="@style/Theme.TextViewBlack"/>
+                <LinearLayout
+                    android:id="@+id/diagnostic_badge_list"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/malfunction_message"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#468847"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/hud_success"
+        android:text="@string/report_malfunction_message"
+        android:visibility="gone"
+    />
+
+    <TextView
+        android:id="@+id/data_diagnostic_message"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#468847"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/hud_success"
+        android:text="@string/report_data_diagnostic_message"
+        android:visibility="gone"
+    />
+
+
+    <LinearLayout
+        android:id="@+id/malf_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/malf_header_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:text="@string/malfunction_compliance_header"
+            style="@style/Theme.TextViewBlack"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/malfunction_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+
+    <LinearLayout
+        android:id="@+id/diag_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/diag_header_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingTop="20dp"
+            android:paddingBottom="10dp"
+            android:textStyle="bold"
+            android:text="@string/datadiagnostic_events_header"
+        style="@style/Theme.TextViewBlack"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/diagnostic_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="20dp" >
+    </View>
+
+</LinearLayout>
+</ScrollView>

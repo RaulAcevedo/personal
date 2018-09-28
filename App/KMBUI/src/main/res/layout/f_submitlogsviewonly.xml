@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lblTitle"
+        style="@style/Theme.TextViewBlack"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:text="@string/lblsubmitlogstitle"/>
+
+    <TextView
+        android:id="@+id/lblSubmit"
+        style="@style/Theme.TextViewBlack"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/lblsubmittinglogscertifesthemviewonly" />
+
+    <TextView
+        android:id="@+id/lblPleaseSelect"
+        style="@style/Theme.TextViewBlack"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/lblpleaseselectthelogs"
+        android:paddingTop="4dp"
+        android:paddingBottom="8dp" />
+
+    <GridView
+        android:id="@+id/grdSubmitLogs"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="1.0" >
+    </GridView>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLayout1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            style="@style/KMBButton"
+            android:text="@string/btnsubmit"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

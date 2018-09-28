@@ -1,0 +1,10 @@
+<devicelist>
+	<device 
+		name="Pioneer Hud" 
+		protocol="jp.pioneer.mbg.hud.hudlite"
+		id="1"
+		>
+	</device>
+
+</devicelist>
+

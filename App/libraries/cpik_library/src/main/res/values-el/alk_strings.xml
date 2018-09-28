@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">Παρουσιάστηκε σφάλμα κατά τη δημιουργία του κλειδιού επιχείρησης</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">Παρουσιάστηκε σφάλμα κατά την εκκίνηση του CoPilot</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">Παρουσιάστηκε σφάλμα κατά την εγκατάσταση των αρχείων που απαιτούνται για το CoPilot.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">Δεν είναι δυνατή η εύρεση των αρχείων CoPilot. Είστε βέβαιοι ότι εισαγάγετε τη σωστή κάρτα SD;</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">Οι αλλαγές εκτελέστηκαν</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">Δεν είναι δυνατή η λειτουργία του CoPilot, ενώ η συσκευή σας βρίσκεται στη λειτουργία μαζικής αποθήκευσης USB. Αποσυνδέστε τη συσκευή σας από τον υπολογιστή και δοκιμάστε ξανά.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">Το CoPilot ελαχιστοποιήθηκε</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">Σφάλμα κατά την αντιγραφή</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">Εκτελέστηκαν οι παρακάτω ενέργειες:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">Χρησιμοποιήθηκε ατελές Uri: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">Δεν είναι δυνατή η φόρτωση το κωδικού CoPilot από το σύστημα</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">Το κλειδί υπάρχει ήδη</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">Οι πληροφορίες άδειας χρήσης υπάρχουν ήδη στη συσκευή σας</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">Δεν εκτελέστηκε καμία ενέργεια</string> <!-- No match. This is if we get a Uri but don't do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">Δεν υπάρχουν ενέργειες προς εκτέλεση για το Uri %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">Ο χρήστης CoPilot Uri ξεκίνησε χωρίς Uri δεδομένων για ανάλυση!</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">Υπάρχει ήδη κλειδί προϊόντος στη συσκευή σας</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">Το παρεχόμενο κλειδί προϊόντος, %s, φαίνεται να μην είναι έγκυρο.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">Ορίστηκε κλειδί προϊόντος</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">Η κάρτα CF/SD που περιέχει το CoPilot αυτήν τη στιγμή δεν είναι διαθέσιμη. Τοποθετήστε την και δοκιμάστε ξανά</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">Η κάρτα SD δεν είναι διαθέσιμη</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">Δεν επιτράπηκε στο CoPilot η εγκατάσταση των απαραίτητων αρχείων στη συσκευή σας.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">Λυπούμαστε, το Uri %s δεν υποστηρίζεται ακόμα</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">Αγγίξτε εδώ για μεγέθυνση του CoPilot</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">Δεν είναι δυνατή η δημιουργία του απαιτούμενου καταλόγου στο Μέσο Αποθήκευσης: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">Δεν ήταν δυνατή η διαγραφή του ενδιάμεσου αρχείου. Εγκαταστήστε ξανά το CoPilot!</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">Δεν είναι δυνατή η εγγραφή του αρχείου κλειδιού προϊόντος στο Μέσο Αποθήκευσης</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">Αποσυσκευασία νέων δεδομένων</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">Θα θέλατε να ενεργοποιήσετε το GPS;</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">Παρουσιάστηκε σφάλμα:</string> <!-- ALK String -->
+<string name="ALK_Cancel">Ακύρωση</string> <!-- ALK String -->
+<string name="ALK_Error">Σφάλμα</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">Δεν βρέθηκε GPS</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">Εσφαλμένο κλειδί προϊόντος</string> <!-- ALK String -->
+<string name="ALK_OK">OK</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">Δεν υπάρχει κάρτα CF/SD στη φορητή συσκευή.</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">Φόρτωση ...</string> <!-- ALK String -->
+<string name="ALK_Quit">Έξδ.</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">Έναρξη του CoPilot</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">Εκκίνηση του Copilot...</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">One or more files could not be unpacked. Check available storage space</string> <!-- ALK String -->
+</resources>

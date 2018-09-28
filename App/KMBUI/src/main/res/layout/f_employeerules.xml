@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/eerules_lblEmployeeRules"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/eerules_lblEmployeeRules"
+            android:textStyle="bold" 
+            style="@style/Theme.TextViewBlack">
+        </TextView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/eerules_tvEmpty"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/eerules_lblMessage"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="" >
+            </TextView>
+
+            <TableRow
+                android:id="@+id/eerules_trTimeZone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblTimeZone"
+                    style="@style/EmpRulesLabel"
+                    android:text="@string/eerules_lblTimeZone" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvTimeZone"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trRuleset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblRuleset"
+                    style="@style/EmpRulesLabel"
+                    android:text="@string/eerules_lblRuleset" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvRuleset"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trDriverType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblDriverType"
+                    style="@style/EmpRulesLabel"
+                    android:text="@string/eerules_lblDriverType" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvDriverType"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trDriving"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblDriving"
+                    style="@style/EmpRulesLabel"
+                    android:text="@string/eerules_lblDriving" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvDriving"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trStopTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblStopTime"
+                    style="@style/EmpRulesLabel"
+                    android:text="@string/eerules_lblStopTime" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvStopTime"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trExemptFromEldUse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkExemptFromEldUse"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/lblExemptFromEldUse" >
+                </CheckBox>
+            </TableRow>
+            <TableRow
+                android:id="@+id/eerules_trExemptFromEldUseComment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/eerules_tvExemptFromEldUseCommentLabel"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="Comment: " >
+                </TextView>
+                <TextView
+                    android:id="@+id/eerules_tvExemptFromEldUseComment"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="" >
+                </TextView>
+            </TableRow>
+            <TableRow
+                android:id="@+id/eerules_tr34HrReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chk34HrReset"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false" 
+                    android:text="@string/eerules_lbl34HourReset" >
+                </CheckBox>
+                
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trShortHaul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkSortHaul"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblShortHaul">
+                </CheckBox>
+                
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trIsExemptFrom30MinBreakRequirement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkIsExemptFrom30MinBreakRequirement"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsExemptFrom30MinBreakRequirement">
+                </CheckBox>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trHaulingExplosivesAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkHaulingExplosivesAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblHaulingExplosivesAllowed">
+                </CheckBox>
+                
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trIsOperatesSpecificVehicleForOilField"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center"
+                android:visibility="gone">
+            
+                <CheckBox
+                    android:id="@+id/eerules_chkIsOperatesSpecificVehicleForOilField"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsOperatesSpecificVehicleForOilField">
+                </CheckBox>
+                
+            </TableRow>
+            
+            <TableRow
+                android:id="@+id/eerules_trIsPersonalConveyanceAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center">
+            
+                <CheckBox
+                    android:id="@+id/eerules_chkIsPersonalConveyanceAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsPersonalConveyanceAllowed">
+                </CheckBox>
+                
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trYardMoveAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkYardMoveAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/lblYardMoveAllowed" >
+                </CheckBox>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trIsHyrailUseAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkIsHyrailUseAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsHyrailUseeAllowed">
+                </CheckBox>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trIsNonRegDrivingAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <CheckBox
+                    android:id="@+id/eerules_chkIsNonRegDrivingAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsNonRegDrivingAllowed">
+                </CheckBox>
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/eerules_trIsMobileExemptAllowed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="center">
+            
+                <CheckBox
+                    android:id="@+id/eerules_chkIsMobileExemptAllowed"
+                    style="@style/Theme.CheckBoxBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="@string/eerules_lblIsMobileExemptAllowed">
+                </CheckBox>
+                
+            </TableRow>
+            
+            <RelativeLayout
+                android:id="@+id/eerules_relativeLayout4"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblExemptLogType"
+                    style="@style/EmpRulesLabel"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eerules_lblExemptLogType" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvExemptLogType"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/eerules_lblExemptLogType"
+                    android:text="" >
+                </TextView>
+            </RelativeLayout>
+            
+            <RelativeLayout
+                android:id="@+id/eerules_relativeLayout2"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblDataProfile"
+                    style="@style/EmpRulesLabel"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eerules_lblDataProfile" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvDataProfile"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/eerules_lblDataProfile"
+                    android:text="" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eerules_relativeLayout3"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/eerules_lblDistanceUnits"
+                    style="@style/EmpRulesLabel"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eerules_lbldistanceunits" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/eerules_tvDistanceUnits"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/eerules_lblDistanceUnits"
+                    android:text="" >
+                </TextView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/eerules_relativeLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:id="@+id/eerules_btnDownload"
+                    style="@style/KMBMediumButton"
+                    android:text="@string/btndownload" >
+                </Button>
+
+                <Button
+                    android:id="@+id/eerules_btnChangeRuleset"
+                    style="@style/KMBMediumButton"
+                    android:layout_toRightOf="@id/eerules_btnDownload"
+                    android:text="@string/btnChangeRuleset" >
+                </Button>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</TableLayout>

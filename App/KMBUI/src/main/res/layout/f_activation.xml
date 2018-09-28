@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+	style="@style/FragmentStyle">
+	<TextView
+   	        android:id="@+id/lblfirstuse"        
+   	        android:layout_width="fill_parent"        
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginLeft="5dip"
+   	        style="@style/Theme.TextViewBlack"
+   	        android:text="@string/lblwelcometojjkellermobile"/>
+    <TextView
+    		android:id="@+id/lblactivationcode"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginTop="20dip"
+    		android:layout_below="@+id/lblfirstuse"
+    		android:layout_alignLeft="@+id/lblfirstuse"
+   	        style="@style/Theme.TextViewBlack"
+    		android:text="@string/lblactivationcode"/>
+    <EditText
+            android:id="@+id/txtactivationcode"
+            style="@style/Theme.EditTextLight"
+    		android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblactivationcode"
+            android:background="@android:drawable/editbox_background" 
+            android:textCursorDrawable="@null"
+            android:inputType="text"/>
+    <Button
+        android:id="@+id/btnactivate"
+        style="@style/KMBButton"
+        android:layout_marginTop="10dp"
+        android:layout_alignLeft="@+id/txtactivationcode"
+        android:layout_below="@+id/txtactivationcode"
+        android:text="@string/btnactivate" />
+
+	<Button
+	    android:id="@+id/btncancel"
+	    style="@style/KMBButton"
+	    android:layout_alignTop="@+id/btnactivate"
+	    android:layout_toRightOf="@+id/btnactivate"
+	    android:text="@string/cancellabel" />
+
+</RelativeLayout>

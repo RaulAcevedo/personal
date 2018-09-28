@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent">
+	<Button android:id="@+id/btnEditLogLocation"
+		android:layout_height="75dip" android:layout_marginRight="15dp"
+		android:text="@string/btnedit" android:layout_alignParentTop="true" android:layout_width="wrap_content"
+		style="@style/KMBButton"></Button>
+	<TextView android:id="@+id/textView1" android:text="@string/lblTime"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/btnEditLogLocation"
+		android:layout_alignTop="@+id/btnEditLogLocation"
+		style="@style/Theme.TextViewBlack"></TextView>
+	<TextView android:id="@+id/textView4" android:text="@string/lblstatus"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1"
+		style="@style/Theme.TextViewBlack"></TextView>
+	<TextView android:id="@+id/lblLocation" android:text="@string/lbllocation"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_below="@+id/textView4" android:layout_alignLeft="@+id/textView4"
+		style="@style/Theme.TextViewBlack"></TextView>
+	<TextView android:id="@+id/tvLocation" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toRightOf="@+id/lblLocation"
+		android:layout_alignTop="@+id/lblLocation"
+		android:layout_marginLeft="5dip" style="@style/Theme.TextViewBlack"></TextView>
+	<TextView android:id="@+id/tvStatus"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_toRightOf="@+id/textView4" android:layout_alignTop="@+id/textView4"
+		android:layout_alignBottom="@+id/textView4" android:layout_marginLeft="5dip"
+		style="@style/Theme.TextViewBlack"></TextView>
+	<TextView android:id="@+id/tvTime"
+		android:layout_width="wrap_content" android:layout_marginLeft="5dip"
+		android:layout_height="wrap_content" android:layout_toRightOf="@+id/textView1"
+		android:layout_alignTop="@+id/textView1" android:layout_alignBottom="@+id/textView1"
+		style="@style/Theme.TextViewBlack"></TextView>
+</RelativeLayout>

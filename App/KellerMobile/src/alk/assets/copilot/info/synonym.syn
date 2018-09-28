@@ -1,0 +1,463 @@
+NORTH	N	false	true	true	true
+NORTH	NORD	true	true	true	true
+NORTH	NORTE	true	true	true	true
+NORD	N	false	true	true	true
+NORTE	N	false	true	true	true
+SOUTH	S	false	true	true	true
+SOUTH	SUD	true	true	true	true
+SOUTH	SUR	true	true	true	true
+SUD	S	false	true	true	true
+SUR	S	false	true	true	true
+EAST	E	false	true	true	true
+EAST	EST	true	true	true	true
+EAST	ORIENTE	true	true	true	true
+EST	E	false	true	true	true
+ORIENTE	O	false	true	true	true
+WEST	W	false	true	true	true
+WEST	OUEST	true	true	true	true
+WEST	OESTE	true	true	true	true
+OUEST	O	false	true	true	true
+OESTE	O	false	true	true	true
+NORTHEAST	NE	false	true	true	true
+NORTHWEST	NW	false	true	true	true
+SOUTHEAST	SE	false	true	true	true
+SOUTHWEST	SW	false	true	true	true
+NORTHEAST	N.E	false	true	true	true
+NORTHWEST	N.W	false	true	true	true
+SOUTHEAST	S.E	false	true	true	true
+SOUTHWEST	S.W	false	true	true	true
+STATE	ST	true	true	true	true
+SAINT	ST	true	true	true	true
+SAINTE	STE	true	true	true	true
+ROUTE	ST	true	true	true	true
+ROUTE	STE	true	true	true	true
+ROUTE	RT	true	true	true	true
+ROUTE	RTE	true	true	true	true
+MOUNT	MT	true	true	true	true
+MOUNT	MNT	true	true	true	true
+MOUNTAIN	MTN	true	true	true	true
+FORT	FT	true	true	true	true
+FORT	FRT	true	true	true	true
+POINT	PT	true	true	true	true
+POINT	PNT	true	true	true	true
+POINTE	PTE	true	true	true	true
+POINTE	PNTE	true	true	true	true
+PORT	PT	true	true	true	true
+PORT	PRT	true	true	true	true
+AVENUE	AVE	true	true	true	true
+AVENUE DES	AV DES	true	true	true	true
+MC	MC 	true	false	true	false
+COUNTY HIGHWAY	COUNTY ROAD	true	true	true	true
+HIGHWAY	STATE ROUTE	true	true	true	true
+HIGHWAY	HY	true	true	true	true
+HIGHWAY	HWY	true	true	true	true
+HIGHWAY	HIWAY	true	true	true	true
+FM	FARM-TO-MARKET ROAD	true	true	true	true
+F-M	FARM-TO-MARKET ROAD	true	true	true	true
+ROAD	RO	true	true	true	true
+CIRCLE	CIR	true	true	true	true
+CIRCLE	CIRC	true	true	true	true
+COUNTY	CO	true	true	true	true
+COUNTY	CTY	true	true	true	true
+COUNTY	CNTY	true	true	true	true
+BROADWAY	BWAY	true	true	true	true
+VETERANS MEMORIAL	VETS	true	true	true	true
+INTERSTATE	I	true	true	true	true
+IH	I	true	false	true	true
+MARTIN LUTHER KING	MLK	true	true	true	true
+MARTIN LUTHER KING	M.L.K	true	true	true	true
+MARTIN LUTHER KING	M L K	true	true	true	true
+JOHN F KENNEDY	JFK	true	true	true	true
+JOHN F KENNEDY	J.F.K	true	true	true	true
+JOHN F KENNEDY	J F K	true	true	true	true
+LYNDON B JOHNSON	LBJ	true	true	true	true
+LYNDON B JOHNSON	L.B.J	true	true	true	true
+LYNDON B JOHNSON	L B J	true	true	true	true
+FRANKLIN D ROOSEVELT	FDR	true	true	true	true
+FRANKLIN D ROOSEVELT	F.D.R	true	true	true	true
+FRANKLIN D ROOSEVELT	F D R	true	true	true	true
+AIR FORCE BASE	AFB	true	true	true	true
+AIR FORCE BASE	A F B	true	true	true	true
+COURT HOUSE	CT HSE	false	true	true	true		
+COURT HOUSE	CT HS	false	true	true	true		
+BEACH	BCH	false	true	true	true		
+BEACH	BEAC	false	true	true	true
+BEACH	BEA	false	true	true	true
+BRIDGE	BRDG	false	true	true	true		
+BLUFFS	BLFS	false	true	true	true
+BLUFFS	BLF	false	true	true	true
+BLUFFS	BLUF	false	true	true	true
+BLUFFS	BLUFS	false	true	true	true
+CAMP	CP	false	true	true	true
+CAPITAL	CAPITOL	false	true	true	true
+COURT	CT	false	true	true	true		
+CAPISTRANO	CPSTRNO	false	true	true	true		
+CENTER	CTR	false	true	true	true		
+CENTER	CNTR	false	true	true	true
+CENTER	CEN	false	true	true	true
+CENTER	CENT	false	true	true	true
+CITY	CTY	false	true	true	true		
+CITY	CY	false	true	true	true	
+CITY	CI	false	true	true	true	
+CITY	CIT	false	true	true	true	
+COMMON	CMN	false	true	true	true		
+CORNERS	CORS	false	true	true	true		
+CROSSING	CRSNG	false	true	true	true		
+FALLS	FLS	false	true	true	true		
+FALLS	FALL	false	true	true	true
+FALLS	FAL	false	true	true	true
+ESTATES	ESTS	false	true	true	true		
+FURNACE	FURN	false	true	true	true		
+GARDENS	GDNS	false	true	true	true		
+GREAT	GT	false	true	true	true
+GREAT	GRT	false	true	true	true
+HARBOR	HBR	false	true	true	true		
+HARBOR	HRBR	false	true	true	true
+HEIGHTS	HTS	false	true	true	true		
+HEIGHTS	HGHT	false	true	true	true
+HEIGHTS	HGHTS	false	true	true	true
+HIGHLANDS	HGHLNDS	false	true	true	true		
+HILLS	HLS	false	true	true	true
+HOUSE	HSE	false	true	true	true		
+INDUSTRIAL	IND	true	true	true	true
+INDUSTRIAL	IND'L	true	true	true	true
+INTERNATIONAL	INT	false	true	true	true
+INTERNATIONAL	INTL	false	true	true	true
+ISLAND	ISLE	false	true	true	true		
+ISLAND	ISLD	false	true	true	true
+ISLAND	ISLND	false	true	true	true
+JUNCTION	JCT	false	true	true	true		
+JUNCTION	JNCT	false	true	true	true
+JUNCTION	JUNCT	false	true	true	true
+LAKE	LK	false	true	true	true		
+LODGE	LDG	false	true	true	true
+MILLS	MLS	false	true	true	true		
+MAJOR	MAJ	false	true	true	true		
+MAJOR	MJR	false	true	true	true		
+MISSION	MSN	false	true	true	true
+MOUNTAIN	MTN	false	true	true	true		
+NEW YORK CITY	NYC	false	true	true	true
+NEW YORK	NYC	false	true	true	true
+PARK	PK	false	true	true	true		
+PETIT	PTT	false	true	true	true	
+PETITE	PTTE	false	true	true	true	
+PLAINS	PLNS	false	true	true	true		
+RAPIDS	RPD	false	true	true	true
+RAPIDS	RPDS	false	true	true	true
+RIVER	RVR	false	true	true	true		
+RIVIERE	RIV	false	true	true	true
+SUMMIT	SMT	false	true	true	true		
+SPRINGFIELD	SPRINGFLD	false	true	true	true		
+SPRINGS	SPGS	false	true	true	true		
+SPRINGS	SPRS	false	true	true	true
+SPRINGS	SPRGS	false	true	true	true
+SPRING	SPG	false	true	true	true
+SPRING	SPR	false	true	true	true
+STATION	STA	false	true	true	true		
+TOWNSHIP	TWP	false	true	true	true		
+UPPER	UPR	false	true	true	true
+VALLEY	VLY	false	true	true	true		
+VILLAGE	VLG	false	true	true	true	    
+ONE	1	true	true	true	true	
+TWO	2	true	true	true	true	
+THREE	3	true	true	true	true	
+FOUR	4	true	true	true	true	
+FIVE	5	true	true	true	true
+SIX	6	true	true	true	true	
+SEVEN	7	true	true	true	true	
+EIGHT	8	true	true	true	true	
+NINE	9	true	true	true	true	
+TEN	10	true	true	true	true	
+ELEVEN	11	true	true	true	true
+TWELVE	12	true	true	true	true
+THIRTEEN	13	true	true	true	true
+FOURTEEN	14	true	true	true	true
+FIFTEEN	15	true	true	true	true
+ONE	1ST	true	true	true	true	
+TWO	2ND	true	true	true	true	
+THREE	3RD	true	true	true	true	
+FOUR	4TH	true	true	true	true	
+FIVE	5TH	true	true	true	true
+SIX	6TH	true	true	true	true	
+SEVEN	7TH	true	true	true	true	
+EIGHT	8TH	true	true	true	true	
+NINE	9TH	true	true	true	true	
+TEN	10TH	true	true	true	true	
+ELEVEN	11TH	true	true	true	true
+TWELVE	12TH	true	true	true	true
+THIRTEEN	13TH	true	true	true	true
+FOURTEEN	14TH	true	true	true	true
+FIFTEEN	15TH	true	true	true	true	
+FIRST	1ST	true	true	true	true	
+SECOND	2ND	true	true	true	true	
+THIRD	3RD	true	true	true	true	
+FOURTH	4TH	true	true	true	true	
+FIFTH	5TH	true	true	true	true	
+SIXTH	6TH	true	true	true	true
+SEVENTH	7TH	true	true	true	true	
+EIGHTH	8TH	true	true	true	true	
+NINTH	9TH	true	true	true	true	
+TENTH	10TH	true	true	true	true	
+ELEVENTH	11TH	true	true	true	true
+TWELFTH	12TH	true	true	true	true
+THIRTEENTH	13TH	true	true	true	true
+FOURTEENTH	14TH	true	true	true	true
+FIFTEENTH	15TH	true	true	true	true
+FIRST	1	true	true	true	true	
+SECOND	2	true	true	true	true	
+THIRD	3	true	true	true	true	
+FOURTH	4	true	true	true	true	
+FIFTH	5	true	true	true	true	
+SIXTH	6	true	true	true	true
+SEVENTH	7	true	true	true	true	
+EIGHTH	8	true	true	true	true	
+NINTH	9	true	true	true	true	
+TENTH	10	true	true	true	true	
+ELEVENTH	11	true	true	true	true
+TWELFTH	12	true	true	true	true
+THIRTEENTH	13	true	true	true	true
+FOURTEENTH	14	true	true	true	true
+FIFTEENTH	15	true	true	true	true
+FIRST	ONE	true	true	true	true	
+SECOND	TWO	true	true	true	true	
+THIRD	THREE	true	true	true	true	
+FOURTH	FOUR	true	true	true	true	
+FIFTH	FIVE	true	true	true	true	
+SIXTH	SIX	true	true	true	true
+SEVENTH	SEVEN	true	true	true	true	
+EIGHTH	EIGHT	true	true	true	true	
+NINTH	NINE	true	true	true	true	
+TENTH	TEN	true	true	true	true	
+ELEVENTH	ELEVEN	true	true	true	true
+TWELFTH	TWELVE	true	true	true	true
+THIRTEENTH	THIRTEEN	true	true	true	true
+FOURTEENTH	FOURTEEN	true	true	true	true
+FIFTEENTH	FIFTEEN	true	true	true	true
+FIRST	PREMIER	true	true	true	true	
+FIRST	PREMIERE	true	true	true	true	
+SECOND	DEUXIEME	true	true	true	true	
+THIRD	TROISIEME	true	true	true	true	
+FOURTH	QUATRIEME	true	true	true	true	
+FIFTH	CINQUIEME	true	true	true	true	
+SIXTH	SIXIEME	true	true	true	true
+SEVENTH	SEPTIEME	true	true	true	true	
+EIGHTH	HUITIEME	true	true	true	true	
+NINTH	NEUVIEME	true	true	true	true	
+TENTH	DIXIEME	true	true	true	true	
+ELEVENTH	ONZIEME	true	true	true	true
+TWELFTH	DOUZIEME	true	true	true	true
+THIRTEENTH	TREIZIEME	true	true	true	true
+FOURTEENTH	QUATORZIEME	true	true	true	true
+FIFTEENTH	QUINZIEME	true	true	true	true
+FIRST	1ER	true	true	true	true	
+FIRST	1RE	true	true	true	true	
+SECOND	2E	true	true	true	true	
+THIRD	3E	true	true	true	true	
+FOURTH	4E	true	true	true	true	
+FIFTH	5E	true	true	true	true	
+SIXTH	6E	true	true	true	true
+SEVENTH	7E	true	true	true	true	
+EIGHTH	8E	true	true	true	true	
+NINTH	9E	true	true	true	true	
+TENTH	10E	true	true	true	true	
+ELEVENTH	11E	true	true	true	true
+TWELFTH	12E	true	true	true	true
+THIRTEENTH	13E	true	true	true	true
+FOURTEENTH	14E	true	true	true	true
+FIFTEENTH	15E	true	true	true	true
+PREMIER	1ST	true	true	true	true	
+PREMIERE	1ST	true	true	true	true	
+DEUXIEME	2ND	true	true	true	true	
+TROISIEME	3RD	true	true	true	true	
+QUATRIEME	4TH	true	true	true	true	
+CINQUIEME	5TH	true	true	true	true	
+SIXIEME	6TH	true	true	true	true
+SEPTIEME	7TH	true	true	true	true	
+HUITIEME	8TH	true	true	true	true	
+NEUVIEME	9TH	true	true	true	true	
+DIXIEME	10TH	true	true	true	true	
+ONZIEME	11TH	true	true	true	true
+DOUZIEME	12TH	true	true	true	true
+TREIZIEME	13TH	true	true	true	true
+QUATORZIEME	14TH	true	true	true	true
+QUINZIEME	15TH	true	true	true	true
+PREMIER	1	true	true	true	true	
+PREMIERE	1	true	true	true	true	
+DEUXIEME	2	true	true	true	true	
+TROISIEME	3	true	true	true	true	
+QUATRIEME	4	true	true	true	true	
+CINQUIEME	5	true	true	true	true	
+SIXIEME	6	true	true	true	true
+SEPTIEME	7	true	true	true	true	
+HUITIEME	8	true	true	true	true	
+NEUVIEME	9	true	true	true	true	
+DIXIEME	10	true	true	true	true	
+ONZIEME	11	true	true	true	true
+DOUZIEME	12	true	true	true	true
+TREIZIEME	13	true	true	true	true
+QUATORZIEME	14	true	true	true	true
+QUINZIEME	15	true	true	true	true
+PREMIER	ONE	true	true	true	true	
+PREMIERE	ONE	true	true	true	true	
+DEUXIEME	TWO	true	true	true	true	
+TROISIEME	THREE	true	true	true	true	
+QUATRIEME	FOUR	true	true	true	true	
+CINQUIEME	FIVE	true	true	true	true	
+SIXIEME	SIX	true	true	true	true
+SEPTIEME	SEVEN	true	true	true	true	
+HUITIEME	EIGHT	true	true	true	true	
+NEUVIEME	NINE	true	true	true	true	
+DIXIEME	TEN	true	true	true	true	
+ONZIEME	ELEVEN	true	true	true	true
+DOUZIEME	TWELVE	true	true	true	true
+TREIZIEME	THIRTEEN	true	true	true	true
+QUATORZIEME	FOURTEEN	true	true	true	true
+QUINZIEME	FIFTEEN	true	true	true	true
+MILE	MI	true	true	true	true
+1	1ST	true	true	false	true	
+2	2ND	true	true	false	true	
+3	3RD	true	true	false	true	
+4	4TH	true	true	false	true	
+5	5TH	true	true	false	true	
+6	6TH	true	true	false	true	
+7	7TH	true	true	false	true	
+8	8TH	true	true	false	true	
+9	9TH	true	true	false	true	
+10	10TH	true	true	false	true	
+11	11TH	true	true	false	true
+12	12TH	true	true	false	true
+13	13TH	true	true	false	true
+14	14TH	true	true	false	true
+15	15TH	true	true	false	true
+1	1ER	true	true	false	true	
+1	1RE	true	true	false	true
+2	2E	true	true	false	true	
+3	3E	true	true	false	true	
+4	4E	true	true	false	true	
+5	5E	true	true	false	true	
+6	6E	true	true	false	true	
+7	7E	true	true	false	true	
+8	8E	true	true	false	true	
+9	9E	true	true	false	true	
+10	10E	true	true	false	true	
+11	11E	true	true	false	true
+12	12E	true	true	false	true
+13	13E	true	true	false	true
+14	14E	true	true	false	true
+15	15E	true	true	false	true
+AUSTRALIAN CAPITAL TERRITORY	ACT	true	true	true	true
+NEW SOUTH WALES	NSW	true	true	true	true
+NORTHERN TERRITORY	NT	true	true	true	true
+QUEENSLAND	QLD	true	true	true	true
+SOUTH AUSTRALIA	SA	true	true	true	true
+TASMANIA	TAS	true	true	true	true
+VICTORIA	VIC	true	true	true	true
+WESTERN AUSTRALIA	WA	true	true	true	true
+NEW ZEALAND	NZ	true	true	true	true
+BELIZE	BH	true	true	true	true
+BERMUDA	BD	true	true	true	true
+NUNAVUT	NU	true	true	true	true
+YUKON	YT	true	true	true	true
+NORTHWEST TERRITORIES	NT	true	true	true	true
+BRITISH COLUMBIA	BC	true	true	true	true
+ALBERTA	AB	true	true	true	true
+SASKATCHEWAN	SK	true	true	true	true
+MANITOBA	MB	true	true	true	true
+ONTARIO	ON	true	true	true	true
+QUEBEC	QC	true	true	true	true
+NEW BRUNSWICK	NB	true	true	true	true
+PRINCE EDWARD ISLAND	PE	true	true	true	true
+NOVA SCOTIA	NS	true	true	true	true
+NEWFOUNDLAND AND LABRADOR	NL	true	true	true	true
+COSTA RICA	CS	true	true	true	true
+EL SALVADOR	ES	true	true	true	true
+GREENLAND	GL	true	true	true	true
+GUATEMALA	GT	true	true	true	true
+HONDURAS	HO	true	true	true	true
+AGUASCALIENTES	AG	true	true	true	true
+BAJA CALIFORNIA NORTE	BJ	true	true	true	true
+BAJA CALIFORNIA SUR	BS	true	true	true	true
+CAMPECHE	CP	true	true	true	true
+CHIAPAS	CH	true	true	true	true
+CHIHUAHUA	CI	true	true	true	true
+COAHUILA	CU	true	true	true	true
+COLIMA	CL	true	true	true	true
+DISTRITO FEDERAL	DF	true	true	true	true
+DURANGO	DG	true	true	true	true
+GUANAJUATO	GJ	true	true	true	true
+GUERRERO	GR	true	true	true	true
+HIDALGO	HG	true	true	true	true
+JALISCO	JA	true	true	true	true
+MEXICO	EM	true	true	true	true
+MICHOACÁN	MH	true	true	true	true
+MORELOS	MR	true	true	true	true
+NAYARIT	NA	true	true	true	true
+NUEVO LEÓN	NX	true	true	true	true
+OAXACA	OA	true	true	true	true
+PUEBLA	PU	true	true	true	true
+QUERÉTARO ARTEAGA	QA	true	true	true	true
+QUINTANA ROO	QR	true	true	true	true
+SAN LUÍS POTOSÍ	SL	true	true	true	true
+SINALOA	SI	true	true	true	true
+SONORA	SO	true	true	true	true
+TABASCO	TA	true	true	true	true
+TAMAULIPAS	TM	true	true	true	true
+TLAXCALA	TL	true	true	true	true
+VERACRUZ	VZ	true	true	true	true
+YUCATAN	YC	true	true	true	true
+ZACATECAS	ZT	true	true	true	true
+NICARAGUA	NU	true	true	true	true
+PANAMA	PM	true	true	true	true
+PUERTO RICO	PR	true	true	true	true
+SAINT PIERRE AND MIQUELON	SB	true	true	true	true
+ALABAMA	AL	true	true	true	true
+ALASKA	AK	true	true	true	true
+ARIZONA	AZ	true	true	true	true
+ARKANSAS	AR	true	true	true	true
+CALIFORNIA	CA	true	true	true	true
+COLORADO	CO	true	true	true	true
+CONNECTICUT	CT	true	true	true	true
+DELAWARE	DE	true	true	true	true
+DISTRICT OF COLUMBIA	DC	true	true	true	true
+FLORIDA	FL	true	true	true	true
+GEORGIA	GA	true	true	true	true
+HAWAII	HI	true	true	true	true
+IDAHO	ID	true	true	true	true
+ILLINOIS	IL	true	true	true	true
+INDIANA	IN	true	true	true	true
+IOWA	IA	true	true	true	true
+KANSAS	KS	true	true	true	true
+KENTUCKY	KY	true	true	true	true
+LOUISIANA	LA	true	true	true	true
+MAINE	ME	true	true	true	true
+MARYLAND	MD	true	true	true	true
+MASSACHUSETTS	MA	true	true	true	true
+MICHIGAN	MI	true	true	true	true
+MINNESOTA	MN	true	true	true	true
+MISSISSIPPI	MS	true	true	true	true
+MISSOURI	MO	true	true	true	true
+MONTANA	MT	true	true	true	true
+NEBRASKA	NE	true	true	true	true
+NEVADA	NV	true	true	true	true
+NEW HAMPSHIRE	NH	true	true	true	true
+NEW JERSEY	NJ	true	true	true	true
+NEW MEXICO	NM	true	true	true	true
+NEW YORK	NY	true	true	true	true
+NORTH CAROLINA	NC	true	true	true	true
+NORTH DAKOTA	ND	true	true	true	true
+OHIO	OH	true	true	true	true
+OKLAHOMA	OK	true	true	true	true
+OREGON	OR	true	true	true	true
+PENNSYLVANIA	PA	true	true	true	true
+RHODE ISLAND	RI	true	true	true	true
+SOUTH CAROLINA	SC	true	true	true	true
+SOUTH DAKOTA	SD	true	true	true	true
+TENNESSEE	TN	true	true	true	true
+TEXAS	TX	true	true	true	true
+UTAH	UT	true	true	true	true
+VERMONT	VT	true	true	true	true
+VIRGINIA	VA	true	true	true	true
+WASHINGTON	WA	true	true	true	true
+WEST VIRGINIA	WV	true	true	true	true
+WISCONSIN	WI	true	true	true	true
+WYOMING	WY	true	true	true	true

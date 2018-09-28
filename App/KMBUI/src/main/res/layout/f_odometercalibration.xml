@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/lblOdometerCalibration"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lblodometercalibrationtitle"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/lblEnterOdometer"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvOdometerCalibration"
+        android:layout_below="@+id/lblOdometerCalibration"
+        android:layout_marginTop="10dip"
+        android:text="@string/lblEnterOdometer" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/txtEditOdometer"
+        style="@style/EditTextTheme"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/lblEnterOdometer"
+        android:layout_below="@+id/lblEnterOdometer"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        android:numeric="decimal" >
+    </EditText>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtEditOdometer"
+        android:layout_below="@+id/txtEditOdometer"
+        android:text="" >
+    </TextView>
+
+    <Button
+        android:id="@+id/btnSave"
+        style="@style/KMBButton"
+        android:layout_alignLeft="@+id/tvMessage"
+        android:layout_below="@+id/tvMessage"
+        android:text="@string/oklabel" >
+    </Button>
+
+    <Button
+        android:id="@+id/btnCancel"
+        style="@style/KMBButton"
+        android:layout_alignBottom="@+id/btnSave"
+        android:layout_alignTop="@+id/btnSave"
+        android:layout_toRightOf="@+id/btnSave"
+        android:text="@string/cancellabel" >
+    </Button>
+
+</RelativeLayout>

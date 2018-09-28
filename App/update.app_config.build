@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<project name="Update app config with build configuration setting" xmlns="http://nant.sf.net/release/0.86-beta1/nant.xsd" default="update.app_config">
+	<!---->
+	<!-- Path properties -->
+	<!---->
+	<property name="localpath.tfs" value="${directory::get-parent-directory(path::get-directory-name(project::get-buildfile-path()))}" overwrite="false"/>
+	<!---->
+	<property name="local.loglevel" value="Warning" overwrite="false" />
+	<!---->
+	<property name="configuration" value="Debug" overwrite="false" />
+	<!---->
+	<!-- Update the version files associated with the projects being built -->
+	<!---->
+	<!---->
+	<target name="update.app_config"
+			description="Replace standard app_config with configuration-appropriate file">
+		<property name="kmbapi.res.raw" value="KMBAPI\src\main\res\raw"/>
+		<attrib file="${path::combine(kmbapi.res.raw, 'app_config.xml')}" normal="true" />
+		<xmlpeek file="${path::combine(path::combine(kmbapi.res.raw, configuration), 'app_config.' + configuration + '.xml')}" xpath="appSettings/localSettings" property="appsettings"/>
+		<xmlpoke file="${path::combine(kmbapi.res.raw, 'app_config.xml')}" xpath="appSettings/localSettings" value="${appsettings}"/>
+		<xmlpeek file="${path::combine(path::combine(kmbapi.res.raw, configuration), 'app_config.' + configuration + '.xml')}" xpath="appSettings/featureToggles" property="appsettings"/>
+		<xmlpoke file="${path::combine(kmbapi.res.raw, 'app_config.xml')}" xpath="appSettings/featureToggles" value="${appsettings}"/>
+		<!-- Remove configuration folders so that they are not packaged into the APK file. -->
+		<delete dir="${path::combine(kmbapi.res.raw, 'Debug')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'CI')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'DEV')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'DEV_Sync')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'DEVAzure')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'QA')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'QA_Debug')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'Test')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'Stage')}"/>
+		<delete dir="${path::combine(kmbapi.res.raw, 'Pilot')}"/>
+    <delete dir="${path::combine(kmbapi.res.raw, 'Beta')}"/>
+		<delete dir="${path::combine(kmbapi.res.raw, 'Release')}"/>
+	</target>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lbladmindatatransferstatustitle"
+        android:textStyle="bold"
+        style="@style/Theme.TextViewBlack" >
+    </TextView>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitle" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnAddDataTransferSuccesses"
+                style="@style/KMBLargeButton"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dip"
+                android:text="@string/btn_adminadddatatransfersuccess" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnAddDataTransferFailures"
+                style="@style/KMBLargeButton"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dip"
+                android:text="@string/btn_adminadddatatransferfailure" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnClearDataTransferRecords"
+                style="@style/KMBLargeButton"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dip"
+                android:text="@string/btn_admincleardatatransferrecords" >
+            </Button>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

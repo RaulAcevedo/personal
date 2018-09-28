@@ -1,0 +1,58 @@
+[
+  {
+    "generation": 1,
+    "maker": "JJKA",
+    "autoInstall": true,
+    "version": "1.2.0",
+    "updateBootLoader": false,
+    "readHistoryFirst": false,
+    "defaultVersion": true,
+    "forceUpdate": false
+  },
+  {
+    "generation": 2,
+    "maker": "JJKA",
+    "autoInstall": true,
+    "version": "6.88.100",
+    "updateBootLoader": false,
+    "readHistoryFirst": false,
+    "forceUpdate": false,
+    "preventOverwrite": false,
+    "defaultVersion": false,
+    "imageFileName": "gen2_6.88.100.bin"
+  },
+  {
+    "generation": 2,
+    "maker": "JJKA",
+    "autoInstall": true,
+    "version": "6.88.113",
+    "updateBootLoader": false,
+    "readHistoryFirst": false,
+    "forceUpdate": false,
+    "preventOverwrite": false,
+    "defaultVersion": false,
+    "imageFileName": "gen2_6.88.113.bin"
+  },
+  {
+    "generation": 2,
+    "maker": "JJKA",
+    "autoInstall": true,
+    "version": "6.88.0",
+    "updateBootLoader": false,
+    "readHistoryFirst": false,
+    "forceUpdate": false,
+    "defaultVersion": true,
+    "imageFileName": "gen2_6.88.0.bin"
+  },
+  {
+    "generation": 2,
+    "maker": "Networkfleet",
+    "autoInstall": true,
+    "version": "2.28.11",
+    "updateBootLoader": false,
+    "readHistoryFirst": false,
+    "forceUpdate": false,
+    "defaultVersion": true,
+    "firmwarePatchId": 3564105144
+  }
+]

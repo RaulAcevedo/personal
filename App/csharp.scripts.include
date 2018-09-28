@@ -1,0 +1,168 @@
+<?xml version="1.0" ?>
+<project name="csharp scripts" xmlns="http://nant.sf.net/release/0.86-beta1/nant.xsd">
+  <property name="csharp.scripts.include.loaded" value="true" readonly="true" />
+  <!---->
+	<!--SetVersion task will replace all instances of oldversion with newversion in filename where -->
+	<!--the oldversion is preceded by versionprefix.-->
+	<!---->
+	<script language="C#">
+		<code>
+			<![CDATA[
+				[TaskName("SetVersion")]
+        public class AppConfigTask : Task
+				{
+          #region Private Instance Fields
+
+          private string _filename;
+          private string _versionprefix;
+          private string _oldversion;
+          private string _newversion;
+
+          #endregion Private Instance Fields
+
+          #region Public Instance Properties
+
+          [TaskAttribute("filename", Required=true)]
+          public string FileName {
+              get { return _filename; }
+              set { _filename = value; }
+          }
+
+          [TaskAttribute("oldversion", Required=true)]
+          public string OldVersion {
+              get { return _oldversion; }
+              set { _oldversion = value; }
+          }
+
+          [TaskAttribute("versionprefix", Required=true)]
+          public string VersionPrefix {
+              get { return _versionprefix; }
+              set { _versionprefix = value; }
+          }
+
+          [TaskAttribute("newversion", Required=true)]
+          public string NewVersion {
+              get { return _newversion; }
+              set { _newversion = value; }
+          }
+
+          #endregion Public Instance Properties
+
+          #region Override implementation of Task
+
+          protected override void ExecuteTask() {
+            SetNewVersion();
+          }
+          #endregion Override implementation of Task
+
+					private void SetNewVersion()
+					{
+						StringBuilder oldVersion = new StringBuilder();
+						oldVersion.Append(_versionprefix);
+						oldVersion.Append(_oldversion);
+
+						StringBuilder newVersion = new StringBuilder();
+						newVersion.Append(_versionprefix);
+						newVersion.Append(_newversion);
+
+						FileInfo asmFile = new FileInfo(_filename);
+						if(asmFile.Exists)
+						{
+							string contents = "";
+
+							using (StreamReader reader = asmFile.OpenText())
+							{
+								contents = reader.ReadToEnd();
+							}
+							string newContents = contents.Replace(oldVersion.ToString(), newVersion.ToString());
+
+							if( newContents != contents )
+							{
+								if ((asmFile.Attributes & FileAttributes.ReadOnly) == FileAttributes.ReadOnly)
+									asmFile.Attributes = asmFile.Attributes ^ FileAttributes.ReadOnly;
+				            
+								asmFile.Delete();
+				            
+								using (FileStream stream = asmFile.Create())
+								{
+									StreamWriter writer = new StreamWriter(stream);
+									writer.Write(newContents);
+									writer.Flush();
+								}
+								Log(Level.Info, string.Format("File: '{0}' has new version '{1}'", _filename, _newversion));
+							}
+						}
+						else
+						{
+							Log(Level.Info, string.Format("File: '{0}' not found.", _filename));
+						}
+					}
+				}
+			
+				[TaskName("loglevel")]
+				public class LogLevelTask : Task
+				{
+					private Level _LogLevel;
+					private TaskContainer _Tasks;
+
+					[BuildElement("do", Required = true)]
+					public TaskContainer Tasks
+					{
+						get
+						{
+						return _Tasks;
+						}
+						set
+						{
+						_Tasks = value;
+						}
+					}
+
+					[TaskAttribute("level", Required = true)]
+					public Level LogLevel
+					{
+						get
+						{
+						return _LogLevel;
+						}
+						set
+						{
+						_LogLevel = value;
+						}
+					}
+
+					/// <summary>  
+					/// Executes the task.  
+					/// </summary>  
+					protected override void ExecuteTask()  
+					{  
+							Level OldLevel = Project.Threshold;  
+							AssignLogLevel(LogLevel);  
+							this.Tasks.Execute();
+	  
+							AssignLogLevel(OldLevel);  
+					}  
+	   
+					/// <summary>  
+					/// Assigns the log level.  
+					/// </summary>  
+					/// <param name="newLevel">The new level.</param>  
+					private void AssignLogLevel(Level newLevel)  
+					{  
+							// Loop through each logger  
+							foreach (IBuildListener listener in Project.BuildListeners)  
+							{  
+									IBuildLogger logger = listener as IBuildLogger;  
+	   
+									// Assign the new threshold  
+									if (logger != null)  
+									{  
+											logger.Threshold = newLevel;  
+									}  
+							}  
+					}  
+				}
+			]]>
+		</code>
+	</script>
+</project>

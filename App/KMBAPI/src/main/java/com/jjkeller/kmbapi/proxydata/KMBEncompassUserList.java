@@ -1,0 +1,26 @@
+package com.jjkeller.kmbapi.proxydata;
+
+
+import com.jjkeller.kmbapi.controller.KMBEncompassUser;
+
+public class KMBEncompassUserList extends ProxyBase {
+
+	///////////////////////////////////////////////////////////////////////////////////////
+	// private members
+	///////////////////////////////////////////////////////////////////////////////////////
+	private KMBEncompassUser[] encompassUsers;
+
+	///////////////////////////////////////////////////////////////////////////////////////
+	// public get/set methods
+	///////////////////////////////////////////////////////////////////////////////////////
+    public KMBEncompassUser[] getEncompassUserList()
+    {
+    	return encompassUsers;
+    }
+    public void setEncompassUserList(KMBEncompassUser[] employeeLogs)
+    {
+    	this.encompassUsers = employeeLogs;
+    }
+    
+  
+}

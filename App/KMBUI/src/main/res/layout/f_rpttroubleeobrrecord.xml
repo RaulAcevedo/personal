@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <TextView android:layout_width="fill_parent"
+        style="@style/Theme.TextViewBlack"
+		android:layout_height="wrap_content" android:id="@+id/lblTitle"
+		android:gravity="center_horizontal" android:text="@string/lbleldrecordtitle"
+		android:textStyle="bold" />
+	<ScrollView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:id="@+id/scrollView1">
+		<LinearLayout android:layout_width="fill_parent"
+			android:id="@+id/linearLayout1" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblTimestampLabel"
+				android:text="@string/lbltimestamp" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblTimestamp" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblOverallStatusLabel"
+				android:text="@string/lbloverallstatus" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblOverallStatus" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblRecordIdLabel"
+				android:text="@string/lblrecordid" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblRecordId" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblIsEngineRunningLabel"
+				android:text="@string/lblisenginerunning" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblIsEngineRunning" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblSpeedometerLabel"
+				android:text="@string/lblspeedometer" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblSpeedometer" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblOdometerLabel"
+				android:text="@string/lblodometer" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblOdometer" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblDashboardOdometerLabel"
+				android:text="@string/lbldashboardodometer" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblDashboardOdometer" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblTachometerLabel"
+				android:text="@string/lbltachometer" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblTachometer" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSTimestampLabel"
+				android:text="@string/lblgpstimestamp" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSTimestamp" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSLatitudeLabel"
+				android:text="@string/lblgpslatitude" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSLatitude" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSLongitudeLabel"
+				android:text="@string/lblgpslongitude" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSLongitude" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSFixIndicatorLabel"
+				android:text="@string/lblgpsfixindicator" android:textStyle="bold" style="@style/Theme.TextViewBlack" />
+			<TextView android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:id="@+id/lblGPSFixIndicator" style="@style/Theme.TextViewBlack" />
+			<TextView
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/lblDisableReadEldVinLabel"
+				android:text="@string/lblDisableReadEldVin"
+				android:textStyle="bold"
+				style="@style/Theme.TextViewBlack" />
+			<TextView
+			    android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/lblDisableReadEldVin"
+				style="@style/Theme.TextViewBlack" />
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

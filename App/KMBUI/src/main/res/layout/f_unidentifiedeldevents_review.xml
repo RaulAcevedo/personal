@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtHeader"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/unidentified_events_review_header"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtInstructions"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/subtitleGray"
+            android:text="@string/unidentified_events_review_instructions"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"/>
+
+        <ExpandableListView
+            android:id="@+id/listEventsToReview"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"/>
+
+</LinearLayout>

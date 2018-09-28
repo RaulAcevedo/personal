@@ -1,0 +1,4 @@
+.header on
+.mode csv
+.once output/eldEvent_Regression.csv
+SELECT EventRecordStatus, EventRecordOrigin, EventType, EventCode, EventDateTime FROM EmployeeLogELDEvent WHERE EventType <> 7 AND LogKey <> -1 ORDER BY EventDateTime ASC

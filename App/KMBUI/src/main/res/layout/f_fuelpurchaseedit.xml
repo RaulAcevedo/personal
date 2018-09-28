@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lbladdfuelpurchasetitle"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/lblAmountOfFuel"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblamountoffuel" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/txtAmountOfFuel"
+                    style="@style/EditTextTheme"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/lblAmountOfFuel"
+                    android:layout_alignTop="@+id/cboUnit"
+                    android:layout_alignBottom="@+id/cboUnit"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="numberDecimal"
+                    android:textCursorDrawable="@null"
+                    android:maxLength="3" >
+                </EditText>
+
+                <Spinner
+                    android:id="@+id/cboUnit"
+                    style="@style/wideSpinner"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lblAmountOfFuel"
+                    android:layout_toRightOf="@+id/txtAmountOfFuel"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="2dp" >
+                </Spinner>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtAmountOfFuel"
+                    android:layout_below="@+id/cboUnit"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/lblStateCode"
+                        style="@style/Theme.TextViewBlack"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="15dp"
+                        android:text="@string/lblstatecode" >
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/txtStateCode"
+                        style="@style/EditTextTheme"
+                        android:layout_width="100dip"
+                        android:layout_height="wrap_content"
+                        android:background="@android:drawable/editbox_background"
+                        android:inputType="textCapCharacters"
+                        android:maxLength="2"
+                        android:textCursorDrawable="@null"
+                        android:text="" >
+                    </EditText>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/lblTractorNumber"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lbltractornumber2" >
+                </TextView>
+
+
+
+
+                <EditText
+                    android:id="@+id/txtTractorNumber"
+                    style="@style/EditTextTheme"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/lblTractorNumber"
+                    android:layout_below="@+id/lblTractorNumber"
+                    android:background="@android:drawable/editbox_background"
+                    android:inputType="text"
+                    android:textCursorDrawable="@null"
+                    android:singleLine="true" >
+
+                </EditText>
+
+                <Button
+                    android:id="@+id/btnOK"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/txtTractorNumber"
+                    android:layout_below="@+id/txtTractorNumber"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/oklabel" >
+                </Button>
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/btnOK"
+                    android:layout_alignTop="@+id/btnOK"
+                    android:layout_toRightOf="@+id/btnOK"
+                    android:text="@string/cancellabel" >
+                </Button>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

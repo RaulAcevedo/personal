@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">‏‏حدث خطأ أثناء إنشاء مفتاح المؤسسة</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">حدث خطأ أثناء محاولة بدء تشغيل CoPilot</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">حدث خطأ أثناء محاولة تثبيت الملفات الضرورية لـ CoPilot.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">تعذر العثور على ملفات CoPilot. هل أنت متأكد من أنك قمت بإدخال بطاقة SD الصحيحة؟</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">تم تنفيذ التغييرات</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">لا يمكن أن يعمل CoPilot عندما يكون جهازك في وضع التخزين كبير السعة. يرجى فصل جهازك عن الكمبيوتر الخاص بك والمحاولة مرة أخرى.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">لقد تم تقليص CoPilot</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">خطأ في النسخ</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">تم تنفيذ الإجراءات التالية:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">تم استخدام Uri غير مكتمل: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">لا يمكن للنظام تحميل رمز CoPilot</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">المفتاح موجود بالفعل</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">معلومات الترخيص موجودة بالفعل على جهازك</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">لم يتم اتخاذ أي إجراء</string> <!-- No match. This is if we get a Uri but don't do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">لم يتم إعطاء تعليمات باتخاذ أي إجراء لـ Uri %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">تم تشغيل معالج CoPilot Uri من دون توافر Uri بيانات ليتم توزيعه!</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">هناك مفتاح منتج موجود بالفعل على جهازك</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">مفتاح المنتج الموفر، يبدو أن %s, منه غير صالح.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">تم إعداد مفتاح المنتج</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">إن بطاقة CF/SD الخاصة بك التي تحتوي على CoPilot غير متوفرة في الوقت الحالي. يرجى إعادة إدخالها والمحاولة مرة أخرى</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">بطاقة SD غير متوفرة</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">لم يُسمح لـ CoPilot بتثبيت الملفات الضرورية في جهازك.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">عذرًا، إن Uri %s غير معتمد بعد</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">المس هنا لتكبير CoPilot</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">تعذّر إنشاء دليل لازم على وسيطة التخزين الخاصة بك: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">تعذر حذف الملف الوسيط. الرجاء إعادة تثبيت CoPilot!</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">تتعذر كتابة ملف مفتاح المنتج على وسيطة التخزين الخاصة بك</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">فك ضغط بيانات جديدة</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">هل تريد تمكين GPS؟</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot برنامج</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">:‏‏حدث خطأ</string> <!-- ALK String -->
+<string name="ALK_Cancel">إلغاء</string> <!-- ALK String -->
+<string name="ALK_Error">‏‏خطأ</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">تعذر العثور على جهاز GPS</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">مفتاح المنتج غير صحيح</string> <!-- ALK String -->
+<string name="ALK_OK">موافق</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">.في جهازك المحمول CF/SD لا يوجد بطاقة</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">...جارٍ التحميل</string> <!-- ALK String -->
+<string name="ALK_Quit">إنهاء</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">CoPilot بدء</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">...CoPilot بدء برنامج</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">تعذر فك بعض الملفات. الرجاء التأكد من توفير المساحة المطلوبة</string> <!-- ALK String -->
+</resources>

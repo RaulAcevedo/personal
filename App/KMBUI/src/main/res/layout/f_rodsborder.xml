@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LayoutTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/lblbordercrossingtitle"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lblCurrentLabel"
+                style="@style/RodsBorderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:text="@string/lblcurrent" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblCurrent"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/lblCurrentLabel" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblNewLabel"
+                style="@style/RodsBorderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblCurrentLabel"
+                android:lines="2"
+                android:text="@string/lblnew" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblNew"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/lblNewLabel"
+                android:layout_toRightOf="@+id/lblNewLabel" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblTimeLabel"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblNewLabel"
+                android:text="@string/lblTime" >
+            </TextView>
+
+            <Button
+                android:id="@+id/btnTime"
+                style="@style/KMBButton"
+                android:layout_below="@+id/lblTimeLabel" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnOK"
+                style="@style/KMBButton"
+                android:layout_below="@+id/btnTime"
+                android:text="@string/oklabel" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/KMBButton"
+                android:layout_alignTop="@+id/btnOK"
+                android:layout_toRightOf="@+id/btnOK"
+                android:text="@string/cancellabel" >
+            </Button>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

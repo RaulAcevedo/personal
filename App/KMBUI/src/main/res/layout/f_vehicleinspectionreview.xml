@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        style="@style/LayoutTheme"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/lblTitle"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/vehicleinspectionreviewtitle"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/lblVehicleType"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/lblTitle"
+            android:layout_marginTop="10dip"
+            android:text="@string/lbltractornumber" >
+        </TextView>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/lblTitle"
+            android:layout_below="@+id/lblVehicleType" >
+
+            <EditText
+                android:id="@+id/txtTrailerNumber"
+                style="@style/EditTextTheme"
+                android:layout_height="wrap_content"
+                android:background="@android:drawable/editbox_background"
+                android:inputType="text"
+                android:textCursorDrawable="@null"
+                android:visibility="gone"
+                tools:ignore="TextFields">
+            </EditText>
+
+            <Spinner
+                android:id="@+id/cboUnitNbr"
+                style="@style/wideSpinner"
+                android:layout_height="wrap_content"
+            >
+            </Spinner>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/pnlPostTrip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/pnlDate"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/lblPostTripType"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inspreviewlist_posttrip" >
+            </TextView>
+            
+            <TextView
+                android:id="@+id/tvPostTripDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip" android:layout_toRightOf="@+id/lblPostTripType">
+            </TextView>
+
+            <Button
+                android:id="@+id/btnViewPostInspectionDetail"
+                style="@style/KMBButton"
+                android:layout_width="135dip"
+                android:layout_height="55dip"
+                android:layout_below="@+id/tvPostTripDate"
+                android:layout_marginTop="0dip"
+                android:text="@string/btnview">
+            </Button>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/pnlPreTrip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/pnlPostTrip"
+            android:layout_marginTop="20dip"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/lblPreTripType"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inspreviewlist_pretrip" >
+            </TextView>
+            
+            <TextView
+                android:id="@+id/tvPreTripDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip" android:layout_toRightOf="@+id/lblPreTripType">
+            </TextView>
+            
+            <Button
+                android:id="@+id/btnViewPreInspectionDetail"
+                style="@style/KMBButton"
+                android:layout_width="135dip"
+                android:layout_height="55dip"
+                android:layout_below="@+id/tvPreTripDate"
+                android:layout_marginTop="0dip"
+                android:text="@string/btnview">
+            </Button>
+        </RelativeLayout>
+                
+        <LinearLayout
+            android:id="@+id/pnlDate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/relativeLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout2"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/lblDate"
+                style="@style/KMBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lbldate" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvInspectionDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dip" >
+            </TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/pnlDefects"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/pnlDate"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/lblCorrectionsMade"
+                style="@style/KMBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="@string/inspreview_correctionsmade">
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvCorrectionsMade"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lblCorrectionsMade"
+                android:layout_alignTop="@+id/lblCorrectionsMade"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/lblCorrectionsMade" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblCertifiedBy"
+                style="@style/KMBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblCorrectionsMade"
+                android:layout_below="@+id/lblCorrectionsMade"
+                android:text="@string/inspreview_certifiedby" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvCertifiedBy"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lblCertifiedBy"
+                android:layout_alignTop="@+id/lblCertifiedBy"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/lblCertifiedBy" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblCertifiedOn"
+                style="@style/KMBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblCertifiedBy"
+                android:layout_below="@+id/lblCertifiedBy"
+                android:text="@string/inspreview_certifiedon" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvCertifyDate"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lblCertifiedOn"
+                android:layout_alignTop="@+id/lblCertifiedOn"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/lblCertifiedOn" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblDefects"
+                style="@style/KMBLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblCertifiedOn"
+                android:layout_below="@+id/lblCertifiedOn"
+                android:text="@string/inspreview_defects" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvDefectList"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/lblDefects"
+                android:layout_below="@+id/lblDefects" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvNoCorrectionNeeded"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblCertifiedOn"
+                android:text="@string/inspreview_nocorrectionsneeded" >
+            </TextView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/pnlSatisfactory"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/pnlDate"
+            android:visibility="invisible" >
+
+            <TextView
+                android:id="@+id/tvSatisfactoryCondition"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/inspreview_satisfactorycondition" >
+            </TextView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</ScrollView>

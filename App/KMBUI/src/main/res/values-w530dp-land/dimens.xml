@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+
+    Landscape for devices:
+        ldpi
+            3.3"
+            3.4"
+        hdpi
+            3.7"
+            4.0"
+     -->
+    <dimen name="dot_authority_header_text_size">10sp</dimen>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<project name="Build DMO web DLLs" xmlns="http://nant.sf.net/release/0.86-beta1/nant.xsd" default="update.version">
+  <!---->
+  <!-- Load the csharp scripts -->
+  <!---->
+  <include buildfile="csharp.scripts.include" unless="${property::exists('dms.csharp.scripts.include.loaded')and dms.csharp.scripts.include.loaded}"/>
+  <!---->
+  <!-- Path properties -->
+  <!---->
+  <property name="localpath.tfs" value="${directory::get-parent-directory(path::get-directory-name(project::get-buildfile-path()))}" overwrite="false"/>
+  <!---->
+  <property name="local.loglevel" value="Warning" overwrite="false" />
+  <!---->
+  <!-- previous version -->
+  <!---->
+  <property name="old.version.major" value="2" overwrite="false" />
+  <property name="old.version.minor" value="43" overwrite="false" />
+  <property name="old.version.build" value="5360" overwrite="false" />
+  <property name="old.version.revision" value="50" overwrite="false" />
+  <property name="old.version.code" value="50" overwrite="false" />
+  <property name="old.version.release" value="${old.version.major}.${old.version.minor}.${old.version.build}.${old.version.revision}"
+		overwrite="false" />
+  <!---->
+  <!-- Current version -->
+  <!---->
+  <property name="version.major" value="2" overwrite="false" />
+  <property name="version.minor" value="0" overwrite="false" />
+  <!-- Swap the following two lines to switch between static and dynamic build number. -->
+  <!-- The first line will be the active property value. -->
+  <property name="version.build" value="${timespan::get-days(datetime::now() - datetime::parse('1/1/2000'))}" overwrite="false" />
+  <property name="version.build" value="3520" overwrite="false" />
+  <property name="time.now" value="${datetime::now()}" />
+  <property name="time.now.hour" value="${datetime::get-hour(time.now)}" />
+  <property name="time.now.hour" value="0${time.now.hour}" if="${10 > int::parse(time.now.hour)}"/>
+  <property name="time.now.minute" value="${datetime::get-minute(time.now)}" />
+  <property name="time.now.minute" value="0${time.now.minute}" if="${10 > int::parse(time.now.minute)}"/>
+  <property name="version.revision" value="${time.now.hour}${time.now.minute}" overwrite="false" />
+  <property name="version.revision" value="0" overwrite="false" />
+  <property name="version.release" value="${version.major}.${version.minor}.${version.build}.${version.revision}"
+		overwrite="false" />
+  <!---->
+
+  <!---->
+  <!-- Update the version files associated with the projects being built -->
+  <!---->
+  <!---->
+  <target name="update.version"
+          description="Update the version used throughout the build process. The version will be changed from properties old.version.* to version.* each of these properties has major, minor, build and revision components.">
+    <patternset id="versionfiles.patternset">
+      <include name="**\pom.xml"/>
+      <include name="**\AndroidManifest.xml"/>
+    </patternset>
+    <foreach item="File" property="filename">
+      <in>
+        <items basedir="${localpath.tfs}">
+          <patternset refid="versionfiles.patternset" />
+        </items>
+      </in>
+      <do>
+        <!--<echo message="Update version for ${filename}" unless="${local.loglevel == 'Info'}"/>-->
+        <echo message="Update version for ${filename}"/>
+        <loglevel level="${local.loglevel}">
+          <do>
+            <!--Set the new version in pom.xml-->
+            <property name="assembly.version.attrib" value="&lt;version&gt;"/>
+            <SetVersion filename="${filename}" versionprefix="${assembly.version.attrib}"
+                        oldversion="${old.version.release}" newversion="${version.release}"
+                        if="${file::exists(filename)}" />
+
+            <!--Set the new version in AndroidManifest.xml-->
+            <property name="assembly.version.attrib" value="android:versionName=&#34;"/>
+            <SetVersion filename="${filename}" versionprefix="${assembly.version.attrib}"
+                        oldversion="${old.version.release}" newversion="${version.release}"
+                        if="${file::exists(filename)}" />
+
+            <!--Set the new versionCode in AndroidManifest.xml-->
+            <if test="${version.revision != time.now.hour + time.now.minute}">
+              <property name="assembly.version.attrib" value="android:versionCode=&#34;"/>
+              <SetVersion filename="${filename}" versionprefix="${assembly.version.attrib}"
+                          oldversion="${old.version.code}&#34;" newversion="${version.revision}&#34;"
+                          if="${file::exists(filename)}" />
+            </if>
+          </do>
+        </loglevel>
+      </do>
+    </foreach>
+  </target>
+</project>

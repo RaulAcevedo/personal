@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblTitle"
+        style="@style/Theme.TextViewBlack"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:lines="2"
+        android:text="@string/lbluploaddiagnosticstitle"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnUpload"
+                style="@style/KMBButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/uploadlabel" />
+
+            <Button
+                android:id="@+id/btnUploadOldDiagnostics"
+                style="@style/KMBButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/uploadolddiagnosticslabel" />
+
+            <Button
+                android:id="@+id/btnClearEobrDiagnostics"
+                style="@style/KMBButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/clearelddiagnosticslabel" />
+
+            <Button
+                android:id="@+id/btnClearKmbDiagnostics"
+                style="@style/KMBButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/clearkmbdiagnosticslabel" />
+
+            <Button
+                android:id="@+id/btnMoveFilesToSDCard"
+                style="@style/KMBButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:text="@string/movefilestosdcardlabel" />
+            
+			<Button
+		        android:id="@+id/btnConsoleDump"
+		        style="@style/KMBButton"
+		        android:layout_height="wrap_content"
+		        android:layout_width="fill_parent"
+		        android:layout_marginTop="5dip"
+		        android:text="@string/btnConsoleDump" >
+		    </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical"
+  style="@style/LayoutTheme">
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:gravity="center_horizontal" 
+        android:textStyle="bold" 
+        android:id="@+id/lblTitle" 
+        android:lines="2" 
+        android:text="@string/lblsubmitlogstitle" 
+        style="@style/Theme.TextViewBlack"/>
+    
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:id="@+id/lblSubmit" 
+        android:layout_width="fill_parent"
+        android:text="@string/lblsubmittinglogscertifesthem" 
+        style="@style/Theme.TextViewBlack"/>
+    
+    <TextView 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/lblMessage" 
+        style="@style/Theme.TextViewBlack"/>
+    
+    <LinearLayout 
+        android:layout_height="wrap_content" 
+        android:layout_width="fill_parent" 
+        android:id="@+id/linearLayout1" 
+        android:orientation="horizontal">
+        
+        <Button
+            style="@style/KMBButton"
+            android:id="@+id/btnSubmit"
+            android:text="@string/btnsubmit"/>
+
+        <Button
+            style="@style/KMBButton"
+            android:id="@+id/btnDone"
+            android:text="@string/btndone"/>
+
+    </LinearLayout>
+
+</LinearLayout>

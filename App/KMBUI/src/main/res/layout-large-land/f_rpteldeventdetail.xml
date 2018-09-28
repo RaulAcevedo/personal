@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        style="@style/FragmentStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/lbleldeventdetail"
+            android:textStyle="bold"></TextView>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventDate"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_date"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventDate"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventTime"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_time"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventTime"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblSequenceId"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/sequence_id"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvSequenceId"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventType"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_type"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventType"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventCode"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_code"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventCode"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblRecordOriginator"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/record_originator"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvRecordOriginator"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblVehicleIdentifier"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/vehicle_identifier"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvVehicleIdentifier"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblMotorCarrier"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/motor_carrier"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvMotorCarrier"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblShippingDoc"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/shipping_doc"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvShippingDoc"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventRecordStatus"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_record_status"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventRecordStatus"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventRecordOrigin"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_record_origin"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventRecordOrigin"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblDateOfCertifiedRecord"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/date_of_certified_record"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvDateOfCertifiedRecord"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblTimeZoneOffset"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/time_zone_offset_from_utc"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvTimeZoneOffset"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblAccVehicleMiles"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/acc_vehicle_miles"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvAccVehicleMiles"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblTotalVehicleMiles"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/total_vehicle_miles"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvTotalVehicleMiles"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblElapsedEngineHours"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/elapsed_engine_hours"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvElapsedEngineHours"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblTotalEngineHours"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/total_engine_hours"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvTotalEngineHours"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblLatitude"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/latitude"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvLatitude"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblLongitude"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/longitude"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvLongitude"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblDistanceSinceLastValidGpsCoord"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/distance_since_last_valid_GPS_coord"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvDistanceSinceLastValidGpsCoord"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblDriversLocationDesc"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/drivers_location_desc"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvDriversLocationDesc"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblMalfDataDiagStatus"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/malf_data_diag_status"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvMalfDataDiagStatus"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblMalfDiagCodes"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/malf_diag_codes"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvMalfDiagCodes"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventCommentAnnotation"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_comment_annotation"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventCommentAnnotation"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+
+            <TableRow>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/darker_gray" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lblEventDataCheck"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="end"
+                    android:text="@string/event_data_check"
+                    android:textColor="@color/headerblue" />
+
+                <TextView
+                    android:id="@+id/tvEventDataCheck"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

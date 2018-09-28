@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        style="@style/FragmentStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtError"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:background="@drawable/hud_error"
+            android:padding="@dimen/spacing_s"
+            android:textColor="@color/error_red" />
+
+
+
+        <TextView
+            android:id="@+id/lblselectdutystatus"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teamdriverdutystatus_pleaseselect" />
+
+        <RadioGroup
+            android:id="@+id/radDutyStatusGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@+id/radio_onDuty"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/spacing_xs">
+
+            <RadioButton
+                android:id="@+id/radio_onDuty"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:button="@drawable/btn_radio_custom"
+                android:text="@string/teamdriverdutystatus_onduty" />
+
+            <CheckBox
+                android:id="@+id/rcb_chkhyrail"
+                style="@style/Theme.CheckBoxBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:paddingLeft="@dimen/spacing_s"
+                android:text="@string/utilizehyrailfunctionality"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/rcb_chkyardmove"
+                style="@style/Theme.CheckBoxBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:paddingLeft="@dimen/spacing_s"
+                android:text="@string/authorizeyardmove"
+                android:visibility="gone" />
+
+            <CheckBox
+                android:id="@+id/rcb_chknonreg"
+                style="@style/Theme.CheckBoxBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:paddingLeft="@dimen/spacing_s"
+                android:text="@string/utilizeNonRegDriving"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/rns_linearLayoutAnnotationonduty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rns_lblannotationonduty"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblannotation" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/rns_txtannotationonduty"
+                        style="@style/EditTextTheme"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:background="@android:drawable/editbox_background"
+                        android:hint="@string/hintfourcharactersorlonger"
+                        android:maxLength="100"
+                        android:paddingBottom="@dimen/spacing_s"
+                        android:textCursorDrawable="@null" />
+
+                    <TextView
+                        android:id="@+id/rns_lblannotationasteriskonduty"
+                        style="@style/Theme.TextViewBlack"
+                        android:layout_width="@dimen/spacing_s"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/radio_offDuty"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:button="@drawable/btn_radio_custom"
+                android:text="@string/teamdriverdutystatus_offduty" />
+
+            <CheckBox
+                android:id="@+id/rcb_chkauthorizepersonalconveyance"
+                style="@style/Theme.CheckBoxBlack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:paddingLeft="@dimen/spacing_s"
+                android:text="@string/authorizepersonalconveyance"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/rns_linearLayoutAnnotationoffduty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/spacing_l"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/rns_lblannotationoffduty"
+                    style="@style/Theme.TextViewBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lblannotation" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/rns_txtannotatioffduty"
+                        style="@style/EditTextTheme"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="90"
+                        android:background="@android:drawable/editbox_background"
+                        android:hint="@string/hintfourcharactersorlonger"
+                        android:inputType="text"
+                        android:maxLength="100"
+                        android:paddingBottom="@dimen/spacing_s"
+                        android:textCursorDrawable="@null" />
+
+                    <TextView
+                        android:id="@+id/rns_lblannotationasteriskoffduty"
+                        style="@style/Theme.TextViewBlack"
+                        android:layout_width="@dimen/spacing_s"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="10"
+                        android:text="*"
+                        android:textColor="@color/red" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RadioButton
+                android:id="@+id/radio_offDutyWellSite"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:button="@drawable/btn_radio_custom"
+                android:text="@string/offdutywellsite"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/radio_sleeper"
+                style="@style/Theme.TextViewBlack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs"
+                android:button="@drawable/btn_radio_custom"
+                android:text="@string/sleeper" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lblLocationCode"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbllocationcode" />
+
+        <EditText
+            android:id="@+id/tvLocationCode"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:maxLength="100"
+            android:textCursorDrawable="@null" />
+
+        <TextView
+            android:id="@+id/lblActualLocation"
+            style="@style/Theme.TextViewBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lblactuallocation" />
+
+        <EditText
+            android:id="@+id/tvActualLocation"
+            android:hint="@string/msgactuallocationminimumlength"
+            style="@style/EditTextTheme"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:inputType="text"
+            android:maxLength="100"
+            android:textCursorDrawable="@null" />
+
+        <CheckBox
+            android:id="@+id/chkMainDrivingStatus"
+            style="@style/Theme.CheckBoxBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chkmaintaindrivingstatus" />
+
+        <Button
+            android:id="@+id/btnsubmitstatus"
+            style="@style/KMBButton"
+            android:layout_marginTop="@dimen/spacing_l"
+            android:width="275dp"
+            android:height="55dp"
+            android:text="@string/btnsubmitstatus" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+
+        <TextView
+   			style="@style/Theme.TextViewBlack"
+   	        android:id="@+id/lblteamdriveradddriver_header"        
+   	        android:layout_width="fill_parent"
+   	        android:layout_height="wrap_content"
+   	        android:gravity="center"
+   	        android:textStyle="bold"
+   	        android:text="@string/lblteamdriveradddriver_header"/>
+        
+            <TextView
+                android:id="@+id/lblDriverUserName"
+                style="@style/Theme.TextViewBlack"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lblteamdriveradddriver_header"
+                android:text="@string/lbldriverusername" >
+            </TextView>
+            
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_alignLeft="@+id/lblDriverUserName"
+                android:layout_below="@+id/lblDriverUserName"
+                android:orientation="horizontal" >
+
+                <EditText
+	                android:id="@+id/txtDriverUserName"
+	                style="@style/EditTextTheme"
+	                android:layout_height="wrap_content"
+                    android:layout_weight="1" 
+                    android:layout_width="0dip"
+	                android:background="@android:drawable/editbox_background"
+	                android:inputType="text"
+	                android:maxLength="11" >
+            	</EditText>    
+
+                <Button
+                    android:id="@+id/btnCheckName"
+                    style="@style/KMBButton"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="fill_horizontal"
+                    android:text="@string/btncheckname" />
+                
+            </LinearLayout>
+            
+            <TextView
+                android:id="@+id/lblDriverFullName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/linearLayout1"
+                android:layout_below="@+id/linearLayout1"
+                android:text="@string/lbldriverfullname" 
+                style="@style/Theme.TextViewBlack">
+            </TextView>
+            
+	        <TextView
+	            android:id="@+id/lblDriverFullNameValue"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignLeft="@+id/lblDriverFullName"
+                android:layout_below="@+id/lblDriverFullName" 
+	            style="@style/Theme.TextViewBlue">
+	        </TextView>
+	        
+            <CheckBox
+                android:id="@+id/chkStart" 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:layout_alignLeft="@+id/lblDriverFullNameValue"
+                android:layout_below="@+id/lblDriverFullNameValue" 
+                android:layout_marginTop="10dip"
+                android:text="@string/lblteamatstartoflog" 
+                style="@style/Theme.CheckBoxBlack">                
+            </CheckBox>                    
+
+            <Button
+                android:id="@+id/btnExactTime"
+                style="@style/KMBMediumButton"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/chkStart"
+                android:layout_below="@+id/chkStart"
+                android:text="@string/timelabel" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnOK"
+                style="@style/KMBMediumButton"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/btnExactTime"
+                android:layout_below="@+id/btnExactTime"
+                android:text="@string/oklabel" >
+            </Button>
+
+            <Button
+                android:id="@+id/btnCancel"
+                style="@style/KMBMediumButton"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btnOK"
+                android:layout_toRightOf="@+id/btnOK"
+                android:text="@string/cancellabel" >
+            </Button>
+    
+</RelativeLayout>

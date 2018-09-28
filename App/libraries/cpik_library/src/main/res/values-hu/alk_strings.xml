@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">Hiba történt a vállalati kulcs létrehozása során</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">Hiba történt a CoPilot indítása során</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">Hiba történt a CoPilot működéséhez szükséges fájlok telepítése során.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">A CoPilot alkalmazáshoz tartozó fájlok nem találhatók. Biztos benne, hogy a megfelelő SD-kártyát helyezte be?</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">A módosítások végrehajtása megtörtént</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">Ha az eszköz USB-tömegtároló módban működik, a CoPilot nem futtatható. Válassza le az eszközt a számítógépről, és próbálja újra.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">A CoPilot alkalmazás kis méretre állítása megtörtént.</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">Másolási hiba</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">A következő műveletek végrehajtása megtörtént:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">A következő URI hiányosan lett megadva: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">A rendszer nem tudja betölteni a CoPilot kódját</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">A kulcs már létezik</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">Az eszközön már vannak licencadatok</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">A rendszer nem hajtott végre műveletet</string> <!-- No match. This is if we get a Uri but don't do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">A következő URI esetében nem volt megadva végrehajtandó művelet: %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">A CoPilot URI-kezelőt feldolgozandó URI megadása nélkül indította el!</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">Az eszközön meg van adva termékkulcs</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">A megadott termékkulcs (%s) érvénytelen.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">A termékkulcs beállítása megtörtént</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">A CoPilot alkalmazást tartalmazó CF- vagy SD-kártya nem érhető el. Helyezze vissza, és próbálkozzon ismét.</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">Az SD-kártya nem érhető el</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">A CoPilot nem kapott engedélyt a fájlok eszközre másolására.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">Sajnos a(z) %s URI nem támogatott</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">Érintse meg itt a CoPilot teljes méretre nagyításához</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">Az adathordozón nem sikerült létrehozni a következő könyvtárat: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">A közvetítő fájl törlése sikertelen. Telepítse újra a CoPilot alkalmazást!</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">A termékkulcsot nem sikerült az adathordozóra rögzíteni.</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">Az új adatok kicsomagolása</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">Kívánja engedélyezni a GPS funkciót?</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">Hiba történt:</string> <!-- ALK String -->
+<string name="ALK_Cancel">Mégse</string> <!-- ALK String -->
+<string name="ALK_Error">Hiba</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">Nem található GPS</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">Hibás termékkulcs</string> <!-- ALK String -->
+<string name="ALK_OK">OK</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">Nincs CF/SD-kártya a mobileszközben.</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">Betöltés...</string> <!-- ALK String -->
+<string name="ALK_Quit">Kilépés</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">CoPilot indítása</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">A CoPilot indítása...</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">One or more files could not be unpacked. Check available storage space</string> <!-- ALK String -->
+</resources>

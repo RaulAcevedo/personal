@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gdh_tvDateValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/orange"
+            tools:text="01/01/2001"/>
+
+        <TextView
+            android:id="@+id/txtExemptLog"
+            style="@style/RptDailyHoursLabelRed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dip"
+            android:text="@string/lblexempt_log"
+            android:visibility="gone"
+            tools:visibility="visible"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="3dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gdh_tvMilesLabel"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/lblMiles"/>
+
+        <TextView
+            android:id="@+id/gdh_tvMilesValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            tools:text="500.0"/>
+
+        <TextView
+            android:id="@+id/gdh_tvWeeklyLabel"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/lblWeek"
+            />
+
+        <TextView
+            android:id="@+id/gdh_tvWeeklyValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            tools:text="24:00:00"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDriveLabel"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/lblDrive"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDriveValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            tools:text="24:00:00"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDutyLabel"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/lblDuty"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDutyValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            tools:text="24:00:00"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDailyLabel"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/lblDaily"
+            android:textColor="@color/dailyhourstotal"/>
+
+        <TextView
+            android:id="@+id/gdh_tvDailyValue"
+            style="@style/RptDailyHoursLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:textColor="@color/dailyhourstotal"
+            tools:text="24:00:00"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/gdh_divider"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/white_black_gradient"/>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/LayoutThemeWhite"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:baselineAligned="false"
+              android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="100"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <FrameLayout
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:background="@color/menugray" >
+
+            <FrameLayout
+                android:id="@+id/leftnav_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="80" >
+            <FrameLayout
+                android:id="@+id/datenav_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="110dip"
+                />
+            <TextView
+                android:id="@+id/lblEditLogRequestSubtitle"
+                style="@style/EditLogRequestSubtitle"
+                android:text="@string/editlogrequestsubtitle" />
+            <FrameLayout
+                android:id="@+id/content_fragment"
+                style="@style/ActivityLayoutStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="15dip"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

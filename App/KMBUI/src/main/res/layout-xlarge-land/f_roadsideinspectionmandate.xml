@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LayoutTheme"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/white">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- ============== -->
+                <!-- Driver section -->
+                <!-- ============== -->
+                <TextView
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/driver"/>
+
+                <TextView
+                    android:id="@+id/driver_name"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/driver_name_label"/>
+
+                <TextView
+                    android:id="@+id/driver_id"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/driver_id_label"/>
+
+                <TextView
+                    android:id="@+id/license_state"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/license_state_label"/>
+
+                <TextView
+                    android:id="@+id/license_number"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/license_number_label"/>
+
+                <TextView
+                    android:id="@+id/co_driver"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/co_driver_label"/>
+
+                <TextView
+                    android:id="@+id/co_driver_id"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/co_driver_id_label"/>
+
+                <TextView
+                    android:id="@+id/current_location"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/current_location_label"/>
+
+                <TextView
+                    android:id="@+id/unidentified_driving_records"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/unidentified_driving_records_label"/>
+
+                <TextView
+                    android:id="@+id/exempt_driver_status"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/exempt_driver_status_label"/>
+
+                <TextView
+                    android:id="@+id/time_zone"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/time_zone_label"/>
+
+                <TextView
+                    android:id="@+id/shipping_id"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/shipping_id_label"/>
+
+                <TextView
+                    android:id="@+id/trailer_number"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/trailer_number_label"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- =============== -->
+                <!-- Vehicle section -->
+                <!-- =============== -->
+                <TextView
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vehicle"/>
+
+                <TextView
+                    android:id="@+id/current_odometer"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/current_odometer_label"/>
+
+                <TextView
+                    android:id="@+id/engine_hours"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/engine_hours_label"/>
+
+                <TextView
+                    android:id="@+id/truck_tractor_id"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/truck_tractor_id_label"/>
+
+                <TextView
+                    android:id="@+id/truck_tractor_vin"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/truck_tractor_vin_label"/>
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- =========== -->
+                <!-- ELD section -->
+                <!-- =========== -->
+                <TextView
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eld"/>
+
+                <TextView
+                    android:id="@+id/eld_id"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/eld_id_label"/>
+
+                <TextView
+                    android:id="@+id/eld_provider"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/eld_provider_label"/>
+
+                <TextView
+                    android:id="@+id/eld_malfunction_status"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/eld_malfunction_status_label"/>
+
+                <TextView
+                    android:id="@+id/data_diagnostic_status"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/data_diagnostic_status_label"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- ============= -->
+                <!-- Other section -->
+                <!-- ============= -->
+                <TextView
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/other"/>
+
+                <TextView
+                    android:id="@+id/date_of_record"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/date_of_record_label"/>
+
+                <TextView
+                    android:id="@+id/log_start_time"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/log_start_time_label"/>
+
+                <TextView
+                    android:id="@+id/carrier"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/carrier_label"/>
+
+                <TextView
+                    android:id="@+id/date_of_display"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/date_of_display_label"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- ============= -->
+                <!-- Grid section -->
+                <!-- ============= -->
+                <TextView
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionSectionTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grid"/>
+
+                <TextView
+                    android:id="@+id/miles_today"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/miles_today_label"/>
+
+                <TextView
+                    android:id="@+id/total_hours_in_working_day_so_far"
+                    style="@style/Theme.TextViewBlack.RoadsideInspectionRowLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="@string/total_hours_in_working_day_so_far_label"/>
+
+            </LinearLayout>
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>

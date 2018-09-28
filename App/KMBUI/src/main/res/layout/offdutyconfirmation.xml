@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+   	<TextView
+   	        android:id="@+id/odclblmessage"        
+   	        android:layout_width="fill_parent"        
+   	        android:layout_height="wrap_content"
+   	        android:layout_marginTop ="5dip"
+   	        android:layout_marginLeft = "5dip"/>
+    <Button
+            android:id="@+id/mlbtnyes"        
+            style="@style/KMBButton"      
+            android:layout_height="wrap_content"        
+            android:layout_alignParentBottom="true" android:text="@string/btnyes"/>    
+    <Button
+    		android:id="@+id/mlbtnno"
+    		style="@style/KMBButton"        
+    		android:layout_height="wrap_content" 
+    		android:layout_alignParentBottom="true"       
+    		android:layout_toRightOf="@id/mlbtnyes" android:text="@string/btnno"/>
+</RelativeLayout>

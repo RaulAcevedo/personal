@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FragmentStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/tblButtonRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnViewLog"
+                    style="@style/HomeImageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/home_viewlog"
+                    android:src="@drawable/elog_selector" />
+
+                <TextView
+                    android:id="@+id/tvLabelViewLog"
+                    style="@style/HomeButtonText"
+                    android:text="@string/home_viewlog" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnVehicleInspection"
+                    style="@style/HomeImageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/vehicleinspection"
+                    android:src="@drawable/edvir_selector" />
+
+                <TextView
+                    android:id="@+id/tvLabelVehicleInspection"
+                    style="@style/HomeButtonText"
+                    android:text="@string/vehicleinspection" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tblRoadsideInspectionRow"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+
+
+                <ImageButton
+                    android:id="@+id/btnRoadsideInspection"
+                    style="@style/HomeImageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="Roadside Inspection"
+                    android:src="@drawable/roadsideinspection_selector" />
+
+                <TextView
+                    android:id="@+id/tvLabelRoadsideInspection"
+                    style="@style/HomeButtonText"
+                    android:text="Roadside Inspection"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tblButtonRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+
+                <ImageButton
+                    android:id="@+id/btnEobrConnection"
+                    style="@style/HomeImageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/home_eldconnection"
+                    android:src="@drawable/connecteobr_gray_selector" />
+
+                <TextView
+                    android:id="@+id/tvLabelEobrConnection"
+                    style="@style/HomeButtonText"
+                    />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+
+                <ImageButton
+                    android:id="@+id/btnLogoff"
+                    style="@style/HomeImageButton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:contentDescription="@string/home_logoff"
+                    android:src="@drawable/logout_selector" />
+
+                <TextView
+                    android:id="@+id/tvLabelLogoff"
+                    style="@style/HomeButtonText"
+                    android:layout_marginTop="2dip"
+
+                    android:text="@string/home_logoff" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

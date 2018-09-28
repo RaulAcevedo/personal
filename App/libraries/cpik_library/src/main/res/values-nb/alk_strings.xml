@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="ALK_AnErrorOccurredCreatingEnterpriseKey">En feil har oppstått ved oppretting av virksomhetsnøkkelen</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredAttemptingToStartCoPilot">En feil har oppstått ved forsøk på å starte CoPilot</string> <!-- No match -->
+<string name="ALK_AnErrorOccurredInstallingCoPilotsFiles">En feil har oppstått ved forsøk på å installere nødvendige filer for CoPilot.</string> <!-- No match -->
+<string name="ALK_CannotFindCoPilotsFiles">Finner ikke filene for CoPilot. Er du sikker på at du har satt inn riktig SD-kort?</string> <!-- No good match -->
+<string name="ALK_ChangesPerformed">Endringer utført</string> <!-- No match -->
+<string name="ALK_CoPilotCannotWorkWhileInMassStorageMode">CoPilot kan ikke fungere mens enheten din er i USB-masselagringsmodus. Koble enheten fra datamaskinen, og prøv på nytt.</string> <!-- No match, this is android specific -->
+<string name="ALK_CoPilotHasBeenMinimized">CoPilot har blitt minimert</string> <!-- No match, strangely enough -->
+<string name="ALK_ErrorCopying">Feil ved kopiering</string> <!-- No match -->
+<string name="ALK_FollowingActionsWerePerformed">Følgende handlinger ble utført:</string> <!-- No match -->
+<string name="ALK_IncompleteUriError">En ufullstendig URI ble brukt: %s</string> <!-- No match -->
+<string name="ALK_InvalidLibraryDesc">Koden for CoPilot kan ikke lastes av systemet</string> <!-- No match. This is if we cannot load the copilot shared lib -->
+<string name="ALK_KeyAlreadyExists">Nøkkelen finnes allerede</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_LicenseInfoAlreadyExists">Lisensieringsinformasjon finnes allerede på enheten</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_NoActionTaken">Ingen handlinger utført</string> <!-- No match. This is if we get a Uri but don't do anything with it. -->
+<string name="ALK_NoActionsGivenForUri">Ingen handlinger ble angitt for å utføres for URIen %s</string> <!--  No match -->
+<string name="ALK_NoUriPassedError">URI-behandleren for CoPilot ble startet uten en data-URI å analysere.</string> <!-- No match -->
+<string name="ALK_PKAlreadyExists">En produktnøkkel finnes allerede på enheten</string> <!-- No match. This is if we attempt to insert the PK via Uri -->
+<string name="ALK_ProductKeyProvidedIsInvalid">Den angitte produktnøkkelen, %s, ser ut til å være ugyldig.</string> <!-- No match. Nothing decent anyway. -->
+<string name="ALK_ProductKeySet">Produktnøkkelen ble angitt</string> <!-- No match. This is when the product key is set via Uri -->
+<string name="ALK_SDCardNotAvailableDescGeneric">CF-/SD-kortet med CoPilot er ikke tilgjengelig for øyeblikket. Sett det inn igjen, og prøv på nytt</string> <!-- No match -->
+<string name="ALK_SDCardNotAvailable">SD-kortet er ikke tilgjengelig</string> <!-- No match -->
+<string name="ALK_SecurityExceptionDesc">CoPilot fikk ikke installere de nødvendige filene på enheten.</string> <!-- No match -->
+<string name="ALK_SorryTheUriIsNotYetSupported">Beklager, URIen %s støttes ikke ennå</string> <!-- No match -->
+<string name="ALK_TouchHereToMaximizeCopilot">Trykk her for å maksimere CoPilot</string> <!-- No match. We can probably play with this string as well. -->
+<string name="ALK_UnableToCreateRequiredDirectoryOnSDCard">Kan ikke opprette en nødvendig katalog på lagringsmediet: %s</string> <!-- No match. -->
+<string name="ALK_UnableToDeleteIntermediate">Vi kunne ikke slette den midlertidige filen. Installer CoPilot på nytt.</string> <!-- No match. -->
+<string name="ALK_UnableToWritePKOnSDCard">Kan ikke skrive produktnøkkelfilen på lagringsmediet</string> <!-- No match. -->
+<string name="ALK_UnpackingNewData">Pakker ut nye data</string> <!-- ALK String -->
+<string name="ALK_WouldYouLikeToEnableTheGPSQuestionmark">Vil du aktivere GPSen?</string> <!-- No match. -->
+
+<string name="ALK_app_name">CoPilot</string> <!-- ALK String -->
+<string name="ALK_AnErrorHasOccured">En feil har inntruffet:</string> <!-- ALK String -->
+<string name="ALK_Cancel">Avbryt</string> <!-- ALK String -->
+<string name="ALK_Error">feil</string> <!-- ALK String -->
+<string name="ALK_GPSIsDisabled">Finner ikke GPS</string> <!-- ALK String -->
+<string name="ALK_InvalidKey">Feil produktnøkkel</string> <!-- ALK String -->
+<string name="ALK_OK">OK</string> <!-- ALK String -->
+<string name="ALK_PleaseInsertSDCard">Det finne ikke noe CF-/SD-kort i din mobile enhet.</string> <!-- ALK String -->
+<string name="ALK_PleaseWaitCoPilotIsLoading">Laster inn ...</string> <!-- ALK String -->
+<string name="ALK_Quit">Avslutte</string> <!-- ALK String -->
+<string name="ALK_StartCopilot">Start CoPilot</string> <!-- ALK String -->
+<string name="ALK_StartingCoPilot">Starter CoPilot ...</string> <!-- ALK String -->
+<string name="ALK_YouAreOutOfSpace">One or more files could not be unpacked. Check available storage space</string> <!-- ALK String -->
+</resources>

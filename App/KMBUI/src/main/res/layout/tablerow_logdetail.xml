@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvTime"
+        style="@style/TableRow_LogDetail" />
+
+
+    <TextView
+        android:id="@+id/tvEventType"
+        style="@style/TableRow_LogDetail" />
+
+
+    <TextView
+        android:id="@+id/tvEventCode"
+        style="@style/TableRow_LogDetail" />
+
+
+    <TextView
+        android:id="@+id/tvSequenceId"
+        style="@style/TableRow_LogDetail" />
+
+    <TextView
+        android:id="@+id/tvRecordStatus"
+        style="@style/TableRow_LogDetail" />
+
+
+    <TextView
+        android:id="@+id/tvOrigin"
+        style="@style/TableRow_LogDetail" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        style="@style/TableRow_LogDetail" />
+
+    <TextView
+        android:id="@+id/tvOdometerCalibration"
+        style="@style/TableRow_LogDetail" />
+
+    <TextView
+        android:id="@+id/tvEngineHours"
+        style="@style/TableRow_LogDetail" />
+
+    <TextView
+        android:id="@+id/tvComment"
+        style="@style/TableRow_LogDetail" />
+
+</TableRow>
