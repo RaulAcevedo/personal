@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ArrayOfDevices xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Device Model="Honeywell">
-		<Override Name="FrameBuffQuery" OverrideWith="1" />
-	</Device>
-</ArrayOfDevices>

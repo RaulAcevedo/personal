@@ -1,4 +1,0 @@
-#define FILEVER 		9,5,0,908
-#define PRODUCTVER		9,5,0,908
-#define STRFILEVER		"9,5,0,908"
-#define STRPRODUCTVER		"9,5,0,908"

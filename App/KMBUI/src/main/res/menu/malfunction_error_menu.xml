@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="@string/menu_malfunctions" android:icon="@drawable/ic_error_red" android:id="@+id/menuMalfunctionButton" android:visible="false" android:showAsAction="always" />
-    <item android:title="@string/menu_data_diagnostics" android:icon="@drawable/ic_error_yellow" android:id="@+id/menuDataDiagnosticsButton"  android:visible="false" android:showAsAction="always" />
-</menu>
